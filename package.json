@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "build": "vitepress build docs && node scripts/generate-ai-files.mjs",
+    "build:vp": "vitepress build docs",
+    "ai-files": "node scripts/generate-ai-files.mjs",
     "preview": "vitepress preview docs"
   },
   "license": "CC-BY-SA-4.0",

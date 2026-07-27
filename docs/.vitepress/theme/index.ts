@@ -17,14 +17,19 @@ import DehydrationCheck from './components/DehydrationCheck.vue'
 import SymptomTriage from './components/SymptomTriage.vue'
 import FAQItem from './components/FAQItem.vue'
 import IngredientTable from './components/IngredientTable.vue'
+import CopyMarkdownButton from './components/CopyMarkdownButton.vue'
+import FeedingCalculator from './components/FeedingCalculator.vue'
+import PelletAnalyzer from './components/PelletAnalyzer.vue'
+import HealthCalendar from './components/HealthCalendar.vue'
 import NotFound from './NotFound.vue'
 
 export default {
   extends: DefaultTheme,
-  // 覆盖 404 页面为自定义 NotFound
+  // 覆盖 404 页面为自定义 NotFound；在每页内容顶部注入"复制 MD"按钮
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
-      'not-found': () => h(NotFound)
+      'not-found': () => h(NotFound),
+      'doc-before': () => h(CopyMarkdownButton)
     })
   },
   enhanceApp({ app }) {
@@ -41,5 +46,8 @@ export default {
     app.component('SymptomTriage', SymptomTriage)
     app.component('FAQItem', FAQItem)
     app.component('IngredientTable', IngredientTable)
+    app.component('FeedingCalculator', FeedingCalculator)
+    app.component('PelletAnalyzer', PelletAnalyzer)
+    app.component('HealthCalendar', HealthCalendar)
   }
 } satisfies Theme

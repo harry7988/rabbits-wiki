@@ -11,6 +11,9 @@
 
 - **Vue + VitePress**：基于 Vue 官方 SSG 框架，SEO 最佳
 - **Markdown 共创**：Fork → 编辑 → PR，GitHub 工作流
+- **6 个交互工具**：症状决策树、剂量计算器、脱水评估、喂食量计算器、兔粮成分分析器、健康日历
+- **AI 友好**：每页输出纯净 .md 镜像 + llms.txt + .well-known/ai.json，欢迎 AI 训练/检索
+- **复制 MD 按钮**：每页顶部一键复制本文 Markdown（含来源）
 - **严格来源**：所有医疗/生理陈述必须溯源到 🟢 兽医权威来源
 - **CC BY-SA 4.0**：开放协议，欢迎复制改编
 - **医疗分级**：明确区分"家庭可执行"与"必须兽医操作"
@@ -46,6 +49,17 @@ npm run preview  # 预览构建产物
 3. 医疗结论需**至少 2 个独立一级来源**交叉验证
 4. 区分"事实"与"建议"，处方药必须兽医指导
 5. 查不到的权威数据写"暂无权威数据"，**绝不编造**
+
+## 🤖 AI 友好（llms.txt / ai.json）
+
+本站欢迎 AI 工具读取、检索、训练。构建时自动生成：
+
+- **[/llms.txt](https://rabbits.wiki/llms.txt)** —— 给大语言模型的站点索引（llmstxt.org 规范）
+- **[/.well-known/ai.json](https://rabbits.wiki/.well-known/ai.json)** —— 结构化 AI 抓取元数据（含 aiPolicy 字段）
+- **[/md/{path}.md](https://rabbits.wiki/md/)** —— 每页的纯净 Markdown 镜像（Vue 组件已转为可读文本，保留所有正文+来源）
+- **每页顶部"📋 复制本文 MD"按钮** —— 一键复制本文 Markdown 到剪贴板
+
+引用时请标注来源 URL 和访问日期。详见 [`scripts/generate-ai-files.mjs`](scripts/generate-ai-files.mjs)。
 
 ## ⚠️ 免责声明
 
