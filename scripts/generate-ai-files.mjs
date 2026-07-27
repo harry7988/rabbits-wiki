@@ -129,6 +129,27 @@ function purifyForAI(content, frontmatter) {
   // 标记为"见原文"
   out = out.replace(/<IngredientTable[^>]*>/g, '\n> _[成分对照表详见原文页面]_\n')
 
+  // 纯客户端交互工具组件（无静态内容可提取）—— 加说明
+  const interactiveTools = {
+    'SymptomTriage': '症状决策树（交互式）—— 用户选择症状后输出紧急度和处置建议。详见原文页面。',
+    'MedicineCalculator': '剂量计算器（交互式）—— 按体重计算西甲硅油/Critical Care/Bene-Bac 用量。详见原文页面。',
+    'DehydrationCheck': '脱水评估工具（交互式）—— 按皮肤回弹/黏膜/眼睛/进食评估脱水程度。详见原文页面。',
+    'FeedingCalculator': '每日喂食量计算器（交互式）—— 按体重/年龄/活动量计算牧草/颗粒粮/蔬菜/水果量。详见原文页面。',
+    'PelletAnalyzer': '兔粮成分分析器（交互式）—— 贴配料表+成分值对照 FEDIAF 标准评估。详见原文页面。',
+    'HealthCalendar': '兔兔健康日历（交互式）—— 按年龄/性别生成绝育/疫苗/体检时间线。详见原文页面。',
+    'PlantSafetyChecker': '有毒植物查询器（交互式）—— 20+ 种植物的安全/毒性查询，每条带 Cornell/HRS 来源。详见原文页面。',
+    'EmergencyCard': '紧急联系卡（交互式）—— 用户本地保存兽医信息，可打印。详见原文页面。',
+    'CopyMarkdownButton': ''
+  }
+  for (const [tag, desc] of Object.entries(interactiveTools)) {
+    if (desc) {
+      // 匹配 <Tag ... />（self-closing，含跨行属性）。注意 [^>]* 无法跨 > 字符，
+      // 但交互工具标签属性里无 >，所以可用 [^]*? 非贪婪匹配到 />
+      const re = new RegExp(`<${tag}\\b[^]*?/>`, 'g')
+      out = out.replace(re, `\n> _🔧 ${desc}_\n`)
+    }
+  }
+
   // <FAQItem q="X">body</FAQItem>
   out = out.replace(/<FAQItem([^>]*)>([\s\S]*?)<\/FAQItem>/g, (m, attrs, body) => {
     const qMatch = attrs.match(/q="([^"]*)"/)
