@@ -1,0 +1,22 @@
+# CODEOWNERS —— 医疗类内容需指定审核者批准
+# 详见 docs/contribute.md "医疗内容审核"
+
+# 急症处置专题（医疗内容，需兽医/资深审核者批准）
+# 替换为你的 GitHub 用户名 / 团队
+docs/emergencies/                    @rabbits-wiki/vet-reviewers
+
+# 常备药与用品专题（处方药、用药建议）
+docs/supplies/                       @rabbits-wiki/vet-reviewers
+
+# 消化系统科普（生理/疾病机制）
+docs/digest/                         @rabbits-wiki/vet-reviewers
+
+# 品种百科（健康倾向相关）
+docs/breeds/                         @rabbits-wiki/editors
+
+# 全站来源索引与共创规范（核心规则文件）
+docs/sources.md                      @rabbits-wiki/editors
+docs/contribute.md                   @rabbits-wiki/editors
+
+# 站点配置与组件
+docs/.vitepress/                     @rabbits-wiki/editors

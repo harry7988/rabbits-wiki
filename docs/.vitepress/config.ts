@@ -27,10 +27,14 @@ export default defineConfig({
   ],
   lastUpdated: true,
   cleanUrls: true,
-  outDir: 'dist',
 
-  // 内容撰写期间临时关闭死链检查（所有页面完成后将改回 true）
-  ignoreDeadLinks: true,
+  // 内容已基本完成；死链检查保留开启以保证内部链接健康
+  // 仅忽略指向 GitHub 编辑链接等无法在构建时解析的链接
+  ignoreDeadLinks: [
+    /^https?:\/\/(www\.)?facebook\.com/,
+    /^https?:\/\/(www\.)?reddit\.com/,
+    /^https?:\/\/(www\.)?youtube\.com/
+  ],
 
   // sitemap.xml 自动生成（VitePress 内置）
   sitemap: {

@@ -1,0 +1,62 @@
+name: Build Preview (PR Check)
+
+on:
+  pull_request:
+    branches: [main]
+
+# PR 预览构建：验证 Markdown / Vue 组件 / 链接都能正确编译
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  build-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build VitePress（验证可构建）
+        run: npm run build
+
+      - name: 引用来源字段检查
+        run: |
+          echo "检查 docs/ 下所有 .md 是否包含来源声明（医疗类内容必须）..."
+          # 医疗/品种/用品类页面必须有 SourceList 或 sources frontmatter
+          EXIT=0
+          for f in docs/emergencies/*.md docs/supplies/*.md docs/supplies/hay/*.md docs/digest/*.md docs/breeds/*.md; do
+            [ -f "$f" ] || continue
+            # 跳过 index.md（总览页可豁免）
+            [[ "$f" == *index.md ]] && continue
+            if ! grep -q "SourceList\|SourceCard\|sources:" "$f"; then
+              echo "❌ $f 未发现来源声明（SourceList / SourceCard / sources frontmatter）"
+              EXIT=1
+            fi
+          done
+          if [ $EXIT -eq 0 ]; then
+            echo "✅ 所有内容页均包含来源声明"
+          else
+            echo "💡 提示：参考 docs/contribute.md 的『可信度守则』添加来源"
+            exit 1
+          fi
+
+      - name: URL 存活性抽样检查（待写完所有页后启用）
+        run: |
+          echo "TODO: 抽样检查正文中的外链可达性（避免引用失效）"
+          echo "当前阶段：依赖撰稿人自查 + WebFetch 复核"
+
+      - name: 构建产物统计
+        run: |
+          echo "=== 渲染页面数 ==="
+          find docs/.vitepress/dist -name "*.html" | wc -l
+          echo "=== sitemap.xml ==="
+          head -c 300 docs/.vitepress/dist/sitemap.xml
