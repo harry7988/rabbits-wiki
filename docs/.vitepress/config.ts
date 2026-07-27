@@ -85,6 +85,7 @@ export default defineConfig({
       { text: '兔品种', link: '/breeds/' },
       { text: '常备药与用品', link: '/supplies/' },
       { text: '更多', items: [
+        { text: '❓ 高频问答 FAQ', link: '/faq/' },
         { text: '关于本站', link: '/about' },
         { text: '全站来源索引', link: '/sources/' },
         { text: '参与共创', link: '/contribute' }
@@ -176,6 +177,7 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '家庭药箱清单', link: '/supplies/' },
+            { text: '兔粮如何选择（成分/国标）', link: '/supplies/pellets' },
             { text: '常备药品', link: '/supplies/medicines' },
             { text: '益生菌', link: '/supplies/probiotics' },
             { text: '电解质', link: '/supplies/electrolytes' },

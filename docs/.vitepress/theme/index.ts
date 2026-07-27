@@ -15,6 +15,8 @@ import BreedCard from './components/BreedCard.vue'
 import MedicineCalculator from './components/MedicineCalculator.vue'
 import DehydrationCheck from './components/DehydrationCheck.vue'
 import SymptomTriage from './components/SymptomTriage.vue'
+import FAQItem from './components/FAQItem.vue'
+import IngredientTable from './components/IngredientTable.vue'
 import NotFound from './NotFound.vue'
 
 export default {
@@ -37,5 +39,7 @@ export default {
     app.component('MedicineCalculator', MedicineCalculator)
     app.component('DehydrationCheck', DehydrationCheck)
     app.component('SymptomTriage', SymptomTriage)
+    app.component('FAQItem', FAQItem)
+    app.component('IngredientTable', IngredientTable)
   }
 } satisfies Theme
