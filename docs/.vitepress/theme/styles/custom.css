@@ -1,0 +1,169 @@
+/**
+ * rabbits.wiki 自定义样式
+ * 配色：自然、温和，兔毛米色 + 牧草绿 + 急救红
+ */
+:root {
+  --rw-cream: #faf6ef;
+  --rw-grass: #4a7c3f;
+  --rw-grass-soft: #e8f0e3;
+  --rw-bark: #8b6f47;
+  --rw-danger: #c0392b;
+  --rw-danger-soft: #fdecea;
+  --rw-warn: #b8860b;
+  --rw-warn-soft: #fdf5e6;
+  --rw-info: #2c6da3;
+  --rw-info-soft: #e8f1f8;
+
+  /* 来源分级色 */
+  --rw-src-vet: #1a7a3c;       /* 🟢 兽医权威 */
+  --rw-src-org: #8a6d00;       /* 🟡 专业组织 */
+  --rw-src-exp: #a0522d;       /* 🟠 饲主经验 */
+}
+
+/* 来源卡片：网格化展示 */
+.source-card {
+  border: 1px solid var(--vp-c-divider);
+  border-left: 4px solid var(--rw-grass);
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin: 0.6rem 0;
+  background: var(--rw-cream);
+  font-size: 0.92rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.source-card .src-title { font-weight: 600; color: var(--vp-c-text-1); }
+.source-card .src-meta { font-size: 0.82rem; color: var(--vp-c-text-2); }
+.source-card a { word-break: break-all; }
+
+/* 来源等级徽章 */
+.src-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+}
+.src-badge.vet { background: var(--rw-src-vet); }
+.src-badge.org { background: var(--rw-src-org); }
+.src-badge.exp { background: var(--rw-src-exp); }
+
+/* 来源清单容器 */
+.source-list {
+  margin-top: 2.5rem;
+  padding-top: 1.2rem;
+  border-top: 2px solid var(--vp-c-divider);
+}
+.source-list h2 {
+  font-size: 1.15rem;
+  margin-top: 0;
+}
+.source-list .source-card { margin: 0.5rem 0; }
+
+/* 警告框系列 */
+.rw-alert {
+  border-radius: 8px;
+  padding: 0.9rem 1.1rem;
+  margin: 1.1rem 0;
+  display: flex;
+  gap: 0.7rem;
+  align-items: flex-start;
+}
+.rw-alert .rw-alert-icon { font-size: 1.2rem; line-height: 1.4; flex-shrink: 0; }
+.rw-alert .rw-alert-title { font-weight: 700; margin-bottom: 0.2rem; }
+.rw-alert p { margin: 0.25rem 0; }
+.rw-alert.danger { background: var(--rw-danger-soft); border-left: 5px solid var(--rw-danger); color: #6b1a12; }
+.rw-alert.warn   { background: var(--rw-warn-soft);   border-left: 5px solid var(--rw-warn);   color: #5a4200; }
+.rw-alert.info   { background: var(--rw-info-soft);   border-left: 5px solid var(--rw-info);   color: #133a5a; }
+
+/* VetCheck 红色警报：送医信号 */
+.vet-check {
+  border: 2px solid var(--rw-danger);
+  border-radius: 10px;
+  background: linear-gradient(0deg, var(--rw-danger-soft), #fff);
+  padding: 1rem 1.2rem;
+  margin: 1.3rem 0;
+}
+.vet-check .vc-title {
+  color: var(--rw-danger);
+  font-size: 1.05rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.vet-check ul { margin: 0.3rem 0 0 0; padding-left: 1.3rem; }
+.vet-check li { margin: 0.25rem 0; }
+
+/* 急救流程步骤 */
+.first-aid-step {
+  display: flex;
+  gap: 1rem;
+  margin: 0.8rem 0;
+  padding: 0.9rem 1rem;
+  border-radius: 8px;
+  background: var(--rw-grass-soft);
+  border-left: 4px solid var(--rw-grass);
+}
+.first-aid-step .step-num {
+  flex-shrink: 0;
+  width: 2rem; height: 2rem;
+  border-radius: 50%;
+  background: var(--rw-grass); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 700;
+}
+.first-aid-step .step-body { flex: 1; }
+.first-aid-step .step-body > :first-child { margin-top: 0; }
+.first-aid-step .step-body > :last-child { margin-bottom: 0; }
+
+/* 品种卡 */
+.breed-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1.2rem 0;
+  background: var(--vp-c-bg);
+}
+.breed-card .bc-header {
+  background: var(--rw-grass-soft);
+  padding: 0.8rem 1.1rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--rw-grass);
+}
+.breed-card .bc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 0.5rem 1.5rem;
+  padding: 0.9rem 1.1rem;
+}
+.breed-card .bc-item { font-size: 0.9rem; }
+.breed-card .bc-item .k { color: var(--vp-c-text-2); display: block; font-size: 0.78rem; }
+.breed-card .bc-item .v { font-weight: 600; }
+
+/* 行内来源引用标记（正文中的小徽章） */
+.cite {
+  font-size: 0.7rem;
+  vertical-align: super;
+  color: var(--rw-grass);
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0.1rem;
+}
+.cite:hover { text-decoration: underline; }
+
+/* 免责声明条 */
+.disclaimer-bar {
+  background: var(--rw-warn-soft);
+  border-left: 4px solid var(--rw-warn);
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+  font-size: 0.88rem;
+  color: #5a4200;
+}
