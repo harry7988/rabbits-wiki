@@ -9,19 +9,25 @@ export default defineConfig({
   title: 'rabbits.wiki',
   description: '由社区共创的兔子百科 · 品种 · 急症处置 · 常备药 · 牧草 · 消化科普，所有内容均标注权威来源。',
   head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
     ['meta', { name: 'author', content: 'rabbits.wiki 社区' }],
-    ['meta', { name: 'keywords', content: '兔子,宠物兔,兔兔百科,兔急症,胃肠停滞,兔品种,提摩西草,益生菌,电解质,化毛膏,养兔' }],
+    ['meta', { name: 'keywords', content: '兔子,宠物兔,兔兔百科,兔急症,胃肠停滞,兔品种,提摩西草,益生菌,电解质,化毛膏,养兔,绝育,幼兔,兔兔行为,养兔工具' }],
     // 开放协议 + 版权声明（CC BY-SA 4.0）
     ['meta', { name: 'license', content: 'CC-BY-SA-4.0' }],
     ['link', { rel: 'canonical', href: 'https://rabbits.wiki/' }],
-    // Open Graph
+    // Open Graph（社交分享卡片）
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'rabbits.wiki' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:title', content: 'rabbits.wiki · 兔子百科' }],
     ['meta', { property: 'og:description', content: '社区共创的兔子百科：品种、急症处置、常备药、牧草、消化科普。所有内容均标注权威来源。' }],
     ['meta', { property: 'og:image', content: 'https://rabbits.wiki/og.png' }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'rabbits.wiki · 兔子百科' }],
+    ['meta', { name: 'twitter:description', content: '社区共创的兔子百科：所有内容均标注权威兽医来源。' }],
+    ['meta', { name: 'twitter:image', content: 'https://rabbits.wiki/og.png' }],
     // 免责声明（重要：本站内容非兽医诊断）
     ['meta', { name: 'robots', content: 'index, follow' }]
   ],
@@ -72,15 +78,29 @@ export default defineConfig({
     },
 
     nav: [
+      { text: '🧰 工具箱', link: '/tools/' },
       { text: '消化科普', link: '/digest/' },
       { text: '急症处置', link: '/emergencies/' },
+      { text: '日常养育', link: '/care/' },
       { text: '兔品种', link: '/breeds/' },
       { text: '常备药与用品', link: '/supplies/' },
-      { text: '引用来源', link: '/sources/' },
-      { text: '参与共创', link: '/contribute' }
+      { text: '更多', items: [
+        { text: '关于本站', link: '/about' },
+        { text: '全站来源索引', link: '/sources/' },
+        { text: '参与共创', link: '/contribute' }
+      ]}
     ],
 
     sidebar: {
+      '/tools/': [
+        {
+          text: '养兔工具箱',
+          collapsed: false,
+          items: [
+            { text: '工具总览', link: '/tools/' }
+          ]
+        }
+      ],
       '/digest/': [
         {
           text: '消化系统科普',
@@ -113,18 +133,40 @@ export default defineConfig({
           ]
         }
       ],
+      '/care/': [
+        {
+          text: '日常养育',
+          collapsed: false,
+          items: [
+            { text: '养育总览', link: '/care/' },
+            { text: '绝育与绝育后护理', link: '/care/spay-neuter' },
+            { text: '幼兔养育（0–7 月龄）', link: '/care/baby-rabbit' },
+            { text: '老年兔照护（5+ 岁）', link: '/care/senior-rabbit' },
+            { text: '新兔到家与适应期', link: '/care/bringing-home' },
+            { text: '合笼（bonding）', link: '/care/bonding' },
+            { text: '兔笼与环境丰容', link: '/care/housing' },
+            { text: '兔兔行为解读', link: '/care/behavior' },
+            { text: '定点如厕训练', link: '/care/litter-training' },
+            { text: '日常护理清单', link: '/care/daily-care' }
+          ]
+        }
+      ],
       '/breeds/': [
         {
           text: '兔品种百科',
           collapsed: false,
           items: [
-            { text: '品种总览', link: '/breeds/' },
-            { text: '荷兰垂耳兔', link: '/breeds/holland-lop' },
-            { text: '荷兰侏儒兔', link: '/breeds/netherland-dwarf' },
-            { text: '狮子兔', link: '/breeds/lionhead' },
-            { text: '迷你雷克斯', link: '/breeds/mini-rex' },
-            { text: '安哥拉兔', link: '/breeds/angora' },
-            { text: '道奇/熊猫兔', link: '/breeds/dutch' }
+            { text: '品种总览（含茶杯兔/熊猫兔辟谣）', link: '/breeds/' },
+            { text: '荷兰垂耳兔 Holland Lop', link: '/breeds/holland-lop' },
+            { text: '迷你垂耳兔 Mini Lop（美版）', link: '/breeds/mini-lop' },
+            { text: '荷兰侏儒兔 Netherland Dwarf', link: '/breeds/netherland-dwarf' },
+            { text: '狮子兔 Lionhead', link: '/breeds/lionhead' },
+            { text: '迷你雷克斯 Mini Rex', link: '/breeds/mini-rex' },
+            { text: '雷克斯 Rex（标准型）', link: '/breeds/rex' },
+            { text: '安哥拉兔 Angora', link: '/breeds/angora' },
+            { text: '道奇/熊猫兔 Dutch', link: '/breeds/dutch' },
+            { text: '霍托兔 Hotot（熊猫眼兔）', link: '/breeds/hotot' },
+            { text: '法兰德斯巨兔 Flemish Giant', link: '/breeds/flemish-giant' }
           ]
         }
       ],
@@ -176,5 +218,47 @@ export default defineConfig({
     },
 
     pageNav: true
-  } as any
+  } as any,
+
+  // 结构化数据（schema.org Article）：让 Google 等搜索引擎理解每篇文章，
+  // 提升富结果（rich results）展示机会。每页注入 Article JSON-LD。
+  transformPageData(pageData) {
+    const title = pageData.title || 'rabbits.wiki'
+    const description = pageData.description || '由社区共创的兔子百科'
+    const url = `https://rabbits.wiki/${pageData.relativePath}`
+      .replace(/index\.md$/, '')
+      .replace(/\.md$/, '')
+
+    const jsonLd = {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: title,
+      description,
+      url,
+      inLanguage: 'zh-CN',
+      publisher: {
+        '@type': 'Organization',
+        name: 'rabbits.wiki',
+        url: 'https://rabbits.wiki',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://rabbits.wiki/favicon.png'
+        }
+      },
+      license: 'https://creativecommons.org/licenses/by-sa/4.0/',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'rabbits.wiki',
+        url: 'https://rabbits.wiki'
+      }
+    }
+
+    pageData.frontmatter = pageData.frontmatter || {}
+    pageData.frontmatter.head = pageData.frontmatter.head || []
+    pageData.frontmatter.head.push([
+      'script',
+      { type: 'application/ld+json' },
+      JSON.stringify(jsonLd)
+    ])
+  }
 })

@@ -5,30 +5,38 @@ layout: home
 hero:
   name: rabbits.wiki
   text: 由社区共创的兔子百科
-  tagline: 品种 · 消化科普 · 急症处置 · 常备药 · 牧草。每一条结论都可溯源到权威兽医来源。
+  tagline: 工具 · 品种 · 消化科普 · 急症处置 · 日常养育 · 常备药。每一条结论都可溯源到权威兽医来源。
   image: /rabbit-logo.svg
   actions:
     - theme: brand
+      text: 🧰 打开养兔工具箱
+      link: /tools/
+    - theme: alt
       text: 🚨 急症处置速查
       link: /emergencies/
-    - theme: alt
-      text: 📚 消化系统科普
-      link: /digest/
     - theme: alt
       text: 🤝 参与共创
       link: /contribute
 
 features:
+  - title: 🧰 养兔工具箱
+    details: 症状决策树（我家兔兔 X 了怎么办）、剂量计算器、脱水评估——交互工具，快速判断紧急度和应急参考。
+    link: /tools/
+    linkText: 打开工具箱 →
   - title: 🚨 急症处置
-    details: 胃肠停滞、腹泻、中暑、外伤、骨折、抽搐、球虫病——每一种突发情况的家庭急救步骤与就医信号。
+    details: 胃肠停滞、腹泻、中暑、外伤、骨折、抽搐、球虫病、中毒——每一种突发情况的家庭急救步骤与就医信号。
     link: /emergencies/
     linkText: 查看急救手册 →
   - title: 📚 消化系统科普
     details: 盲肠便与重食、后肠发酵、为什么兔不能呕吐——理解消化原理，才能正确处置绝大多数消化道急症。
     link: /digest/
     linkText: 从原理开始 →
+  - title: 🏠 日常养育
+    details: 绝育（防母兔子官癌 >60%）、幼兔、老年兔、合笼、行为解读、定点如厕、日常护理——科学养育预防 90% 急症。
+    link: /care/
+    linkText: 学养育方法 →
   - title: 🐇 兔品种百科
-    details: 荷兰垂耳、荷兰侏儒、狮子、安哥拉、迷你雷克斯、道奇——体型、性格、寿命、护理需求与遗传倾向。
+    details: 荷兰垂耳、荷兰侏儒、狮子、安哥拉、雷克斯、道奇、霍托、Flemish Giant——含茶杯兔/熊猫兔辟谣。
     link: /breeds/
     linkText: 浏览品种 →
   - title: 💊 常备药与用品
