@@ -145,7 +145,7 @@ Critical Care、注射器、加热垫（低温时）、伊丽莎白圈（防舔�
 <SourceCard
   title="Spaying or Neutering Your Rabbit"
   author="VCA Animal Hospitals"
-  url="https://vcahospitals.com/know-your-pet/spaying-or-neutering-your-rabbit"
+  url="https://vcahospitals.com/know-your-pet/spaying-in-rabbits"
   accessed="2026-07-28"
   level="vet"
   note="绝育时机、术前术后护理的兽医指南。"

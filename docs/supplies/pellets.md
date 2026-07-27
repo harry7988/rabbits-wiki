@@ -137,7 +137,7 @@ lastReviewed: 2026-07-28
     name: 'BHA / BHT',
     role: '合成抗氧化剂',
     risk: 'BHA 是 IARC 2B（可能致癌，基于啮齿前胃肿瘤）。但兔专项数据稀缺',
-    safe: 'EU 2022/654 重新授权（除猫外）所有动物可用，BHA 上限 150 mg/kg。但天然生育酚是更优选',
+    safe: 'EU 2022/654 重新授权（除猫外）所有动物可用，BHA 上限 150 mg/kg。多数主流品牌改用天然生育酚',
     verdict: 'limit',
     source: 'EU 2022/654; EFSA'
   },
@@ -145,7 +145,7 @@ lastReviewed: 2026-07-28
     name: '天然生育酚 (mixed tocopherols)',
     role: '天然抗氧化剂（维 E 类）',
     risk: '过量才有维 E 毒性，正常添加无风险',
-    safe: '安全且优选。Oxbow/Mazuri/Science Selective/bunny Nature 均使用',
+    safe: 'FEDIAF / EFSA 公认安全。Oxbow/Mazuri/Science Selective/bunny Nature 等品牌均使用',
     verdict: 'essential',
     source: '各品牌配料表'
   },
@@ -219,21 +219,31 @@ lastReviewed: 2026-07-28
 
 数据来源：各品牌官网配料表 + 香港消委会独立测试<cite><a href="#ref-consumer">[消委会]</a></cite>。
 
-| 品牌 / 款式 | 蛋白 | 纤维 | 钙 | 维 D3 | 关键观察 |
+| 品牌 / 款式 | 蛋白 | 纤维 | 钙 | 维 D3 | 数据观察（来源：消委会测试 + 品牌官网）|
 |---|---|---|---|---|---|
-| **Oxbow Essentials Adult**（美） | 14% | 25–29% | 0.35–0.75% | 900 IU/kg | 配方稳健，第一位 Timothy Grass Meal；消委会测试中性价比较高 |
-| **Oxbow Garden Select Adult** | ~11% | — | ~0.49% | 1082–1729 IU/kg | **蛋白偏低**、**磷偏低**、维 D 偏高 |
-| **Supreme Science Selective Adult**（英） | 14% | 25% | 0.6% | **2000 IU/kg（达 SUL）** | 配方均衡，但维 D 已达上限——同时补维 D 需谨慎 |
-| **Mazuri Timothy-Based**（美，Purina） | 14% | 18–22% | 0.75–1.25% | 含 D3 | 钙范围高端可达 SUL，泌尿问题兔偏激进 |
+| **Oxbow Essentials Adult**（美） | 14% | 25–29% | 0.35–0.75% | 900 IU/kg | 配料表第一位 Timothy Grass Meal |
+| **Oxbow Garden Select Adult** | ~11% | — | ~0.49% | 1082–1729 IU/kg | 蛋白、磷数据低于 FEDIAF 推荐下限 |
+| **Supreme Science Selective Adult**（英） | 14% | 25% | 0.6% | **2000 IU/kg（达到 SUL 上限）** | 维 D3 添加量已达 FEDIAF 安全上限——若同时补充维 D 需计算总量 |
+| **Mazuri Timothy-Based**（美，Purina） | 14% | 18–22% | 0.75–1.25% | 含 D3 | 钙范围高端（1.25%）超过 FEDIAF SUL（1.0%） |
 | **bunny Nature Rabbit Dream**（德） | 13% | 21% | 0.6% | — | 63 种草本 + 苜蓿，无糖蜜，含 inulin |
 | **Versele-Laga Complete Cuni**（比） | 14% | 20% | 0.8% | D3 强化 | 提摩西 8% + 草本 |
-| **VETAFARM** | — | **9.0%（不达标）** | — | — | 含玉米+小麦，**淀粉 >25%（不达标）**，慎选 |
-| **Mazuri 副食（消委测）** | — | — | **1.16%（超 SUL）** | — | 钙超安全上限 |
-| **WOOLY / MOMI / americanpet** | — | — | 部分偏低/偏高 | MOMI **未检出 D3**；WOOLY 402 IU/kg | 多项磷/维 D 偏低 |
+| **VETAFARM** | — | **9.0%** | — | — | 粗纤维 9.0% 低于 FEDIAF 推荐下限（18%）；配料含玉米+小麦 |
+| **Mazuri 副食（消委测）** | — | — | **1.16%** | — | 钙超过 FEDIAF SUL（1.0%）|
+| **WOOLY / MOMI / americanpet** | — | — | 部分偏低/偏高 | MOMI **未检出 D3**；WOOLY 402 IU/kg | 多项磷、维 D 数据低于 FEDIAF 推荐范围 |
 
-<Danger title="香港消委会测试的关键结论">
-**12 款兔粮（含主食与副食）全数至少有 1 种营养素不符合 FEDIAF**——没有任何一款可以"无限量喂饲"。这强化了"兔粮只是补充"的核心原则<cite><a href="#ref-consumer">[消委会]</a></cite>。
+<Danger title="香港消委会测试的关键数据">
+12 款兔粮（含主食与副食）独立测试中，**全部至少有 1 种营养素不符合 FEDIAF 推荐范围**——这强化了"兔粮只是补充，不能无限量喂饲"的核心原则<cite><a href="#ref-consumer">[消委会]</a></cite>。
+
+本页所列数据均来自香港消委会公开测试报告与各品牌官网标注，**仅作客观数据呈现，不构成购买建议**。最终选购请结合兽医意见、个体需求、可获得性与价格综合判断。
 </Danger>
+
+<Info title="关于品牌中立（重要）">
+本站**不为任何品牌背书**，也**不贬低任何品牌**。所有品牌评价仅基于：
+1. **香港消委会公开测试数据**（独立第三方）
+2. **各品牌官网公开配料表与成分分析保证值**
+
+数据偏离 FEDIAF 推荐范围 ≠ 产品"有毒"或"差"——可能是品牌定位（如针对幼兔/孕兔）、工艺差异、或测试批次差异。读者应基于自身兔兔的年龄、健康状态、兽医建议做选择。
+</Info>
 
 ## 五、选购原则（清晰可执行）
 

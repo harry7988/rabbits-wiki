@@ -6,6 +6,8 @@ lastReviewed: 2026-07-27
 
 # 🚨 中毒 / 误食
 
+<EmergencyCard />
+
 ## 一、生死攸关的事实
 
 <Danger title="兔子生理上无法呕吐 —— 绝对禁止催吐">

@@ -8,6 +8,8 @@
     "build": "vitepress build docs && node scripts/generate-ai-files.mjs",
     "build:vp": "vitepress build docs",
     "ai-files": "node scripts/generate-ai-files.mjs",
+    "check-sources": "node scripts/check-sources.mjs",
+    "check-sources:all": "node scripts/check-sources.mjs --all",
     "preview": "vitepress preview docs"
   },
   "license": "CC-BY-SA-4.0",

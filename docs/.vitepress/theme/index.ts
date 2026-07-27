@@ -21,6 +21,8 @@ import CopyMarkdownButton from './components/CopyMarkdownButton.vue'
 import FeedingCalculator from './components/FeedingCalculator.vue'
 import PelletAnalyzer from './components/PelletAnalyzer.vue'
 import HealthCalendar from './components/HealthCalendar.vue'
+import PlantSafetyChecker from './components/PlantSafetyChecker.vue'
+import EmergencyCard from './components/EmergencyCard.vue'
 import NotFound from './NotFound.vue'
 
 export default {
@@ -49,5 +51,7 @@ export default {
     app.component('FeedingCalculator', FeedingCalculator)
     app.component('PelletAnalyzer', PelletAnalyzer)
     app.component('HealthCalendar', HealthCalendar)
+    app.component('PlantSafetyChecker', PlantSafetyChecker)
+    app.component('EmergencyCard', EmergencyCard)
   }
 } satisfies Theme
