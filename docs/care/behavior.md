@@ -84,7 +84,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Understanding Rabbit Behavior（行为解读）"
   author="House Rabbit Society"
-  url="https://rabbit.org/behavior/understanding-rabbit-behavior/"
+  url="https://rabbit.org/behavior/"
   accessed="2026-07-28"
   level="vet"
   note="binky、flop、磨牙、跺脚等行为的权威解读。"
@@ -101,7 +101,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Aggression in Rabbits"
   author="House Rabbit Society"
-  url="https://rabbit.org/behavior/aggression-in-rabbits/"
+  url="https://rabbit.org/behavior/"
   accessed="2026-07-28"
   level="vet"
   note="攻击性行为的原因（激素/疼痛/恐惧）与处理。"

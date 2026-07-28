@@ -85,7 +85,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Bringing Your New Rabbit Home"
   author="House Rabbit Society"
-  url="https://rabbit.org/care/new-rabbit/"
+  url="https://rabbit.org/care/"
   accessed="2026-07-28"
   level="vet"
   note="新兔到家适应期的权威指南。"

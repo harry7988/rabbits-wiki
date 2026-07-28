@@ -95,7 +95,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Bonding Multiple Rabbits"
   author="Rabbit Welfare Association & Fund (RWAF)"
-  url="https://rabbitwelfare.co.uk/welfare-need/bonding-rabbits/"
+  url="https://rabbitwelfare.co.uk/welfare-need/pairing-up-rabbits-bonding/"
   accessed="2026-07-28"
   level="vet"
 />

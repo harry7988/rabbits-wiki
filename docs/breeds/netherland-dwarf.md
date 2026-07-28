@@ -90,7 +90,7 @@ lastReviewed: 2026-07-27
 <SourceCard
   title="ANDRC 官方手册（PDF）"
   author="American Netherland Dwarf Rabbit Club"
-  url="https://www.andrc.com/media/ANDRC%20Brochure.pdf"
+  url="https://www.andrc.com/"
   accessed="2026-07-27"
   level="vet"
 />

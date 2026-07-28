@@ -118,7 +118,7 @@ Critical Care、注射器、加热垫（低温时）、伊丽莎白圈（防舔�
 <SourceCard
   title="Uterine Adenocarcinoma in the Rabbit（子宫腺癌研究）"
   author="House Rabbit Society / 多项兽医研究汇总"
-  url="https://rabbit.org/health/uterine-cancer-in-rabbits/"
+  url="https://rabbit.org/care/spay-for-health/"
   accessed="2026-07-28"
   level="vet"
   note="未绝育母兔子官癌发病率随年龄递增至 80% 的权威数据汇总。"

@@ -92,7 +92,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Caring for Elderly Rabbits（老年兔照护）"
   author="House Rabbit Society"
-  url="https://rabbit.org/health/caring-for-elderly-rabbits/"
+  url="https://rabbit.org/health/senior-health-concerns/"
   accessed="2026-07-28"
   level="vet"
   note="老年定义、关节炎、饮食调整、生活质量评估的权威指南。"
@@ -111,7 +111,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="When to Say Goodbye（临终关怀）"
   author="House Rabbit Society"
-  url="https://rabbit.org/health/euthanasia/"
+  url="https://rabbit.org/care/navigating-rabbit-end-of-life-issues/"
   accessed="2026-07-28"
   level="vet"
 />

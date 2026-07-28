@@ -122,15 +122,25 @@ console.log(`  🔴 服务端 (5xx):   ${results.serverError.length}`)
 console.log(`  ❌ 网络错误:       ${results.networkError.length}`)
 
 if (results.clientError.length || results.serverError.length || results.networkError.length) {
-  console.log(`\n⚠️ 需人工复核的 URL（不一定失效，可能反爬）:`)
-  for (const x of [...results.clientError, ...results.serverError]) {
+  console.log(`\n⚠️ 需人工复核的 URL（不一定失效，可能是反爬/网络环境）:`)
+  console.log(`\n  【4xx 客户端错误】—— 多数是反爬（服务器拒绝 bot 但页面真实存在）`)
+  for (const x of results.clientError) {
     console.log(`  [${x.status}] ${x.url}`)
   }
-  for (const x of results.networkError) {
-    console.log(`  [网络] ${x.url}  (${x.error})`)
+  console.log(`\n  【5xx 服务端错误】—— 站点临时故障或维护，通常非永久失效`)
+  for (const x of results.serverError) {
+    console.log(`  [${x.status}] ${x.url}`)
   }
-  console.log(`\n💡 复核方法：在浏览器中手动打开以上 URL，确认页面是否真实存在。`)
-  console.log(`   失效的链接请提 Issue 或 PR 更新：https://github.com/rabbits-wiki/rabbits.wiki/issues`)
+  console.log(`\n  【网络错误】—— 可能是当前网络环境对国外站点访问慢/受限，不代表链接失效`)
+  console.log(`  （权威站如 Wikipedia、Merck、Cornell 等几乎肯定真实存在）`)
+  for (const x of results.networkError) {
+    console.log(`  [超时] ${x.url}`)
+  }
+  console.log(`\n💡 复核方法：`)
+  console.log(`   1. 在浏览器中手动打开 URL，确认页面是否真实存在`)
+  console.log(`   2. 4xx 若确认为真 404，提 PR 更新 URL`)
+  console.log(`   3. 5xx/网络错误通常过段时间再测即可`)
+  console.log(`   Issue: https://github.com/rabbits-wiki/rabbits.wiki/issues`)
   // 不 fail，因为反爬是常见情况
   process.exit(0)
 } else {

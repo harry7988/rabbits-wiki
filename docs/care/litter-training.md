@@ -89,7 +89,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Why Is My Rabbit Not Using the Litter Box?"
   author="House Rabbit Society"
-  url="https://rabbit.org/behavior/litter-box-issues/"
+  url="https://rabbit.org/care/litter-training-for-those-who-want-to-but-cant/"
   accessed="2026-07-28"
   level="vet"
   note="乱尿原因排查（健康/激素/环境）。"

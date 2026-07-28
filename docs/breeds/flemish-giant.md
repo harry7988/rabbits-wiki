@@ -56,7 +56,7 @@ lastReviewed: 2026-07-28
 <SourceCard
   title="Flemish Giant Rabbit"
   author="PetMD（Catherine Gose, CVT；Laurie Hess, DVM 审核）"
-  url="https://www.petmd.com/rabbit/breeds/flemish-giant-rabbit"
+  url="https://www.petmd.com/rabbit/breeds/flemish-giant"
   accessed="2026-07-28"
   level="vet"
   note="温柔巨人，需巨大空间，压疮风险高。"
