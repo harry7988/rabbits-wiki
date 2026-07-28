@@ -47,6 +47,32 @@ lastReviewed: 2026-07-28
 - 家庭、有较大空间的饲主
 - 想要垂耳但希望体型大一点的（更结实，适合有儿童家庭）
 
+## 四、饲养要点
+
+<FirstAidStep :num="1" title="空间需求">
+Mini Lop 成兔可达 6.5 lbs，比 Holland Lop 大一号，需要更大的笼子/围栏（≥ 4 倍体长）和每日 3–4 小时出笼活动。详见[环境丰容](../care/housing)。
+</FirstAidStep>
+
+<FirstAidStep :num="2" title="耳朵护理（垂耳共性）">
+垂耳因耳道气流差，比立耳兔更易中耳炎。每周检查耳朵是否有异味、分泌物、红肿。详见[日常护理](../care/daily-care)。
+</FirstAidStep>
+
+<FirstAidStep :num="3" title="饮食">
+成兔：提摩西草无限量 + 限量颗粒粮（每 2.25 kg 体重 1/8–1/4 杯/天）+ 多样蔬菜。详见[饮食配比](../supplies/hay/stage-ratio)。用[喂食计算器](../tools/)算精确量。
+</FirstAidStep>
+
+<FirstAidStep :num="4" title="绝育">
+母兔 4–6 月龄、公兔 3.5–5 月龄。未绝育母兔子官癌风险随年龄增至 80%。详见[绝育专题](../care/spay-neuter)。
+</FirstAidStep>
+
+## 五、选购建议
+
+- **优先领养**——救助机构常有各品种兔等待领养
+- 如购买，要求看兔妈妈、确认年龄 ≥ 8 周（拒绝"满月就能卖"）
+- 警惕商家把普通垂耳冒充"迷你垂耳"——问清是美版 Mini Lop（6.5 lbs）还是荷兰垂耳（4 lbs）
+- 检查牙齿、眼睛、耳朵、肛门周围是否干净
+- 详见[品种总览辟谣](./)
+
 <SourceList>
 
 <SourceCard

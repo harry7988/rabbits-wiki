@@ -106,8 +106,8 @@ function purifyForAI(content, frontmatter) {
     return `\n**步骤 ${num}${t ? '：' + t : ''}**\n\n${body}\n`
   })
 
-  // <BreedCard ... /> → 表格
-  out = out.replace(/<BreedCard\b([^/>]*?)\/>/g, (m, attrs) => {
+  // <BreedCard ... /> → 表格（支持多行属性，用捕获组）
+  out = out.replace(/<BreedCard\b([^]*?)\/>/g, (m, attrs) => {
     const get = (k) => {
       const re = new RegExp(`${k}="([^"]*)"`)
       const mm = attrs.match(re)

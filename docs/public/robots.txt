@@ -1,4 +1,24 @@
+# rabbits.wiki robots.txt
+# 本站欢迎搜索引擎和 AI 工具抓取、索引、训练（详见 /llms.txt 和 /.well-known/ai.json）
+
 User-agent: *
 Allow: /
 
+# 显式欢迎常见 AI 爬虫（已包含在 * 中，此处明示立场）
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# 站点地图与 AI 索引
 Sitemap: https://rabbits.wiki/sitemap.xml
