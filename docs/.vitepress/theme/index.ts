@@ -27,11 +27,11 @@ import NotFound from './NotFound.vue'
 
 export default {
   extends: DefaultTheme,
-  // 覆盖 404 页面为自定义 NotFound；在每页内容顶部注入"复制 MD"按钮
+  // 覆盖 404 页面为自定义 NotFound；浮动"复制 MD"按钮（fixed 定位，不占内容流）
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'not-found': () => h(NotFound),
-      'doc-before': () => h(CopyMarkdownButton)
+      'layout-bottom': () => h(CopyMarkdownButton)
     })
   },
   enhanceApp({ app }) {
