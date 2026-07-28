@@ -11,6 +11,7 @@ lastReviewed: 2026-07-27
 ## 一、最大误区：毛球是元凶？
 
 <Danger title="权威兽医教科书明确否定">
+
 Oglesbee（2020，同行评审，被引 124 次）明确指出<cite><a href="#ref1">[1]</a></cite>：
 
 > 『毛球（trichobezoar）/『wool block』是**错误标签**——它错误地暗示毛发堆积是疾病的原因，而实际上毛发堆积是肠道运动障碍的**结果或症状**。』
@@ -18,6 +19,7 @@ Oglesbee（2020，同行评审，被引 124 次）明确指出<cite><a href="#re
 **翻译成大白话**：**毛球是胃肠停滞（GI Stasis）的『结果』，而不是『原因』。**
 
 Cornell 兽医学院（2024）也指出：**大多数情况下，毛发会无害地通过消化道**<cite><a href="#ref2">[2]</a></cite>。
+
 </Danger>
 
 ## 二、真正的机制
@@ -36,19 +38,25 @@ Cornell 兽医学院（2024）也指出：**大多数情况下，毛发会无害
 ## 四、家庭处置（与 GI Stasis 相同）
 
 <FirstAidStep :num="1" title="区分肚子柔软 vs 坚硬如鼓">
+
 柔软 → 可家庭处理；坚硬如鼓 → 立即就医。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="运动、腹部按摩（仅肚子柔软时）、西甲硅油、Critical Care">
+
 详见 [GI Stasis 处置](./gi-stasis)。
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="换毛期加强梳理（最重要的物理除毛方法）">
+
 </FirstAidStep>
 
 ## 五、关于化毛膏的真相
 
 <Danger title="不要用猫用化毛膏（Petromalt/Laxatone）">
+
 Oxbow Animal Health（顶级异宠营养品牌）明确声明<cite><a href="#ref3">[3]</a></cite>：
 
 > 『**Rabbits and other herbivores should never be given laxatives under any circumstance.**』（兔和其他草食动物**绝不应**在任何情况下使用泻药。）
@@ -60,23 +68,28 @@ Oxbow Animal Health（顶级异宠营养品牌）明确声明<cite><a href="#ref
 4. **物理性加重阻塞**：『oily laxatives coat the mass... make it resistant to water』——油层使毛块防水，而水分吸收是分解毛块的关键，**反而更难排出**
 
 详见 [化毛膏争议专题](../supplies/hairball-remedy)。
+
 </Danger>
 
 ## 六、致命误区
 
 <Warning>
+
 1. **把所有 GI 问题归因于『毛球』** —— 错误的病因认知，单纯治毛球无效
 2. **滥用化毛膏替代就医** —— 化毛膏只能辅助（且对兔有害），不能治疗停滞
 3. **滥用菠萝酶/木瓜酶**（民间偏方）—— **缺乏循证支持**。木瓜酶主要分解蛋白质，而毛发主要成分是角蛋白，木瓜酶对其作用缺乏科学证据<cite><a href="#ref3">[3]</a></cite>
 4. **延误真性梗阻的手术时机**
+
 </Warning>
 
 ## 七、何时必须立即就医
 
 <VetCheck>
+
 - **腹部坚硬如鼓**（怀疑真性梗阻）
 - 家庭治疗无效或恶化
 - 持续 12 小时以上不吃不拉
+
 </VetCheck>
 
 ## 八、真正的预防
@@ -90,7 +103,9 @@ Oxbow Animal Health（顶级异宠营养品牌）明确声明<cite><a href="#ref
 | 出现 GI Stasis 立即就医 | 菠萝汁偏方 |
 
 <Info title="为什么梳理这么重要">
+
 换毛期兔会吞下大量脱落的毛发。物理梳理是**唯一**能从源头减少吞入的方法。长毛兔（安哥拉、狮子兔双鬃）必须每日梳理。
+
 </Info>
 
 <SourceList>

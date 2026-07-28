@@ -2,6 +2,17 @@
  * rabbits.wiki 自定义样式
  * 配色：自然、温和，兔毛米色 + 牧草绿 + 急救红
  */
+
+/* 全局字体：确保 emoji 在所有平台正常渲染（含中文字体回退） */
+:root {
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "Source Han Sans SC", "Noto Sans CJK SC", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --vp-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    monospace, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
 :root {
   --rw-cream: #faf6ef;
   --rw-grass: #4a7c3f;
@@ -96,8 +107,19 @@
   gap: 0.4rem;
   margin-bottom: 0.5rem;
 }
-.vet-check ul { margin: 0.3rem 0 0 0; padding-left: 1.3rem; }
+.vet-check ul { margin: 0.3rem 0 0 0; padding-left: 1.3rem; list-style: disc; }
 .vet-check li { margin: 0.25rem 0; }
+.vet-check li::marker { color: var(--rw-danger); }
+
+/* 统一：所有自定义组件内 slot 渲染的 markdown 元素样式 */
+.vet-check :deep(p), .first-aid-step :deep(p),
+.rw-alert :deep(p) { margin: 0.4rem 0; line-height: 1.65; }
+.vet-check :deep(ul), .first-aid-step :deep(ul),
+.rw-alert :deep(ul) { padding-left: 1.3rem; list-style: disc; margin: 0.4rem 0; }
+.vet-check :deep(li), .first-aid-step :deep(li),
+.rw-alert :deep(li) { margin: 0.2rem 0; }
+.vet-check :deep(strong), .first-aid-step :deep(strong),
+.rw-alert :deep(strong) { font-weight: 700; }
 
 /* 急救流程步骤 */
 .first-aid-step {

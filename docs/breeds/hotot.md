@@ -7,6 +7,7 @@ lastReviewed: 2026-07-28
 # 🐇 霍托兔 Hotot / Dwarf Hotot（熊猫眼兔）
 
 <Warning title="中文『熊猫兔』消歧义">
+
 中文市场的"熊猫兔"可能指两种完全不同的品种：
 
 | 品种 | 外观 | 花纹 |
@@ -15,6 +16,7 @@ lastReviewed: 2026-07-28
 | **霍托兔 Hotot**（本页）| **全白身体 + 仅眼周黑环** | 眼环 |
 
 购买前务必问清是哪一种。
+
 </Warning>
 
 ## 一、两个 ARBA 认可的 Hotot 品种
@@ -43,10 +45,12 @@ lastReviewed: 2026-07-28
 ## 三、常见健康问题
 
 <Warning>
+
 - **牙齿问题**（侏儒品种共性——颅面紧凑）
 - GI Stasis
 - *Cheyletiella*、*E. cuniculi*
 - 携带侏儒基因 dw（见[品种总览](./) 25% peanut 现象）
+
 </Warning>
 
 ## 四、适合人群

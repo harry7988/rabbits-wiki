@@ -25,9 +25,11 @@ lastReviewed: 2026-07-27
 | 中文社群（40 mg/mL 规格） | 40 mg/mL | 按体重 **20 mg/kg** 计算 | — |
 
 <Warning title="效力存疑（兽医界正在演进的观点）">
+
 HRS 指出『you can't really overdose it』（基本不会过量），但用 3 次无效通常继续使用也无效。HRS Chicago 等机构认为越来越多兔科兽医发现西甲硅油对兔特定胀气『几乎无效』。
 
 **核心**：西甲硅油只缓解症状，**不解决根本病因**（毛球、感染、阻塞、牙病等）<cite><a href="#ref1">[1]</a></cite>。
+
 </Warning>
 
 ### 选择要点
@@ -45,9 +47,11 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 - **日总量参考**：约 **50 mL/kg 体重/天**，分 4–6 次<cite><a href="#ref3">[3]</a></cite>
 
 <Danger title="怀疑胃肠阻塞时绝对禁忌">
+
 怀疑有胃肠阻塞时**不可强制喂食**，会加重病情——必须兽医确诊后再喂。
 
 不要强迫挣扎拒绝进食的兔（误吸入肺风险）。用无针头注射器从侧面口角缓慢注入。
+
 </Danger>
 
 ## 三、Terramycin 眼膏
@@ -60,6 +64,7 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 ### 关键警告：眼病多与牙病相关
 
 <Warning>
+
 兔的眼部问题**多数与牙齿相关**（牙根脓肿压迫鼻泪管/眼眶），表面滴眼药水治标不治本。
 
 **必须就医的情况**：
@@ -67,6 +72,7 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 2. 症状加重（红肿、分泌物增多）
 3. 反复发作
 4. 深层溃疡或脓肿
+
 </Warning>
 
 ## 四、驱虫药（处方药，必须兽医）
@@ -89,14 +95,17 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 | **Metronidazole（甲硝唑）** | 10–20 mg/kg q12h × ≥5 天 | 原虫、厌氧菌感染 |
 
 <Warning title="不是所有兔都要定期驱虫">
+
 - 只在确诊或高度怀疑感染时驱虫
 - 散养单只兔、环境干净时不必常规驱虫
 - 所有球虫药和驱虫药均**未经 FDA 批准用于兔**（off-label），必须兽医开具
+
 </Warning>
 
 ## 五、抗生素禁忌（致命）
 
 <Danger title="这些药物对兔致命 —— 绝不要自行使用">
+
 - **口服青霉素及衍生物**（如阿莫西林 Amoxicillin）—— 可引发致命菌群失调
 - **Cephalosporins（头孢类）**
 - **Micotil（替米考星）**
@@ -104,6 +113,7 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 - **任何含皮质类固醇的外用药**（如 Neosporin Plus）<cite><a href="#ref7">[7]</a></cite>
 
 **推荐**：异氟烷（Isoflurane）是兔首选麻醉药<cite><a href="#ref7">[7]</a></cite>。
+
 </Danger>
 
 <SourceList>

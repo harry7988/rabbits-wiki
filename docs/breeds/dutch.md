@@ -7,10 +7,12 @@ lastReviewed: 2026-07-27
 # 🐇 道奇兔 / 熊猫兔 Dutch
 
 <Warning title="中文市场消歧义：『熊猫兔』可能指两种品种">
+
 - **道奇兔 Dutch**（本页）：白 + 黑/棕双色，**分体"八字"图案**，鞍形白带
 - **霍托兔 Hotot / Dwarf Hotot**：**全白身体 + 仅眼周黑环**（"熊猫眼"）
 
 购买前务必看清。详见 [品种总览消歧义](./)。
+
 </Warning>
 
 <BreedCard
@@ -34,11 +36,13 @@ lastReviewed: 2026-07-27
 ## 二、遗传倾向与常见疾病
 
 <Warning>
+
 - **未绝育母兔子宫癌高发**（建议 5–6 月龄后绝育）
 - 下颌略长 → 牙齿 malocclusion
 - URI（呼吸+牙齿感染可蔓延至肺致肺炎）
 - GI Stasis、毛球梗阻
 - *Cheyletiella*、*E. cuniculi*<cite><a href="#ref1">[1]</a></cite>
+
 </Warning>
 
 ## 三、适合人群

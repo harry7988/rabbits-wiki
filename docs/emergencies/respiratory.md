@@ -16,7 +16,9 @@ lastReviewed: 2026-07-27
 ## 二、关键医学事实
 
 <Danger title="兔是专性鼻呼吸动物（obligate nasal breather）">
+
 当鼻道被脓性分泌物堵塞时，兔**无法用口呼吸代偿**，会出现致命性呼吸窘迫。**张口呼吸 = 濒死信号**<cite><a href="#ref2">[2]</a></cite>。
+
 </Danger>
 
 ## 三、常见原因
@@ -28,43 +30,57 @@ lastReviewed: 2026-07-27
 ## 四、家庭紧急处置（仅作送医前的稳定）
 
 <FirstAidStep :num="1" title="保持兔安静、减少应激">
+
 应激加重呼吸负担。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="避免过热">
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="蒸汽疗法（steam therapy，临时缓解）">
+
 将兔带进充满热水蒸汽的浴室（打开热水花洒），可**暂时**缓解鼻塞。
 
 <Warning>
+
 这**不能给药**，只是临时缓解。仍必须就医。
+
 </Warning>
+
 </FirstAidStep>
 
 <FirstAidStep :num="4" title="提供食物和水">
+
 呼吸困难时兔常拒食。
+
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="立即送异宠兽医">
+
 </FirstAidStep>
 
 ## 五、致命误区
 
 <Danger>
+
 1. **当作『感冒』忽视** —— 兔不会得人类感冒，『snuffles』是**细菌感染**，不治疗会进展为肺炎<cite><a href="#ref1">[1]</a></cite>
 2. **使用非处方人用药** —— 许多人类感冒药对兔有毒
 3. **延误就医** —— 呼吸道感染可迅速进展为肺炎、败血症
 4. **症状好转就停药** —— 必须完成整个抗生素疗程
+
 </Danger>
 
 ## 六、何时必须立即就医
 
 <VetCheck>
+
 - **任何呼吸困难**（呼吸费力、张口呼吸、发绀）—— **急诊**
 - 大量脓性鼻分泌物
 - 伴随拒食、嗜睡
 - 反复发作或长期不愈的『snuffles』
+
 </VetCheck>
 
 ## 七、兽医治疗（必须兽医操作）

@@ -7,7 +7,9 @@ lastReviewed: 2026-07-27
 # 🌾 提摩西草 Timothy Hay
 
 <Info title="黄金标准主食">
+
 提摩西草（Timothy Hay，*Phleum pratense*）是**成兔饮食的黄金标准**，应占成兔饮食的 **80–85%**，**无限量供应**<cite><a href="#ref1">[1]</a></cite>。
+
 </Info>
 
 ## 一、营养价值
@@ -35,7 +37,9 @@ lastReviewed: 2026-07-27
 | **第三茬** | 极软、叶多、深绿 | 最低 | 最高 | 挑食兔、幼兔 |
 
 <Warning title="挑食兔不要长期只喂第三茬">
+
 第三茬纤维最低，长期单一喂养可能导致纤维不足 → 颗粒分选失效 → GI Stasis 风险（详见[后肠发酵](../../digest/hindgut-fermentation)）。建议至少混入第一/二茬。
+
 </Warning>
 
 ## 四、品牌建议

@@ -16,7 +16,9 @@ lastReviewed: 2026-07-27
 | **肠型** | *E. intestinalis*、*E. flavescens* 等 | 肠上皮细胞 | 致病性强的种可致命 |
 
 <Info title="关于『E. stiedae 是唯一肝型球虫』">
+
 此具体陈述的权威来源为 **Merck 兽医手册** 与 **Medirabbit（van Praag 博士）**。VCA Hospitals 的饲主页面未明确这一具体分类（仅说球虫『可进展为致命的肝脏感染』），故本站以 Merck/MSD 兽医手册为主要依据<cite><a href="#ref3">[3]</a></cite>。
+
 </Info>
 
 ## 二、症状识别
@@ -40,25 +42,35 @@ lastReviewed: 2026-07-27
 ## 三、家庭紧急处置（仅稳定）
 
 <FirstAidStep :num="1" title="立即隔离">
+
 患病个体隔离，防止传染。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="保温">
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="口服补液盐（Pedialyte）防脱水">
+
 注射器少量多次喂。
+
 </FirstAidStep>
 
 <FirstAidStep :num="4" title="保持环境清洁">
+
 兔会食盲肠便，**极易自身反复感染**。
+
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="收集粪便样本">
+
 送兽医做**卵囊检查**（粪便漂浮法）。
+
 </FirstAidStep>
 
 <FirstAidStep :num="6" title="立即送异宠兽医">
+
 </FirstAidStep>
 
 ## 四、兽医治疗（必须兽医操作）
@@ -71,36 +83,44 @@ lastReviewed: 2026-07-27
 - **氯苯胍**（已有耐药报告）
 
 <Danger title="所有抗球虫药均未经 FDA 批准用于兔（off-label）">
+
 必须按个体体重精确计算剂量，由兔科兽医开具。**长期使用单一药物会产生耐药性**，需轮换用药。
+
 </Danger>
 
 ## 五、何时必须立即就医
 
 <VetCheck>
+
 - **任何幼兔出现腹泻/便血/精神差**
 - **严重水样腹泻、脱水、虚弱到无法站立**
 - 腹围增大 + 黄染（肝型）
+
 </VetCheck>
 
 ## 六、预防（重要）
 
 <Warning>
+
 1. **新到家幼兔建议常规驱球虫**（兽医检查 + 粪便检测）
 2. **兔舍向阳干燥、保持卫生**
 3. **笼底板定期火焰消毒**杀灭卵囊<cite><a href="#ref5">[5]</a></cite>
 4. **10% 氨水**对环境消毒有效（卵囊对普通消毒剂有抗性）
 5. 饲养密度高/潮湿环境考虑季节性预防
 6. 断奶后幼兔是高发期，重点观察
+
 </Warning>
 
 ## 七、常见误区
 
 <Warning>
+
 1. **认为『成年兔也会得重症』** —— 主要危害**幼兔**，但成年兔可携带并传播
 2. **延误就医** —— 急性发作**数小时可致命**
 3. **不彻底消毒环境** —— 卵囊在环境中存活久，普通清洁无效
 4. **症状消失就停药** —— 必须完成疗程防复发
 5. **不隔离新兔** —— 新兔应隔离观察 + 粪检后再合笼
+
 </Warning>
 
 <SourceList>

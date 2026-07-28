@@ -23,48 +23,66 @@ lastReviewed: 2026-07-27
 ## 三、家庭紧急处置
 
 <FirstAidStep :num="1" title="保持冷静">
+
 兔能感知饲主恐慌，会加重应激。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="移除周围物品">
+
 防止抽搐时撞伤。
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="将兔放在柔软、铺垫好的表面">
+
 毛巾、人造羊毛皮。
+
 </FirstAidStep>
 
 <FirstAidStep :num="4" title="绝对不要约束/按压/抱住兔子">
+
 **会 造成脊柱骨折或加重损伤**<cite><a href="#ref1">[1]</a></cite>。
+
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="记录发作时长和表现">
+
 **视频记录**，供兽医参考。这对诊断极有价值。
+
 </FirstAidStep>
 
 <FirstAidStep :num="6" title="持续抽搐可用湿毛巾降温">
+
 持续抽搐会导致高热。
+
 </FirstAidStep>
 
 <FirstAidStep :num="7" title="发作结束后">
+
 放置在安全、安静、铺垫好的盒子中，手动提供水瓶或注射器喂水。**立即就医**。
+
 </FirstAidStep>
 
 ## 四、致命误区
 
 <Danger>
+
 1. **发作时强行抱住或撬开嘴塞东西** —— 会造成脊柱骨折，且**兔不会咬伤舌头**（无需塞东西）
 2. **认为『发作结束就好了』不就医** —— 必须查明病因
 3. **延误 *E. cuniculi* 治疗** —— 早期抗寄生虫治疗预后更好<cite><a href="#ref2">[2]</a></cite>
+
 </Danger>
 
 ## 五、何时必须立即就医
 
 <VetCheck>
+
 - **任何首次发作的抽搐**
 - 抽搐**持续不停止**（癫痫持续状态）
 - **反复发作**
 - 伴随头部倾斜、转圈、瘫痪（*E. cuniculi* 神经体征）
+
 </VetCheck>
 
 ## 六、兽医治疗（仅供参考，必须兽医操作）
@@ -75,7 +93,9 @@ lastReviewed: 2026-07-27
 - **Fenbendazole**（Panacur）4 周疗程（*E. cuniculi* 病因治疗）
 
 <Info title="所有剂量必须由兔科兽医按体重开具">
+
 上述剂量仅供识别兽医方案，**绝不要自行用药**。兔药物安全窗极窄。
+
 </Info>
 
 <SourceList>

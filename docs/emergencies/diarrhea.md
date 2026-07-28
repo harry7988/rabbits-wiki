@@ -7,7 +7,9 @@ lastReviewed: 2026-07-27
 # 🚨 腹泻
 
 <Info title="先看消化科普：关键区分">
+
 读这一页前，请先了解 [盲肠便与重食机制](../digest/cecotropes)。**最常见错误**是把"未食用的盲肠便"（糊在屁股上的软团）当成腹泻。两者处置完全不同。
+
 </Info>
 
 ## 一、关键医学区分（极其重要）
@@ -30,41 +32,55 @@ lastReviewed: 2026-07-27
 ## 三、家庭紧急处置
 
 <FirstAidStep :num="1" title="立即隔离">
+
 若有多只兔，隔离患病个体，防止传染。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="保温 + 补水防脱水">
+
 口服补液盐（无味 Pedialyte），用注射器少量多次喂。**必须稀释**，含糖量对兔过高<cite><a href="#ref3">[3]</a></cite>。
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="清理肛门周围">
+
 温水轻轻清理，防止皮肤溃疡和**蝇蛆病**（flystrike）。
+
 </FirstAidStep>
 
 <FirstAidStep :num="4" title="收集新鲜粪便样本">
+
 带去兽医处做粪便检查（球虫卵囊、细菌培养）。这是诊断关键。
+
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="立即就医">
+
 **不要在家自行止泻**。兔的"腹泻"病因复杂（球虫、肠毒血症、抗生素紊乱、饮食），必须兽医鉴别。
+
 </FirstAidStep>
 
 ## 四、何时必须立即就医
 
 <VetCheck>
+
 - **任何水样/血性腹泻**（尤其幼兔）
 - 伴随精神萎靡、拒食、脱水
 - **幼兔腹泻 + 腹胀/便血/神经症状**（痉挛、麻痹）→ 高度怀疑球虫病急性发作，**数小时可致命**<cite><a href="#ref2">[2]</a></cite>
+
 </VetCheck>
 
 ## 五、常见误区
 
 <Warning>
+
 1. **把"软便"当腹泻过度治疗** —— 真正的腹泻罕见，需兽医鉴别
 2. **拖延就医** —— 幼兔腹泻数小时即可致命
 3. **自行使用止泻药或人用药** —— 可能掩盖病情或造成伤害
 4. **突然换粮** —— 应在约 2 周内逐步过渡
 5. **忽视"dirty bottom"** —— 脏污会引发致命的蝇蛆病
+
 </Warning>
 
 <SourceList>

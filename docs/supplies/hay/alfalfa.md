@@ -25,11 +25,13 @@ lastReviewed: 2026-07-27
 | **有尿路结石病史** | ❌ **绝对避免** | 钙会加重病情<cite><a href="#ref1">[1]</a></cite> |
 
 <Danger title="成兔喂苜蓿=膀胱泥沙风险">
+
 兔通过**尿液排钙**（详见[钙代谢](../../digest/key-traits)），苜蓿的高钙直接增加尿钙排泄，导致：
 - 膀胱泥沙（chalky sludge）
 - 膀胱结石（urolithiasis）
 - 尿道刺激、尿灼伤
 - 继发膀胱炎
+
 </Danger>
 
 ## 三、过渡：7 月龄起从苜蓿过渡到提摩西

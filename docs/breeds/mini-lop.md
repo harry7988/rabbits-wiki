@@ -7,11 +7,13 @@ lastReviewed: 2026-07-28
 # 🐇 迷你垂耳兔 Mini Lop（美版）
 
 <Warning title="『迷你垂耳』在中文市场可能指不同品种">
+
 - **美版 Mini Lop**（本页）—— ARBA 认可，上限 **6.5 lbs**
 - **英版 Miniature Lop** —— 英国 BRC 标准，更小（约 1.5–1.6 kg）
 - **荷兰垂耳 Holland Lop** —— 最小垂耳，上限 **4 lbs**（见[荷兰垂耳页](./holland-lop)）
 
 购买前务必问清是哪一种。
+
 </Warning>
 
 <BreedCard
@@ -35,11 +37,13 @@ lastReviewed: 2026-07-28
 ## 二、常见健康问题
 
 <Warning>
+
 - **中耳炎**（垂耳共性）
 - **牙齿咬合不正**
 - GI Stasis、毛球梗阻
 - *Cheyletiella* 螨、*E. cuniculi*
 - 脊柱损伤（不当抓握）
+
 </Warning>
 
 ## 三、适合人群
@@ -50,19 +54,27 @@ lastReviewed: 2026-07-28
 ## 四、饲养要点
 
 <FirstAidStep :num="1" title="空间需求">
+
 Mini Lop 成兔可达 6.5 lbs，比 Holland Lop 大一号，需要更大的笼子/围栏（≥ 4 倍体长）和每日 3–4 小时出笼活动。详见[环境丰容](../care/housing)。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="耳朵护理（垂耳共性）">
+
 垂耳因耳道气流差，比立耳兔更易中耳炎。每周检查耳朵是否有异味、分泌物、红肿。详见[日常护理](../care/daily-care)。
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="饮食">
+
 成兔：提摩西草无限量 + 限量颗粒粮（每 2.25 kg 体重 1/8–1/4 杯/天）+ 多样蔬菜。详见[饮食配比](../supplies/hay/stage-ratio)。用[喂食计算器](../tools/)算精确量。
+
 </FirstAidStep>
 
 <FirstAidStep :num="4" title="绝育">
+
 母兔 4–6 月龄、公兔 3.5–5 月龄。未绝育母兔子官癌风险随年龄增至 80%。详见[绝育专题](../care/spay-neuter)。
+
 </FirstAidStep>
 
 ## 五、选购建议

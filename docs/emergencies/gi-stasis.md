@@ -36,22 +36,31 @@ lastReviewed: 2026-07-27
 ## 二、家庭紧急处置步骤
 
 <FirstAidStep :num="1" title="判断腹部硬度">
+
 轻柔触诊。**柔软如面团 → 可家庭处理；坚硬如鼓 → 立即就医，不要按摩**。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="立即联系异宠兽医">
+
 即便决定家庭处理，也要**同步电话联系兽医**。GI Stasis 黄金窗口只有几小时。
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="运动（非常重要）">
+
 强迫兔兔走动、舒展、跳跃。蜷缩会加重停滞，运动帮助气体和粪便通过<cite><a href="#ref1">[1]</a></cite>。
+
 </FirstAidStep>
 
 <FirstAidStep :num="4" title="腹部按摩（仅肚子柔软时）">
+
 兔兔仰卧膝上，后腿捋直，从胸部向尾部**轻柔**按摩。可用迷你手持按摩器辅助。
+
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="西甲硅油（Simethicone）">
+
 药房可购的**婴儿无色无味型排气滴剂**。机械性消泡，不被血液吸收，相对安全。
 
 **参考用量**（多家权威一致）<cite><a href="#ref1">[1]</a></cite><cite><a href="#ref6">[6]</a></cite>：
@@ -59,11 +68,15 @@ lastReviewed: 2026-07-27
 - 用无针头注射器经口喂入
 
 <Warning title="效力有争议，需兽医评估">
+
 HRS Chicago 等机构指出，越来越多兔科兽医认为西甲硅油对兔特定胀气"几乎无效"——这是兽医界正在演进的观点。**西甲硅油只能缓解症状，不解决根本病因**（毛球、感染、阻塞、牙病等），用 3 次无效通常继续使用也无效。
+
 </Warning>
+
 </FirstAidStep>
 
 <FirstAidStep :num="6" title="注射器强制喂食（Critical Care）">
+
 将 **Oxbow Critical Care**（或 Sherwood Recovery Food）+ 温水 + 婴儿南瓜泥混合至稀糊状，用大号（35 mL）导管尖注射器喂食。
 
 - 坐姿，兔兔仰卧膝上，**头部高于尾部**防呛
@@ -71,31 +84,39 @@ HRS Chicago 等机构指出，越来越多兔科兽医认为西甲硅油对兔�
 - 参考日总量：**约 50 mL/kg 体重/天**，分 4–6 次<cite><a href="#ref7">[7]</a></cite>
 
 <Danger title="怀疑梗阻时绝对禁止强制喂食">
+
 如果肚子坚硬如鼓、怀疑 GI 梗阻，**强制喂食会加重病情**——必须兽医确诊后再喂。
+
 </Danger>
+
 </FirstAidStep>
 
 <FirstAidStep :num="7" title="体温与水分管理">
+
 - 测体温（正常 38.3–39.4°C / 101–104°F）
 - 偏低 → 低档加热垫或体温取暖
 - 偏高 → 见[中暑处置](./heatstroke)
 - 补水：注射器喂水，或无味 Pedialyte/苹果汁补充电解质
+
 </FirstAidStep>
 
 ## 三、何时必须立即就医
 
 <VetCheck>
+
 - **超过 12 小时不吃不拉**（HRS 明确定义为 EMERGENCY<cite><a href="#ref1">[1]</a></cite>）
 - **腹部坚硬如鼓**（胀气，可能肠梗阻）
 - 粪便**被黏液包裹**（肠炎）
 - **怀疑 GI 梗阻**（绝对禁止强制喂食）
 - 家庭治疗**数小时后无任何排泄物**排出
 - 体温异常（<38°C 或 >40°C）
+
 </VetCheck>
 
 ## 四、最大误区：毛球是元凶？
 
 <Danger title="这是养兔界最致命的错误认知">
+
 权威兽医教科书明确指出<cite><a href="#ref3">[3]</a></cite>：
 
 > **"毛球（trichobezoar）是胃肠蠕动减慢的'结果'，而不是'原因'。"**
@@ -103,6 +124,7 @@ HRS Chicago 等机构指出，越来越多兔科兽医认为西甲硅油对兔�
 胃内容物（食物 + 毛发 + 黏液）的累积是停滞的**结果**。HRS 与 Oglesbee（同行评审）都强调："In reality, an apparent hairball usually is a result of GI stasis–not the cause."
 
 **这意味着**：单纯治"毛球"（化毛膏）不解决停滞，**无效**。必须找出并治疗导致停滞的根本诱因（低纤维、应激、疼痛、牙病等），恢复蠕动。
+
 </Danger>
 
 详见 [毛球症专题](./hairball) 和 [化毛膏争议](../supplies/hairball-remedy)。
@@ -110,11 +132,13 @@ HRS Chicago 等机构指出，越来越多兔科兽医认为西甲硅油对兔�
 ## 五、其他常见误区
 
 <Warning>
+
 1. **怀疑梗阻时仍强制喂食** —— 加重病情
 2. **盲目要求手术** —— 胃部手术存活率极低，应作为最后手段；优先药物（液体疗法、止痛、促动力药）<cite><a href="#ref3">[3]</a></cite>
 3. **恢复期过度激进治疗** —— 兔开始排硬便时，忌深度麻醉下强饲、暴力灌肠、剧烈按摩，可能导致肝脏破裂
 4. **滥用抗生素** —— 某些抗生素会加剧致命菌群失衡（尤其口服青霉素类）<cite><a href="#ref2">[2]</a></cite>
 5. **"再观察一晚"** —— 兔病情进展极快，等一晚可能就是生死之差
+
 </Warning>
 
 ## 六、GI Stasis 的根本机制

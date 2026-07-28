@@ -11,6 +11,7 @@ lastReviewed: 2026-07-27
 ## 一、权威来源的明确反对
 
 <Danger title="Oxbow Animal Health 明确声明">
+
 Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></cite>：
 
 > **『Rabbits and other herbivores should never be given laxatives under any circumstance.』**
@@ -22,6 +23,7 @@ Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></ci
 3. **血液 pH 失衡**
 4. **阻碍营养吸收** —— 油基润滑剂覆盖肠道内壁，削弱维生素吸收
 5. **物理性加重阻塞** —— 『oily laxatives coat the mass of hair and food and make it resistant to water』—— 油层使毛块防水，**而水分吸收是分解毛块的关键，反而更难排出**
+
 </Danger>
 
 ## 二、为什么猫化毛膏对兔适用是误区
@@ -39,6 +41,7 @@ Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></ci
 ## 三、关于木瓜酶 / 菠萝酶偏方
 
 <Warning title="缺乏科学证据">
+
 民间偏方常推荐木瓜酶片（papain）、菠萝酶（bromelain）"化毛"。但<cite><a href="#ref1">[1]</a></cite>：
 
 - **木瓜酶主要分解蛋白质**，而**毛发主要成分是角蛋白**——木瓜酶对角蛋白的作用**缺乏科学证据**
@@ -46,6 +49,7 @@ Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></ci
 - 商业"排毛粉/化毛膏"多数含糖/添加剂，与 Oxbow 警告冲突
 
 **结论**：不要依赖木瓜酶偏方。
+
 </Warning>
 
 ## 四、中文市场的"兔用化毛膏/排毛粉"
@@ -53,9 +57,11 @@ Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></ci
 中文市场有"怪兽盒子兔子化毛膏"、"毛球兽排毛粉"等产品，声称含木瓜酶、益生菌、车前子等。
 
 <Warning>
+
 这些产品的实际功效**缺乏同行评审研究支持**，且多数含糖/添加剂，**与 Oxbow 警告冲突**。建议**谨慎对待**，不要替代就医。
 
 如果你已经在用，请告知你的兔科兽医，让其评估成分。
+
 </Warning>
 
 ## 五、真正的预防与治疗
@@ -83,12 +89,14 @@ Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></ci
 ## 六、一句话总结
 
 <Danger>
+
 **兔的"毛球问题"本质是胃肠蠕动问题，不是润滑问题。**
 
 - ❌ 化毛膏 → 油基润滑 → 使毛球防水 → 反而更难排出
 - ✅ 高纤维牧草 + 饮水 + 梳理 → 维持蠕动 → 毛发自然排出
 - 兔用"化毛膏/排毛粉"缺乏科学证据，多数含糖
 - 出现停滞 → **立即就医**，用 Critical Care + 兽医处方药，**不要用化毛膏**
+
 </Danger>
 
 <SourceList>

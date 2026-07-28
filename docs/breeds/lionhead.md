@@ -34,10 +34,12 @@ lastReviewed: 2026-07-27
 ## 三、遗传倾向与常见疾病
 
 <Warning>
+
 - **下颌略长 + 小头** → malocclusion
 - GI Stasis、毛球梗阻
 - **蝇蛆病（flystrike）风险高**——湿乱毛发引蝇产卵
 - *Cheyletiella*、*E. cuniculi*、URI<cite><a href="#ref1">[1]</a></cite>
+
 </Warning>
 
 ## 四、适合人群

@@ -25,12 +25,14 @@ lastReviewed: 2026-07-27
 ## 二、遗传倾向与常见疾病
 
 <Warning title="垂耳兔的特殊风险">
+
 - **中耳炎**——垂耳致耳道气流差，是垂耳兔特有的高发问题
 - **牙齿咬合不正（malocclusion）**——侏儒基因影响颅面
 - **毛球梗阻 / GI Stasis**——详见[消化科普](../digest/)
 - ***Cheyletiella***（"行走的皮屑"螨）
 - ***Encephalitozoon cuniculi***（脑/肾寄生虫）
 - **脊柱损伤**——后腿蹬踹（详见[骨折预防](../emergencies/fractures)）<cite><a href="#ref1">[1]</a></cite>
+
 </Warning>
 
 ## 三、适合人群

@@ -7,7 +7,9 @@ lastReviewed: 2026-07-27
 # 🐇 安哥拉兔 Angora
 
 <Info title="安哥拉是品种类别，不是单一品种">
+
 ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都因**隐性基因致毛发月增约 1 英寸**而需要持续护理<cite><a href="#ref1">[1]</a></cite>。
+
 </Info>
 
 ## 一、四个安哥拉品种对比
@@ -22,6 +24,7 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
 ## 二、关键风险
 
 <Danger title="毛球梗阻 / wool block 高发（致命）">
+
 安哥拉兔因毛发浓密，是**毛球梗阻最高发**的品种。但请注意——根据[消化科普](../digest/)，**毛球是 GI Stasis 的结果而非原因**。
 
 **真正的预防**：
@@ -31,6 +34,7 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
 - **不要用化毛膏**（详见[化毛膏争议](../supplies/hairball-remedy)）
 
 其他高发问题：GI Stasis、**蝇蛆病**、脊柱损伤（被抱时蹬踹）、眼/耳感染、*Cheyletiella*、*E. cuniculi*<cite><a href="#ref1">[1]</a></cite>。
+
 </Danger>
 
 ## 三、温度需求
@@ -44,11 +48,13 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
 ## 五、适合人群
 
 <Warning>
+
 - **有经验的饲主 / 纤维爱好者**
 - **不适合首次养兔者或忙碌家庭**
 - **不建议低龄儿童家庭**
 
 护理需求是所有品种里最高的——English Angora 几乎需要**每日**梳理。
+
 </Warning>
 
 <SourceList>
