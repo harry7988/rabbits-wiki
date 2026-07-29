@@ -72,7 +72,7 @@ const open = ref(props.defaultOpen)
 }
 .is-open .faq-q-mark {
   background: var(--rw-grass, #4a7c3f);
-  color: #fff;
+  color: var(--vp-c-white, #fff);
 }
 .faq-q-text { flex: 1; line-height: 1.5; }
 .faq-a {

@@ -191,7 +191,7 @@ const catMeta = {
 .hc-field label { font-size: 0.82rem; font-weight: 600; color: var(--vp-c-text-2); }
 .hc-field input, .hc-field select {
   padding: 0.4rem 0.5rem; border: 1px solid var(--vp-c-divider);
-  border-radius: 6px; font-size: 0.95rem; background: #fff;
+  border-radius: 6px; font-size: 0.95rem; background: var(--rw-bg-card);
 }
 .hc-check { justify-content: flex-end; }
 .hc-check label { display: flex; align-items: center; gap: 0.4rem; cursor: pointer; padding-top: 1.3rem; }
@@ -199,7 +199,7 @@ const catMeta = {
 .hc-timeline { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 1rem; }
 .hc-event {
   display: flex; gap: 0.8rem; padding: 0.8rem 1rem; border-radius: 8px;
-  background: #fff; border-left: 4px solid var(--vp-c-divider);
+  background: var(--rw-bg-card); border-left: 4px solid var(--vp-c-divider);
 }
 .hc-event-icon { font-size: 1.4rem; flex-shrink: 0; line-height: 1.2; }
 .hc-event-body { flex: 1; }
@@ -208,18 +208,18 @@ const catMeta = {
 .hc-event-when { font-size: 0.78rem; color: var(--vp-c-text-2); white-space: nowrap; }
 .hc-event-detail { font-size: 0.85rem; color: var(--vp-c-text-2); line-height: 1.6; }
 
-.c-surgery { border-left-color: #c0392b; }
-.c-vaccine { border-left-color: #2c6da3; }
-.c-checkup { border-left-color: #4a7c3f; }
-.c-dental { border-left-color: #8b6f47; }
-.c-grooming { border-left-color: #b8860b; }
-.c-urgent { border-left-color: #c0392b; background: #fff5f3; }
+.c-surgery { border-left-color: var(--rw-danger); }
+.c-vaccine { border-left-color: var(--rw-info); }
+.c-checkup { border-left-color: var(--rw-grass); }
+.c-dental { border-left-color: var(--rw-bark); }
+.c-grooming { border-left-color: var(--rw-warn); }
+.c-urgent { border-left-color: var(--rw-danger); background: var(--rw-danger-soft); }
 
 .is-done { opacity: 0.6; }
-.is-done .hc-event-title::after { content: ' ✓ 已过窗口'; font-size: 0.75rem; color: #c0392b; }
+.is-done .hc-event-title::after { content: ' ✓ 已过窗口'; font-size: 0.75rem; color: var(--rw-danger); }
 
 .hc-legend { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-bottom: 0.8rem; }
-.hc-leg { font-size: 0.78rem; padding: 0.2rem 0.6rem; border-radius: 999px; background: #fff; border-left: 3px solid; }
+.hc-leg { font-size: 0.78rem; padding: 0.2rem 0.6rem; border-radius: 999px; background: var(--rw-bg-card); border-left: 3px solid; }
 
 .hc-source { font-size: 0.78rem; color: var(--vp-c-text-2); line-height: 1.6; }
 .hc-source a { color: var(--rw-grass, #4a7c3f); word-break: break-all; }

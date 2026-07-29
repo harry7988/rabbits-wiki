@@ -235,9 +235,9 @@ function back() {
 }
 
 const levelMeta = {
-  emergent: { label: '🚨 立即急诊', color: '#c0392b', bg: '#fdecea' },
-  urgent: { label: '当天就医', color: '#b8860b', bg: '#fdf5e6' },
-  watch: { label: '观察', color: '#1a7a3c', bg: '#e8f0e3' }
+  emergent: { label: '🚨 立即急诊', cls: 'triage-emergent' },
+  urgent: { label: '当天就医', cls: 'triage-urgent' },
+  watch: { label: '观察', cls: 'triage-watch' }
 }
 </script>
 
@@ -274,12 +274,9 @@ const levelMeta = {
     <div
       v-else-if="current.result"
       class="triage-result"
-      :style="{
-        borderColor: levelMeta[current.result.level].color,
-        background: levelMeta[current.result.level].bg
-      }"
+      :class="levelMeta[current.result.level].cls"
     >
-      <div class="triage-level" :style="{ color: levelMeta[current.result.level].color }">
+      <div class="triage-level">
         {{ levelMeta[current.result.level].label }}
       </div>
       <div class="triage-title">{{ current.result.title }}</div>
@@ -313,20 +310,26 @@ const levelMeta = {
 .triage-opts { display: flex; flex-direction: column; gap: 0.5rem; }
 .triage-opt {
   text-align: left; padding: 0.7rem 1rem; border-radius: 6px;
-  border: 1px solid var(--vp-c-divider); background: #fff;
+  border: 1px solid var(--vp-c-divider); background: var(--rw-bg-card);
   cursor: pointer; font-size: 0.95rem; transition: all 0.15s;
   display: flex; justify-content: space-between; align-items: center;
 }
 .triage-opt:hover { border-color: var(--rw-grass, #4a7c3f); }
-.triage-opt-emergent { border-left: 4px solid #c0392b; }
-.triage-opt-urgent { border-left: 4px solid #b8860b; }
+.triage-opt-emergent { border-left: 4px solid var(--rw-danger); }
+.triage-opt-urgent { border-left: 4px solid var(--rw-warn); }
 .triage-tag { font-size: 1rem; }
 .triage-result { border: 2px solid; border-radius: 8px; padding: 1.2rem; margin-top: 1rem; }
+.triage-emergent { border-color: var(--rw-danger); background: var(--rw-danger-soft); }
+.triage-emergent .triage-level { color: var(--rw-danger); }
+.triage-urgent { border-color: var(--rw-warn); background: var(--rw-warn-soft); }
+.triage-urgent .triage-level { color: var(--rw-warn); }
+.triage-watch { border-color: var(--rw-grass); background: var(--rw-grass-soft); }
+.triage-watch .triage-level { color: var(--rw-good-text); }
 .triage-level { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; }
 .triage-title { font-size: 1.25rem; font-weight: 800; margin: 0.3rem 0 0.6rem; }
 .triage-advice { line-height: 1.7; margin: 0.5rem 0 1rem; }
 .triage-link {
-  display: inline-block; padding: 0.5rem 1rem; background: #fff;
+  display: inline-block; padding: 0.5rem 1rem; background: var(--rw-bg-card);
   border: 1px solid currentColor; border-radius: 6px; text-decoration: none;
   font-weight: 600; margin-right: 0.5rem;
 }

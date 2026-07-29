@@ -1,6 +1,7 @@
 /**
  * rabbits.wiki 自定义样式
  * 配色：自然、温和，兔毛米色 + 牧草绿 + 急救红
+ * 所有颜色通过 CSS 变量定义，浅/深色模式自动切换
  */
 
 /* 全局字体：确保 emoji 在所有平台正常渲染（含中文字体回退） */
@@ -13,6 +14,7 @@
     monospace, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
+/* ===== 浅色模式（默认）===== */
 :root {
   --rw-cream: #faf6ef;
   --rw-grass: #4a7c3f;
@@ -25,11 +27,73 @@
   --rw-info: #2c6da3;
   --rw-info-soft: #e8f1f8;
 
+  /* 组件用语义色 */
+  --rw-bg-card: #ffffff;          /* 卡片背景 */
+  --rw-bg-input: #ffffff;         /* 输入框背景 */
+  --rw-text-on-danger: #6b1a12;   /* danger 框内文字 */
+  --rw-text-on-warn: #5a4200;     /* warn 框内文字 */
+  --rw-text-on-info: #133a5a;     /* info 框内文字 */
+  --rw-text-on-grass: #2a4a25;    /* grass 框内文字 */
+  --rw-text-on-good: #1a4a25;     /* success 框内文字 */
+  --rw-text-on-avoid: #6b1a12;    /* avoid 框内文字 */
+  --rw-text-on-limit: #5a3a00;    /* limit 框内文字 */
+
   /* 来源分级色 */
   --rw-src-vet: #1a7a3c;       /* 🟢 兽医权威 */
   --rw-src-org: #8a6d00;       /* 🟡 专业组织 */
   --rw-src-exp: #a0522d;       /* 🟠 饲主经验 */
+
+  /* 状态色（成分分析器/植物查询器等） */
+  --rw-good-bg: #e8f5e9;
+  --rw-good-text: #1a7a3c;
+  --rw-warn2-bg: #fff4e0;
+  --rw-warn2-text: #8a4500;
+  --rw-bad-bg: #fdecea;
+  --rw-bad-text: #a02015;
+  --rw-info2-bg: #e8f1f8;
+  --rw-info2-text: #1d4a7a;
 }
+
+/* ===== 深色模式覆盖 ===== */
+.dark {
+  --rw-cream: #1a1a1c;            /* 米色 → 深灰 */
+  --rw-grass: #7ec96a;            /* 牧草绿提亮，确保暗背景上可见 */
+  --rw-grass-soft: #1f2e1c;       /* 草绿软色 → 深绿底 */
+  --rw-bark: #b89968;
+  --rw-danger: #ff6b5b;           /* 急救红提亮 */
+  --rw-danger-soft: #3a1815;      /* 红软色 → 深红底 */
+  --rw-warn: #e0a93b;             /* 警告黄提亮 */
+  --rw-warn-soft: #3a2e10;        /* 黄软色 → 深褐底 */
+  --rw-info: #6db4e0;             /* 信息蓝提亮 */
+  --rw-info-soft: #15273a;        /* 蓝软色 → 深蓝底 */
+
+  /* 组件用语义色（深色） */
+  --rw-bg-card: #232325;          /* 卡片背景 → 深灰 */
+  --rw-bg-input: #1a1a1c;         /* 输入框 → 更深 */
+  --rw-text-on-danger: #ffb8b0;   /* danger 框内文字 → 提亮 */
+  --rw-text-on-warn: #ffd97a;
+  --rw-text-on-info: #a8d4f0;
+  --rw-text-on-grass: #b8e0a8;
+  --rw-text-on-good: #b8e0a8;
+  --rw-text-on-avoid: #ffb8b0;
+  --rw-text-on-limit: #ffd97a;
+
+  /* 来源分级色（提亮） */
+  --rw-src-vet: #7ec96a;
+  --rw-src-org: #e0c050;
+  --rw-src-exp: #d4a070;
+
+  /* 状态色（深色版） */
+  --rw-good-bg: #1a2e1a;
+  --rw-good-text: #7ec96a;
+  --rw-warn2-bg: #2e2410;
+  --rw-warn2-text: #e0a93b;
+  --rw-bad-bg: #2e1815;
+  --rw-bad-text: #ff8a7a;
+  --rw-info2-bg: #15273a;
+  --rw-info2-text: #6db4e0;
+}
+
 
 /* 来源卡片：网格化展示 */
 .source-card {
@@ -55,7 +119,7 @@
   padding: 0.1rem 0.5rem;
   border-radius: 999px;
   font-weight: 600;
-  color: #fff;
+  color: var(--vp-c-white, #fff);
   white-space: nowrap;
 }
 .src-badge.vet { background: var(--rw-src-vet); }
@@ -86,15 +150,15 @@
 .rw-alert .rw-alert-icon { font-size: 1.2rem; line-height: 1.4; flex-shrink: 0; }
 .rw-alert .rw-alert-title { font-weight: 700; margin-bottom: 0.2rem; }
 .rw-alert p { margin: 0.25rem 0; }
-.rw-alert.danger { background: var(--rw-danger-soft); border-left: 5px solid var(--rw-danger); color: #6b1a12; }
-.rw-alert.warn   { background: var(--rw-warn-soft);   border-left: 5px solid var(--rw-warn);   color: #5a4200; }
-.rw-alert.info   { background: var(--rw-info-soft);   border-left: 5px solid var(--rw-info);   color: #133a5a; }
+.rw-alert.danger { background: var(--rw-danger-soft); border-left: 5px solid var(--rw-danger); color: var(--rw-text-on-danger); }
+.rw-alert.warn   { background: var(--rw-warn-soft);   border-left: 5px solid var(--rw-warn);   color: var(--rw-text-on-warn); }
+.rw-alert.info   { background: var(--rw-info-soft);   border-left: 5px solid var(--rw-info);   color: var(--rw-text-on-info); }
 
 /* VetCheck 红色警报：送医信号 */
 .vet-check {
   border: 2px solid var(--rw-danger);
   border-radius: 10px;
-  background: linear-gradient(0deg, var(--rw-danger-soft), #fff);
+  background: linear-gradient(0deg, var(--rw-danger-soft), var(--rw-bg-card));
   padding: 1rem 1.2rem;
   margin: 1.3rem 0;
 }
@@ -135,7 +199,7 @@
   flex-shrink: 0;
   width: 2rem; height: 2rem;
   border-radius: 50%;
-  background: var(--rw-grass); color: #fff;
+  background: var(--rw-grass); color: var(--vp-c-white, #fff);
   display: flex; align-items: center; justify-content: center;
   font-weight: 700;
 }
@@ -187,5 +251,5 @@
   border-radius: 6px;
   margin: 1rem 0;
   font-size: 0.88rem;
-  color: #5a4200;
+  color: var(--rw-text-on-warn);
 }

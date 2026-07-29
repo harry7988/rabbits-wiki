@@ -112,13 +112,13 @@ async function copyMd() {
 
 /* 状态：复制成功 */
 .copy-md-fab-done {
-  background: #1a7a3c;
-  color: #fff !important;
-  border-color: #1a7a3c;
+  background: var(--rw-grass);
+  color: var(--vp-c-white, #fff) !important;
+  border-color: var(--rw-good-text);
 }
 .copy-md-fab-done:hover {
-  background: #155e2e;
-  color: #fff !important;
+  background: var(--rw-grass);
+  color: var(--vp-c-white, #fff) !important;
 }
 
 /* 状态：失败 */

@@ -145,7 +145,7 @@ function print() {
 .ec-wide-block { display: block; margin-top: 0.5rem; }
 .ec-grid input, .ec-wide-block textarea {
   padding: 0.4rem 0.5rem; border: 1px solid var(--vp-c-divider);
-  border-radius: 6px; font-size: 0.9rem; background: #fff; font-family: inherit;
+  border-radius: 6px; font-size: 0.9rem; background: var(--rw-bg-card); font-family: inherit;
   color: var(--vp-c-text-1); font-weight: 400;
 }
 .ec-wide-block textarea { width: 100%; resize: vertical; }
@@ -156,21 +156,21 @@ function print() {
   margin-top: 0.8rem; flex-wrap: wrap;
 }
 .ec-saved {
-  font-size: 0.82rem; color: #1a7a3c; opacity: 0; transition: opacity 0.3s;
+  font-size: 0.82rem; color: var(--rw-good-text); opacity: 0; transition: opacity 0.3s;
 }
 .ec-saved.show { opacity: 1; }
 .ec-actions button {
   padding: 0.45rem 0.9rem; border: 1px solid var(--rw-danger, #c0392b);
-  background: var(--rw-danger, #c0392b); color: #fff;
+  background: var(--rw-danger, #c0392b); color: var(--vp-c-white, #fff);
   border-radius: 6px; cursor: pointer; font-family: inherit; font-size: 0.85rem; font-weight: 600;
 }
-.ec-actions button:hover { background: #a02015; }
+.ec-actions button:hover { background: var(--rw-danger); }
 .ec-privacy {
   margin-top: 0.7rem; font-size: 0.75rem; color: var(--vp-c-text-2);
 }
 @media print {
   .ec-header, .ec-actions, .ec-privacy, .ec-toggle { display: none; }
-  .ec-card { border: 2px solid #000; }
+  .ec-card { border: 2px solid var(--vp-c-text-1); }
   .ec-body { display: block !important; padding: 1rem; }
 }
 </style>

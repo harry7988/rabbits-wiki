@@ -95,8 +95,8 @@ const verdictMap = {
   white-space: nowrap;
 }
 .ing-name { font-weight: 700; white-space: nowrap; }
-.ing-risk { color: #6b1a12; }
-.ing-safe { color: #1a5a3c; }
+.ing-risk { color: var(--rw-text-on-danger); }
+.ing-safe { color: var(--rw-good-text); }
 .ing-verdict {
   display: inline-block;
   padding: 0.2rem 0.55rem;
@@ -105,10 +105,10 @@ const verdictMap = {
   font-weight: 700;
   white-space: nowrap;
 }
-.v-ess { background: #e8f5e9; color: #1a7a3c; }
-.v-lim { background: #fff4e0; color: #8a4500; }
-.v-avd { background: #fdecea; color: #a02015; }
-.v-con { background: #e8f1f8; color: #1d4a7a; }
+.v-ess { background: var(--rw-good-bg); color: var(--rw-good-text); }
+.v-lim { background: var(--rw-warn2-bg); color: var(--rw-warn2-text); }
+.v-avd { background: var(--rw-danger-soft); color: var(--rw-bad-text); }
+.v-con { background: var(--rw-info-soft); color: var(--rw-info2-text); }
 .ing-note {
   font-size: 0.8rem;
   color: var(--vp-c-text-2);

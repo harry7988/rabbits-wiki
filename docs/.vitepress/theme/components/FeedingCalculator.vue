@@ -166,7 +166,7 @@ const activityLabel = { low: '低（关笼/少运动）', normal: '正常（每�
 .fc-row { display: flex; gap: 0.4rem; }
 .fc-input, .fc-select {
   padding: 0.4rem 0.5rem; border: 1px solid var(--vp-c-divider);
-  border-radius: 6px; font-size: 0.95rem; background: #fff; flex: 1;
+  border-radius: 6px; font-size: 0.95rem; background: var(--rw-bg-card); flex: 1;
 }
 .fc-wide { width: 100%; }
 .fc-checkbox label { display: flex; align-items: center; gap: 0.4rem; font-size: 0.95rem; cursor: pointer; padding-top: 1.5rem; }
@@ -177,20 +177,20 @@ const activityLabel = { low: '低（关笼/少运动）', normal: '正常（每�
   margin-bottom: 1rem;
 }
 .fc-result-card {
-  background: #fff; border-radius: 8px; padding: 0.9rem 1rem;
+  background: var(--rw-bg-card); border-radius: 8px; padding: 0.9rem 1rem;
   border-left: 4px solid var(--vp-c-divider);
 }
 .fc-hay { border-left-color: var(--rw-grass, #4a7c3f); }
-.fc-pellets { border-left-color: #b8860b; }
-.fc-veg { border-left-color: #2c6da3; }
-.fc-fruit { border-left-color: #a0522d; }
+.fc-pellets { border-left-color: var(--rw-warn); }
+.fc-veg { border-left-color: var(--rw-info); }
+.fc-fruit { border-left-color: var(--rw-src-exp); }
 .fc-cat { font-weight: 700; font-size: 0.85rem; color: var(--vp-c-text-2); margin-bottom: 0.3rem; }
 .fc-val { font-size: 0.95rem; line-height: 1.55; }
 .fc-val strong { font-size: 1.1rem; color: var(--rw-grass, #4a7c3f); }
 .fc-val small { display: block; color: var(--vp-c-text-2); font-size: 0.78rem; margin-top: 0.2rem; }
 .fc-warn {
   background: var(--rw-warn-soft, #fdf5e6); border-left: 4px solid var(--rw-warn, #b8860b);
-  padding: 0.7rem 0.9rem; border-radius: 4px; font-size: 0.85rem; color: #5a4200;
+  padding: 0.7rem 0.9rem; border-radius: 4px; font-size: 0.85rem; color: var(--rw-text-on-warn);
   margin-bottom: 0.8rem;
 }
 .fc-source { font-size: 0.78rem; color: var(--vp-c-text-2); line-height: 1.6; }

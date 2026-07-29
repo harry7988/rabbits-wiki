@@ -153,11 +153,11 @@ const doseResult = computed(() => {
 }
 .mc-select {
   padding: 0.4rem 0.5rem; border: 1px solid var(--vp-c-divider);
-  border-radius: 6px; font-size: 0.95rem; background: #fff;
+  border-radius: 6px; font-size: 0.95rem; background: var(--rw-bg-card);
 }
 .mc-wide { flex: 1; min-width: 220px; }
 .mc-result {
-  background: #fff; border: 1px solid var(--rw-grass, #4a7c3f);
+  background: var(--rw-bg-card); border: 1px solid var(--rw-grass, #4a7c3f);
   border-left: 5px solid var(--rw-grass, #4a7c3f);
   border-radius: 8px; padding: 1rem 1.2rem; margin: 0.5rem 0;
 }
@@ -169,7 +169,7 @@ const doseResult = computed(() => {
 .mc-warn {
   background: var(--rw-warn-soft, #fdf5e6); border-left: 3px solid var(--rw-warn, #b8860b);
   padding: 0.5rem 0.8rem; border-radius: 4px; margin-top: 0.7rem;
-  font-size: 0.85rem; color: #5a4200;
+  font-size: 0.85rem; color: var(--rw-text-on-warn);
 }
 .mc-source {
   display: block; font-size: 0.85rem; color: var(--rw-grass, #4a7c3f);
@@ -178,6 +178,6 @@ const doseResult = computed(() => {
 .mc-disclaimer {
   margin-top: 1rem; padding: 0.7rem 0.9rem;
   background: var(--rw-danger-soft, #fdecea); border-left: 4px solid var(--rw-danger, #c0392b);
-  border-radius: 4px; font-size: 0.85rem; color: #6b1a12;
+  border-radius: 4px; font-size: 0.85rem; color: var(--rw-text-on-danger);
 }
 </style>
