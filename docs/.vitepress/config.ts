@@ -141,6 +141,7 @@ export default defineConfig({
           items: [
             { text: '养育总览', link: '/care/' },
             { text: '绝育与绝育后护理', link: '/care/spay-neuter' },
+            { text: '🦷 牙齿健康（吃草=磨牙）', link: '/care/dental' },
             { text: '幼兔养育（0–7 月龄）', link: '/care/baby-rabbit' },
             { text: '老年兔照护（5+ 岁）', link: '/care/senior-rabbit' },
             { text: '新兔到家与适应期', link: '/care/bringing-home' },
