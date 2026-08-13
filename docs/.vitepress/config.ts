@@ -82,6 +82,7 @@ export default defineConfig({
       { text: '消化科普', link: '/digest/' },
       { text: '急症处置', link: '/emergencies/' },
       { text: '日常养育', link: '/care/' },
+      { text: '操作技能', link: '/handling/' },
       { text: '兔品种', link: '/breeds/' },
       { text: '常备药与用品', link: '/supplies/' },
       { text: '更多', items: [
@@ -150,6 +151,23 @@ export default defineConfig({
             { text: '兔兔行为解读', link: '/care/behavior' },
             { text: '定点如厕训练', link: '/care/litter-training' },
             { text: '日常护理清单', link: '/care/daily-care' }
+          ]
+        }
+      ],
+      '/handling/': [
+        {
+          text: '操作技能（动手必备）',
+          collapsed: false,
+          items: [
+            { text: '操作技能总览', link: '/handling/' },
+            { text: '🐰 抱起与持有兔子', link: '/handling/picking-up' },
+            { text: '💊 喂药与强制喂食', link: '/handling/medicating' },
+            { text: '✂️ 剪指甲', link: '/handling/nail-trimming' },
+            { text: '🌡️ 量体温', link: '/handling/temperature' },
+            { text: '🌯 保定/毛巾包裹', link: '/handling/restraining' },
+            { text: '🔍 在家身体检查', link: '/handling/health-check' },
+            { text: '🚗 运输兔子', link: '/handling/transport' },
+            { text: '🧹 环境清洁', link: '/handling/cleaning' }
           ]
         }
       ],
