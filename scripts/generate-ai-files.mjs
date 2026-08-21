@@ -142,6 +142,16 @@ function purifyForAI(content, frontmatter) {
     'CopyMarkdownButton': ''
   }
 
+  // <PromptCard title scene>（fenced code）</PromptCard> → 指令块标记
+  out = out.replace(/<PromptCard\b([^>]*)>/g, (m, attrs) => {
+    const t = attrs.match(/title="([^"]*)"/)
+    const sc = attrs.match(/scene="([^"]*)"/)
+    let head = `**📋 复制给 AI 的共创指令：${t ? t[1] : ''}**`
+    if (sc) head += `\n\n_${sc[1]}_\n`
+    return head + '\n'
+  })
+  out = out.replace(/<\/PromptCard>/g, '')
+
   // <BiliVideo bvid title up note /> → 可读的视频引用（多行属性）
   out = out.replace(/<BiliVideo\b([^]*?)\/>/g, (m, attrs) => {
     const get = (k) => {
