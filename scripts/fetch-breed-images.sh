@@ -93,6 +93,15 @@ for entry in "${ENTRIES[@]}"; do
   fi
 done
 
+# 压缩为 web 友好尺寸（本地 macOS 用 sips；runner 用 ImageMagick；都没有则保留 960px）
+if command -v sips >/dev/null 2>&1; then
+  for f in "$OUT_DIR"/*.jpg; do sips -s format jpeg -s formatOptions 78 --resampleWidth 800 "$f" --out "$f" >/dev/null 2>&1; done
+elif command -v magick >/dev/null 2>&1; then
+  for f in "$OUT_DIR"/*.jpg; do magick "$f" -resize '800x800>' -quality 78 "$f"; done
+elif command -v convert >/dev/null 2>&1; then
+  for f in "$OUT_DIR"/*.jpg; do convert "$f" -resize '800x800>' -quality 78 "$f"; done
+fi
+
 jq -s '.' /tmp/credits.ndjson > "$OUT_DIR/credits.json"
 log "=== 完成。失败:${FAIL:-无} ==="
 
