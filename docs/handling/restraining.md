@@ -85,6 +85,15 @@ lastReviewed: 2026-07-30
 - **健康时练**：不要只在喂苦药时才包裹（兔会把毛巾和坏事关联）
 - **温和坚定**：兔能感知你的犹豫，越犹豫它越挣扎
 
+## 六、视频教程
+
+<BiliVideo
+  bvid="BV1Du4y1X7cQ"
+  title="兔兔喂药必学手法之如何包毛巾卷 | 兽医演示 vs. 翻车实操"
+  up="kkathw"
+  note="毛巾卷 burrito 的完整动作（兽医演示 + 翻车对比）"
+/>
+
 <SourceList>
 
 <a id="ref1"></a>

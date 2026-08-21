@@ -134,6 +134,15 @@ GI Stasis 时兔不愿进食，必须强制喂食维持营养和肠蠕动<cite><
 兔的眼部问题多数根源在牙齿（牙根压迫鼻泪管）。详见[牙齿健康](../care/dental)。
 </Info>
 
+## 七、视频教程
+
+<BiliVideo
+  bvid="BV1Du4y1X7cQ"
+  title="兔兔喂药必学手法之如何包毛巾卷 | 兽医演示 vs. 翻车实操"
+  up="kkathw"
+  note="毛巾卷（burrito）保定 + 喂药手法的兽医演示，含常见翻车对比"
+/>
+
 <SourceList>
 
 <a id="ref1"></a>

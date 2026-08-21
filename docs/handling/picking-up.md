@@ -97,6 +97,22 @@ HRS 明确警告：**只抓颈背部（scruff）而不支撑后腿，兔踢蹬�
 - 抽搐的兔（**绝对不要约束**，见[抽搐处置](../emergencies/seizures)）
 - 怀疑脊柱骨折的兔（平硬表面搬运，见[骨折处置](../emergencies/fractures)）
 
+## 八、视频教程
+
+<BiliVideo
+  bvid="BV1Ub4y1X7gZ"
+  title="如何抱兔子教程｜轻松搞定不愿意被抱的兔兔"
+  up="老三是只兔子"
+  note="新手向：一手扣腋下一手托臀的完整动作分解"
+/>
+
+<BiliVideo
+  bvid="BV14a4y177oY"
+  title="如何正确抱兔子"
+  up="知兔有家"
+  note="原理向：为什么不能抓耳朵/悬空，兔科普 UP 出品"
+/>
+
 <SourceList>
 
 <a id="ref1"></a>
