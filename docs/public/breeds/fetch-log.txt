@@ -1,0 +1,111 @@
+>> [holland-lop] 下载 Holland lop rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Holland_lop_rabbit.jpg/800px-Holland_lop_rabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [holland-lop] 下载 Holland Lop.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Holland_Lop.jpg/800px-Holland_Lop.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [holland-lop] 两个候选均失败
+>> [mini-lop] 下载 Mini lop.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mini_lop.jpg/800px-Mini_lop.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [mini-lop] 下载 Miniature Lop - Side View.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Miniature_Lop_-_Side_View.jpg/800px-Miniature_Lop_-_Side_View.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [mini-lop] 两个候选均失败
+>> [netherland-dwarf] 下载 Netherland Dwarf On Brick.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Netherland_Dwarf_On_Brick.jpg/800px-Netherland_Dwarf_On_Brick.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [netherland-dwarf] 下载 Netherlands dwarf rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Netherlands_dwarf_rabbit.jpg/800px-Netherlands_dwarf_rabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [netherland-dwarf] 两个候选均失败
+>> [lionhead] 下载 Lionhead rabbit Dobby.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Lionhead_rabbit_Dobby.jpg/800px-Lionhead_rabbit_Dobby.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [lionhead] 下载 Lionhead bunny.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lionhead_bunny.jpg/800px-Lionhead_bunny.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [lionhead] 两个候选均失败
+>> [mini-rex] 下载 Daisy the Mini Rex Rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Daisy_the_Mini_Rex_Rabbit.jpg/800px-Daisy_the_Mini_Rex_Rabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [mini-rex] 下载 Mini rex bunny.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mini_rex_bunny.jpg/800px-Mini_rex_bunny.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [mini-rex] 两个候选均失败
+>> [rex] 下载 Lapin rex castor.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Lapin_rex_castor.jpg/800px-Lapin_rex_castor.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [rex] 下载 45-rex-castor.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/45-rex-castor.jpg/800px-45-rex-castor.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [rex] 两个候选均失败
+>> [angora] 下载 EnglishAngoraRabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/EnglishAngoraRabbit.jpg/800px-EnglishAngoraRabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [angora] 下载 White Satin Angora Rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/White_Satin_Angora_Rabbit.jpg/800px-White_Satin_Angora_Rabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [angora] 两个候选均失败
+>> [dutch] 下载 American Grand Champion Dutch Rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/American_Grand_Champion_Dutch_Rabbit.jpg/800px-American_Grand_Champion_Dutch_Rabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [dutch] 下载 Dutch rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Dutch_rabbit.jpg/800px-Dutch_rabbit.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [dutch] 两个候选均失败
+>> [hotot] 下载 Hotot Rabbit!.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Hotot_Rabbit!.jpg/800px-Hotot_Rabbit!.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [hotot] 下载 Blanc De Hotot.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Blanc_De_Hotot.jpg/800px-Blanc_De_Hotot.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [hotot] 两个候选均失败
+>> [flemish-giant] 下载 Flemish Giant.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Flemish_Giant.jpg/800px-Flemish_Giant.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+>> [flemish-giant] 下载 Sandy Flemish Giant.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sandy_Flemish_Giant.jpg/800px-Sandy_Flemish_Giant.jpg
+  HTTP 400 2009B
+  mime=text/html size=2009
+   失败，尝试备选
+!! [flemish-giant] 两个候选均失败
+=== 完成。失败: holland-lop mini-lop netherland-dwarf lionhead mini-rex rex angora dutch hotot flemish-giant ===
