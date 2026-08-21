@@ -27,7 +27,7 @@ GitHub、Markdown、命令行这些事不需要你会——**复制下面的指�
 <PromptCard title="AI 带我在 GitHub 上提交纠错" scene="适合：发现页面有错别字、失效链接、过时信息、内容错误。完全不需要懂 GitHub。">
 
 ```
-我想给 rabbits.wiki（GitHub 上一个叫 rabbits-wiki/rabbits.wiki 的 VitePress 兔子科普网站仓库）贡献一个修改，但我完全不会用 GitHub 和命令行，请全程一步步带我操作。要求：每一步只告诉我该打开什么网页、点什么按钮、在哪里输入什么内容，等我确认完成这一步之后再给我下一步，不要一次给我全部步骤。
+我想给一个叫 rabbits.wiki 的 VitePress 兔子科普网站贡献修改，它的 GitHub 仓库地址是 {{REPO_URL}}。我完全不会用 GitHub 和命令行，请全程一步步带我操作。要求：每一步只告诉我该打开什么网页、点什么按钮、在哪里输入什么内容，等我确认完成这一步之后再给我下一步，不要一次给我全部步骤。
 
 我要做的事：修正一个内容错误。
 
@@ -75,7 +75,7 @@ GitHub、Markdown、命令行这些事不需要你会——**复制下面的指�
 <PromptCard title="从 Fork 到上线，AI 全程带办" scene="适合：想完整体验贡献流程、或改动较大想先本地预览效果的人。">
 
 ```
-我想给 GitHub 仓库 rabbits-wiki/rabbits.wiki（VitePress 网站）贡献内容，请全程一步步带我：从 Fork 仓库、在网页上编辑文件、（可选）本地跑起来预览，到提交 Pull Request。我完全零基础。
+我想给一个 VitePress 网站的 GitHub 仓库（地址：{{REPO_URL}}）贡献内容，请全程一步步带我：从 Fork 仓库、在网页上编辑文件、（可选）本地跑起来预览，到提交 Pull Request。我完全零基础。
 
 我的电脑系统：【Windows / macOS】
 我想做的事：【写新页面 / 大幅修改某页 / 翻译】
@@ -117,7 +117,7 @@ GitHub、Markdown、命令行这些事不需要你会——**复制下面的指�
 Fork 仓库 → 在 docs/ 编辑 Markdown → 本地预览 (npm run dev) → 提交 PR → 审核合并
 ```
 
-1. **Fork** 仓库 `rabbits-wiki/rabbits.wiki`
+1. **Fork** 本站仓库（地址就是右上角 GitHub 图标指向的仓库）
 2. 在 `docs/` 下新建或编辑 Markdown 文件
 3. 本地预览：`npm install && npm run dev`
 4. 提交 **Pull Request**，按 PR 模板填写
@@ -200,7 +200,7 @@ lastReviewed: 2026-07-27              # 医疗内容最后核查日期
 ## 六、提 Issue 纠错
 
 发现错误？来源失效？结论过时？
-👉 [提 Issue](https://github.com/rabbits-wiki/rabbits.wiki/issues)
+👉 提 Issue：点本站右上角 GitHub 图标进入仓库，选 Issues → New issue
 
 我们鼓励"纠错 PR"，哪怕只修一个错别字或一个失效链接。
 
