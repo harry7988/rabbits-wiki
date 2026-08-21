@@ -24,7 +24,7 @@ const DOCS = join(ROOT, 'docs')
 const DIST = join(DOCS, '.vitepress', 'dist')
 const MD_DIST = join(DIST, 'md')
 
-const SITE = 'https://www.rabbits.wiki'
+const SITE = 'https://rabbits.wiki'
 
 // ============ 1. 收集所有 .md 内容文件 ============
 function walkMd(dir, acc = []) {

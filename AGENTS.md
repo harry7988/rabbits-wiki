@@ -11,7 +11,7 @@
 
 - 框架：**VitePress 1.x**（Vue 3 SSG）
 - 内容：`docs/**/*.md`（73 页）+ 自定义 Vue 组件（20 个）
-- 部署：GitHub Actions → GitHub Pages，自定义域 `https://www.rabbits.wiki`
+- 部署：GitHub Actions → GitHub Pages，自定义域 `https://rabbits.wiki`
 - 仓库：`github.com/harry7988/rabbits-wiki`（**不要在内容里写死此地址**，见"红线"）
 
 ## 命令

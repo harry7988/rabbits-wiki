@@ -22,6 +22,6 @@ Allow: /
 
 # AI Agent 协议文件（本站欢迎 Agent 访问）
 # robots.txt（爬虫）· agents.md（Agent 指南）· llms.txt（LLM 索引）· graph.json（知识图谱）
-Sitemap: https://www.rabbits.wiki/sitemap.xml
-Agents-md: https://www.rabbits.wiki/agents.md
-LLMs-txt: https://www.rabbits.wiki/llms.txt
+Sitemap: https://rabbits.wiki/sitemap.xml
+Agents-md: https://rabbits.wiki/agents.md
+LLMs-txt: https://rabbits.wiki/llms.txt

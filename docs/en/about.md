@@ -46,4 +46,4 @@ This site can help you understand your rabbit's body, recognize emergency signal
 
 ## Machine-readable policies
 
-For AI agents and search engines: [`/agents.md`](https://www.rabbits.wiki/agents.md) · [`/llms.txt`](https://www.rabbits.wiki/llms.txt) · [`/graph.json`](https://www.rabbits.wiki/graph.json)
+For AI agents and search engines: [`/agents.md`](https://rabbits.wiki/agents.md) · [`/llms.txt`](https://rabbits.wiki/llms.txt) · [`/graph.json`](https://rabbits.wiki/graph.json)
