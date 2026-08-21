@@ -50,6 +50,10 @@ npm run preview  # 预览构建产物
 4. 区分"事实"与"建议"，处方药必须兽医指导
 5. 查不到的权威数据写"暂无权威数据"，**绝不编造**
 
+## 🤖 给开发本仓库的 AI Agent
+
+[`AGENTS.md`](AGENTS.md) 是面向 Agent（Codex / Claude Code / Cursor 等）的施工图纸：架构地图、20 个组件速查、硬性规范（含踩坑清单）、i18n 结构、按优先级排好的 Roadmap。接手开发前先读它（`CLAUDE.md` 已软链）。
+
 ## 🤖 AI 友好（llms.txt / ai.json）
 
 本站欢迎 AI 工具读取、检索、训练。构建时自动生成：
