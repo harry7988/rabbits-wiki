@@ -1,0 +1,32 @@
+name: Fetch breed images
+
+# 手动触发：从 Wikimedia Commons 拉取品种照片与许可元数据，提交回仓库。
+# 背景：wikimedia 对无自述 UA 的请求与共享代理 IP 均拒绝，本地网络不可达，
+# 由 runner（可直连 + 合规 UA）代为下载。图片落地 docs/public/breeds/ 实现自托管，
+# 避免 upload.wikimedia.org 在部分地区不可达导致破图。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download images & credits
+        run: bash scripts/fetch-breed-images.sh
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/public/breeds
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore(images): fetch breed photos from Wikimedia Commons (with credits)"
+            git push
+          fi
