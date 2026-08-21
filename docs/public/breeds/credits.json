@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "file": "Holland lop rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Holland_lop_rabbit.jpg",
+    "artist": "Harold Cecchetti",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Holland_lop_rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "holland-lop"
+  },
+  {
+    "file": "Mini lop.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mini_lop.jpg",
+    "artist": "Franie Frou Frou",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "credit": "CC picture from Flickr (https://www.flickr.com/photos/franie/523631896/in/set-72157594335678160)",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Mini_lop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "mini-lop"
+  },
+  {
+    "file": "Netherland Dwarf On Brick.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Netherland_Dwarf_On_Brick.jpg",
+    "artist": "Erebus555 at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Transferred from en.wikipedia",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/7/71/Netherland_Dwarf_On_Brick.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "netherland-dwarf"
+  },
+  {
+    "file": "Lionhead rabbit Dobby.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Lionhead_rabbit_Dobby.jpg",
+    "artist": "Emmaima",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Lionhead_rabbit_Dobby.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "lionhead"
+  },
+  {
+    "file": "Daisy the Mini Rex Rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Daisy_the_Mini_Rex_Rabbit.jpg",
+    "artist": "Samantha Luckett",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Daisy_the_Mini_Rex_Rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "mini-rex"
+  },
+  {
+    "file": "Lapin rex castor.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Lapin_rex_castor.jpg",
+    "artist": "Thomon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/1/14/Lapin_rex_castor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "rex"
+  },
+  {
+    "file": "EnglishAngoraRabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:EnglishAngoraRabbit.jpg",
+    "artist": "?",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/EnglishAngoraRabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "angora"
+  },
+  {
+    "file": "American Grand Champion Dutch Rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:American_Grand_Champion_Dutch_Rabbit.jpg",
+    "artist": "Bunnybri",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work  Transferred from en.wikipedia",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/American_Grand_Champion_Dutch_Rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "dutch"
+  },
+  {
+    "file": "Hotot Rabbit!.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Hotot_Rabbit!.jpg",
+    "artist": "Carly &amp; Art",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "originally posted to Flickr as S.S. Petunia, listing hard to port!",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Hotot_Rabbit%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "hotot"
+  },
+  {
+    "file": "Flemish Giant.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Flemish_Giant.jpg",
+    "artist": "DestinationFearFan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Flemish_Giant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "flemish-giant"
+  }
+]
