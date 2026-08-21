@@ -60,14 +60,24 @@
     "breed": "rex"
   },
   {
-    "file": "Angora rabbit.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Angora_rabbit.jpg",
-    "artist": "Avro52",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "credit": "Own work",
-    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Angora_rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "breed": "angora"
+    "file": "White Satin Angora Rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:White_Satin_Angora_Rabbit.jpg",
+    "artist": "Lanafactum -- https://www.lanafactum.at",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "sent to me by the author for publication",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/White_Satin_Angora_Rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "angora-satin"
+  },
+  {
+    "file": "EnglishAngoraRabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:EnglishAngoraRabbit.jpg",
+    "artist": "?",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/EnglishAngoraRabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "angora-english"
   },
   {
     "file": "American Grand Champion Dutch Rabbit.jpg",

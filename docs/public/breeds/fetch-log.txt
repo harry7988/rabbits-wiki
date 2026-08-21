@@ -20,18 +20,23 @@
    元数据 OK
 >> [mini-rex] 下载 Mini rex bunny.jpg
   GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Mini_rex_bunny.jpg/960px-Mini_rex_bunny.jpg
-  HTTP 200 101301B
-  mime=image/jpeg size=101301
+  HTTP 200 101353B
+  mime=image/jpeg size=101353
    元数据 OK
 >> [rex] 下载 Lapin rex castor.jpg
   GET https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Lapin_rex_castor.jpg/960px-Lapin_rex_castor.jpg
   HTTP 200 255209B
   mime=image/jpeg size=255209
    元数据 OK
->> [angora] 下载 Angora rabbit.jpg
-  GET https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Angora_rabbit.jpg/960px-Angora_rabbit.jpg
-  HTTP 200 215399B
-  mime=image/jpeg size=215399
+>> [angora-satin] 下载 White Satin Angora Rabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/White_Satin_Angora_Rabbit.jpg/960px-White_Satin_Angora_Rabbit.jpg
+  HTTP 200 72053B
+  mime=image/jpeg size=72053
+   元数据 OK
+>> [angora-english] 下载 EnglishAngoraRabbit.jpg
+  GET https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/EnglishAngoraRabbit.jpg/960px-EnglishAngoraRabbit.jpg
+  HTTP 200 145285B
+  mime=image/jpeg size=145285
    元数据 OK
 >> [dutch] 下载 American Grand Champion Dutch Rabbit.jpg
   GET https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/American_Grand_Champion_Dutch_Rabbit.jpg/960px-American_Grand_Champion_Dutch_Rabbit.jpg
