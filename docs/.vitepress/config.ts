@@ -143,6 +143,7 @@ export default defineConfig({
             { text: '养育总览', link: '/care/' },
             { text: '绝育与绝育后护理', link: '/care/spay-neuter' },
             { text: '🦷 牙齿健康（吃草=磨牙）', link: '/care/dental' },
+            { text: '🛒 新兔准备清单（照着买）', link: '/care/new-rabbit-checklist' },
             { text: '幼兔养育（0–7 月龄）', link: '/care/baby-rabbit' },
             { text: '老年兔照护（5+ 岁）', link: '/care/senior-rabbit' },
             { text: '新兔到家与适应期', link: '/care/bringing-home' },
@@ -196,6 +197,8 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '家庭药箱清单', link: '/supplies/' },
+            { text: '🥬 能吃什么（安全食物总表）', link: '/supplies/food-safe' },
+            { text: '⛔ 不能吃什么（危险清单）', link: '/supplies/food-unsafe' },
             { text: '兔粮如何选择（成分/国标）', link: '/supplies/pellets' },
             { text: '常备药品', link: '/supplies/medicines' },
             { text: '益生菌', link: '/supplies/probiotics' },

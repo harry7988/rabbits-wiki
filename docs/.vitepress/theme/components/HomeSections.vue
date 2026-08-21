@@ -46,6 +46,7 @@
           <ul class="topic-list">
             <li><a href="/care/spay-neuter">绝育（防子宫癌）</a></li>
             <li><a href="/care/dental">牙齿健康：吃草 = 磨牙</a></li>
+            <li><a href="/care/new-rabbit-checklist">新兔准备清单</a></li>
             <li><a href="/care/baby-rabbit">幼兔养育</a></li>
             <li><a href="/care/behavior">行为解读</a></li>
           </ul>
@@ -74,6 +75,7 @@
         <nav class="topic">
           <h3 class="topic-name"><a href="/supplies/">常备药与兔粮</a></h3>
           <ul class="topic-list">
+            <li><a href="/supplies/food-safe">能吃什么 · 不能吃什么</a></li>
             <li><a href="/supplies/pellets">兔粮怎么选（成分与国标）</a></li>
             <li><a href="/supplies/hairball-remedy">化毛膏的真相</a></li>
             <li><a href="/supplies/">家庭药箱清单</a></li>

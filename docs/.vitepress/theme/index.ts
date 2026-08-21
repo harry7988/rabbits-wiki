@@ -17,6 +17,7 @@ import DehydrationCheck from './components/DehydrationCheck.vue'
 import SymptomTriage from './components/SymptomTriage.vue'
 import FAQItem from './components/FAQItem.vue'
 import IngredientTable from './components/IngredientTable.vue'
+import CheckList from './components/CheckList.vue'
 import CopyMarkdownButton from './components/CopyMarkdownButton.vue'
 import FeedingCalculator from './components/FeedingCalculator.vue'
 import PelletAnalyzer from './components/PelletAnalyzer.vue'
@@ -48,6 +49,7 @@ export default {
     app.component('SymptomTriage', SymptomTriage)
     app.component('FAQItem', FAQItem)
     app.component('IngredientTable', IngredientTable)
+    app.component('CheckList', CheckList)
     app.component('FeedingCalculator', FeedingCalculator)
     app.component('PelletAnalyzer', PelletAnalyzer)
     app.component('HealthCalendar', HealthCalendar)
