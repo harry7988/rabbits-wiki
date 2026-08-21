@@ -6,6 +6,11 @@ name: Fetch breed images
 # 避免 upload.wikimedia.org 在部分地区不可达导致破图。
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/fetch-breed-images.sh
+      - .github/workflows/fetch-images.yml
 
 permissions:
   contents: write
