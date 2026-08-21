@@ -124,7 +124,7 @@ lastReviewed: 2026-07-30
   author="新华网"
   url="https://app.xinhuanet.com/news/article.html?articleId=664e47eb1d71f99b2fb2355dc928a3f4"
   accessed="2026-07-30"
-  level="vet"
+  level="org"
   note="2026 年高铁宠物托运 110 站、558-1258 元。"
 />
 

@@ -19,7 +19,7 @@ lastReviewed: 2026-07-27
 | **未食用的盲肠便** | 软团状、深褐色、有"葡萄串"结构，糊在肛门周围 | 通常不致命 | 调整饮食（增纤维、减碳水蛋白）、控制体重 |
 | **真性腹泻** | **水样、液态、可能带黏液或血** | **极其危险，尤其幼兔** | **立即就医** |
 
-> House Rabbit Society 明确指出：**"Severe diarrhea causes such rapid dehydration, diarrhea can be life threatening"**<cite><a href="#ref1">[1]</a></cite>。
+> House Rabbit Society 明确指出：**"Severe diarrhea causes such rapid dehydration that it can be life threatening"**<cite><a href="#ref1">[1]</a></cite>。
 
 ## 二、症状识别（真性腹泻）
 

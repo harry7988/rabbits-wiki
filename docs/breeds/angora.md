@@ -18,7 +18,7 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
 
 ## 一、四个安哥拉品种对比
 
-| 品种 | 体重（ARBA） | 年产毛量 | 护理难度 | 特征 |
+| 品种 | 体重（约数，各标准略有差异） | 年产毛量（行业约数） | 护理难度（相对） | 特征 |
 |---|---|---|---|---|
 | **English Angora** | 6–7.5 lbs | ~20 oz/年 | **高**（频繁梳理、易打结） | 唯一 compact 型；耳/脸/腿覆满长绒，整个身体呈"绒球" |
 | **French Angora** | 8–10.5 lbs | ~1 lb/年 | **低**（公认最易打理） | 椭圆常规体型；脸、耳、前腿干净无毛须 |
@@ -70,7 +70,7 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
   url="https://www.petmd.com/rabbit/breeds/angora-rabbit"
   accessed="2026-07-27"
   level="vet"
-  note="四个 ARBA 认可品种的体重、产毛量、护理难度对比。"
+  note="安哥拉品种类别、毛发月增约 1 英寸、整体体重范围与护理要点。分品种数字为行业通行约数，非该页数据。"
 />
 
 <SourceCard
@@ -78,7 +78,7 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
   author="The Cape Coop"
   url="https://thecapecoop.com/what-breed-angora-rabbit-is-right-for-you/"
   accessed="2026-07-27"
-  level="vet"
+  level="exp"
   note="French Angora 公认最易打理的实操指南。"
 />
 
@@ -87,7 +87,7 @@ ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都
   author="Wikipedia"
   url="https://en.wikipedia.org/wiki/Angora_rabbit"
   accessed="2026-07-27"
-  level="vet"
+  level="exp"
 />
 
 </SourceList>

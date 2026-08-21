@@ -137,7 +137,7 @@ lastReviewed: 2026-07-28
     name: '乙氧基喹 (ethoxyquin)',
     role: '合成抗氧化剂（防腐）',
     risk: 'EFSA 无法确立安全剂量、不能排除基因毒性。EU 2022 年彻底禁用',
-    safe: '无安全剂量。主流优质品牌（Oxbow/Mazuri/Science Selective）已用天然生育酚替代',
+    safe: '无安全剂量。抽查的主流品牌配料表（Oxbow/Mazuri/Science Selective）显示已改用天然生育酚',
     verdict: 'avoid',
     source: 'EFSA; EU 2022/1375'
   },
@@ -161,7 +161,7 @@ lastReviewed: 2026-07-28
     name: '人工色素 (Red 40 / Yellow 5 等)',
     role: '纯视觉营销——兔 dichromatic 视觉对色彩不敏感',
     risk: 'CSPI 报告：受 benzidine 等致癌物污染；Red 40 在小鼠模型致 DNA 损伤',
-    safe: '兔完全不需要。主流优质成兔粮均无人工色素',
+    safe: '兔完全不需要。抽查的主流成兔粮配料表均未含人工色素',
     verdict: 'avoid',
     source: 'CSPI Rainbow of Risks'
   },
@@ -177,7 +177,7 @@ lastReviewed: 2026-07-28
     name: '种子/坚果/水果干混合粮 (muesli)',
     role: '高糖高脂零食混合',
     risk: '兔会挑食留下低能部分；高糖>20% 高脂>5%；FEDIAF/Merck/UK PFMA 一致建议避免',
-    safe: '仅偶尔作训练零食（每日 1–2 汤匙水果/5 lb 体重）。不可当主食',
+    safe: '仅偶尔作训练零食（每周 1–2 次，每 2 lb 约 1 茶匙，与 food-safe 页统一口径）。不可当主食',
     verdict: 'avoid',
     source: 'Merck; HRS; FEDIAF'
   },
@@ -193,7 +193,7 @@ lastReviewed: 2026-07-28
     name: '钠基膨润土 (bentonite)',
     role: '颗粒粘合剂 + 霉菌毒素吸附剂',
     risk: '改性产品（烧碱/重金属污染）有风险',
-    safe: '天然钠基膨润土公认无毒，欧盟法定兔料上限 2%。Oxbow 含 bentonite（位次靠后）属安全惰性辅料',
+    safe: '天然钠基膨润土公认无毒，欧盟法定兔料上限 2%。Oxbow 配料表含 bentonite（位次靠后）',
     verdict: 'limit',
     source: 'Lebas 2021 综述'
   }
@@ -301,7 +301,7 @@ lastReviewed: 2026-07-28
 
 | 误区 | 真相 |
 |---|---|
-| **『纯天然无添加就是好』** | 无防腐剂的饲料易霉变，**霉菌毒素（黄曲霉毒素，兔限 5 ppm）远比合规防腐剂危险** |
+| **『纯天然无添加就是好』** | 无防腐剂的饲料易霉变，**霉菌毒素（黄曲霉毒素，国标饲料限量 20 μg/kg 级）远比合规防腐剂危险** |
 | **『配料表越短越好』** | 看具体配料——维矿物质预混料是必要的，不能一刀切 |
 | **『高蛋白就是好营养』** | 成兔高蛋白加重肾脏和盲肠负担；FEDIAF 上限 17% |
 | **『维生素越多越好』** | 脂溶性维 A/D 蓄积中毒（维 D SUL 2000 IU/kg）|

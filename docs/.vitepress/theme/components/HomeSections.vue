@@ -68,7 +68,7 @@
             <li><a href="/digest/cecotropes">兔为什么吃自己的便便</a></li>
             <li><a href="/digest/key-traits">兔不能呕吐等关键特性</a></li>
             <li><a href="/digest/hindgut-fermentation">为什么必须吃草</a></li>
-            <li><a href="/breeds/">品种百科（11 种）</a></li>
+            <li><a href="/breeds/">品种百科（10 个品种）</a></li>
           </ul>
         </nav>
 
@@ -79,7 +79,7 @@
             <li><a href="/supplies/pellets">兔粮怎么选（成分与国标）</a></li>
             <li><a href="/supplies/hairball-remedy">化毛膏的真相</a></li>
             <li><a href="/supplies/">家庭药箱清单</a></li>
-            <li><a href="/faq/">高频问答 60+</a></li>
+            <li><a href="/faq/">高频问答 39 问</a></li>
           </ul>
         </nav>
       </div>

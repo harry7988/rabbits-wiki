@@ -1,6 +1,6 @@
 ---
 title: 道奇兔 / 熊猫兔 Dutch
-description: 道奇兔（中文常称熊猫兔）——ARBA 上限 5.5 lbs，聪明友好可训练，首次饲主首选。含与 Hotot 兔的消歧义。
+description: 道奇兔（中文常称熊猫兔）——ARBA 上限 5.5 lbs，聪明友好可训练，常被列为适合首次饲养的品种之一。含与 Hotot 兔的消歧义。
 lastReviewed: 2026-07-27
 ---
 
@@ -18,7 +18,7 @@ lastReviewed: 2026-07-27
 <BreedCard
   name="道奇兔 / 熊猫兔 Dutch"
   weight="3.5–5.5 lbs（ARBA 上限 5.5 lbs / 2.5 kg）"
-  lifespan="5–10 年（可达 8–10 年）"
+  lifespan="7–10 年"
   origin="1830 年代英国育成"
   temperament="聪明、友好、有耐心；初时害羞，建立信任后亲人；**高可训练性**（定点如厕、捡物、敏捷赛）"
   grooming="短毛，每周 1–2 次梳理，换毛期加强；避免水浴，用湿布局部擦拭"
@@ -41,7 +41,7 @@ lastReviewed: 2026-07-27
 
 <Warning>
 
-- **未绝育母兔子宫癌高发**（建议 5–6 月龄后绝育）
+- **未绝育母兔子宫癌高发**（建议 4–6 月龄后绝育（与[绝育专题](../care/spay-neuter)统一口径））
 - 下颌略长 → 牙齿 malocclusion
 - URI（呼吸+牙齿感染可蔓延至肺致肺炎）
 - GI Stasis、毛球梗阻
@@ -51,7 +51,7 @@ lastReviewed: 2026-07-27
 
 ## 三、适合人群
 
-- **首次养兔者首选之一**
+- **常被列为适合首次饲养的品种之一**
 - 单身上班族、家庭、有儿童家庭（教导温柔抚摸）
 
 <SourceList>
@@ -63,7 +63,7 @@ lastReviewed: 2026-07-27
   url="https://www.petmd.com/rabbit/breeds/dutch-rabbit"
   accessed="2026-07-27"
   level="vet"
-  note="道奇花纹标准（占 50 分）；可训练性；未绝育母兔子官癌警告。"
+  note="道奇花纹标准（占 50 分）；可训练性；未绝育母兔子宫癌警告。"
 />
 
 <SourceCard

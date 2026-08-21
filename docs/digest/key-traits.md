@@ -70,14 +70,14 @@ lastReviewed: 2026-07-27
 
 - **任何对兔使用抗生素都必须由熟悉兔科的兽医开具**
 - **绝不要自行给兔用人用药或猫狗药**
-- 优先选择对兔盲肠菌群影响小的药物（如恩诺沙星、甲硝唑、复方磺胺等）——具体方案必须由兽医决定
+- 优先选择对兔盲肠菌群影响小的药物（如恩诺沙星等）——甲硝唑等抗厌氧菌药对盲肠菌群的影响须由兽医权衡；具体方案必须由熟悉兔科的兽医决定
 - 不要觉得"上次剩的消炎药"就能用——剂量和种类对兔极其敏感
 
 ## 四、兔通过尿液排钙
 
 <Info title="兔的钙代谢独一无二">
 
-与大多数哺乳动物（按需吸收、激素精细调节）不同，**兔的肠道钙吸收几乎与摄入量成正比**——吃多少吸多少。多余的钙**主要经尿液排出**<cite><a href="#ref5">[5]</a></cite><cite><a href="#ref6">[6]</a></cite>。
+与大多数哺乳动物（按需吸收、激素精细调节）不同，**兔的肠道钙吸收几乎与摄入量成正比**——吃多少吸多少。多余的钙**主要经尿液排出**<cite><a href="#ref3">[3]</a></cite><cite><a href="#ref4">[4]</a></cite>。
 
 </Info>
 
@@ -85,7 +85,7 @@ lastReviewed: 2026-07-27
 
 - 兔尿呈**碱性**，钙与碳酸根结合形成**碳酸钙结晶**
 - 高钙饮食时，尿钙排泄增加 → 尿液钙浓度升高 → 易形成结晶
-- 沉淀为"**膀胱泥沙（sludge）**"，或聚结成**尿结石（uroliths）**<cite><a href="#ref7">[7]</a></cite>
+- 沉淀为"**膀胱泥沙（sludge）**"，或聚结成**尿结石（uroliths）**<cite><a href="#ref5">[5]</a></cite>
 
 ### 高钙食物（成兔需控制频率和量）
 
@@ -102,7 +102,7 @@ lastReviewed: 2026-07-27
 
 <Info title="个体差异">
 
-Oxbow 指出：有些长期高钙饮食的兔从不发病，有些正常/低钙饮食的兔也会发病——**遗传和水合状态也起作用**。所以"低钙饮食"是降低风险，不是绝对保证<cite><a href="#ref7">[7]</a></cite>。
+VCA 指出：有些长期高钙饮食的兔从不发病，有些正常/低钙饮食的兔也会发病——**遗传和水合状态也起作用**。所以"低钙饮食"是降低风险，不是绝对保证<cite><a href="#ref5">[5]</a></cite>。
 
 </Info>
 
@@ -138,7 +138,7 @@ Oxbow 指出：有些长期高钙饮食的兔从不发病，有些正常/低钙�
   note="12 小时不吃不拉 = EMERGENCY 的明确表述。"
 />
 
-<a id="ref5"></a>
+<a id="ref3"></a>
 <SourceCard
   title="Rabbit calcium metabolism, 'bladder sludge,' and urolithiasis (Proceedings)"
   author="DVM360（兽医会议论文）"
@@ -148,7 +148,7 @@ Oxbow 指出：有些长期高钙饮食的兔从不发病，有些正常/低钙�
   note="兔按摄入比例吸收钙、经尿排出的机制详解。"
 />
 
-<a id="ref6"></a>
+<a id="ref4"></a>
 <SourceCard
   title="Influence of diet on calcium metabolism…"
   author="Clauss M et al. (2012), J Anim Physiol Anim Nutr"
@@ -158,7 +158,7 @@ Oxbow 指出：有些长期高钙饮食的兔从不发病，有些正常/低钙�
   note="兔钙代谢的同行评审研究，PubMed 收录。"
 />
 
-<a id="ref7"></a>
+<a id="ref5"></a>
 <SourceCard
   title="Bladder Sludge and Bladder Stones in Rabbits and Guinea Pigs"
   author="VCA Animal Hospitals (Gregory Rich, DVM)"

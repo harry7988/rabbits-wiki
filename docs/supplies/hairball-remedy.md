@@ -12,7 +12,7 @@ lastReviewed: 2026-07-27
 
 <Danger title="Oxbow Animal Health 明确声明">
 
-Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></cite>：
+Oxbow Animal Health 在其教育文章中写道<cite><a href="#ref1">[1]</a></cite>：
 
 > **『Rabbits and other herbivores should never be given laxatives under any circumstance.』**
 > （兔和其他草食动物**绝不应**在任何情况下使用泻药。）
@@ -54,11 +54,11 @@ Oxbow（顶级异宠营养品牌）明确写道<cite><a href="#ref1">[1]</a></ci
 
 ## 四、中文市场的"兔用化毛膏/排毛粉"
 
-中文市场有"怪兽盒子兔子化毛膏"、"毛球兽排毛粉"等产品，声称含木瓜酶、益生菌、车前子等。
+中文市场有各类"兔用化毛膏""排毛粉"产品（电商平台的常见品类），声称含木瓜酶、益生菌、车前子等成分。
 
 <Warning>
 
-这些产品的实际功效**缺乏同行评审研究支持**，且多数含糖/添加剂，**与 Oxbow 警告冲突**。建议**谨慎对待**，不要替代就医。
+这类产品的实际功效**缺乏同行评审研究支持**，且多数配方含糖/添加剂，**与 Oxbow 的公开警告冲突**<cite><a href="#ref1">[1]</a></cite>。建议**谨慎对待**，不要替代就医。
 
 如果你已经在用，请告知你的兔科兽医，让其评估成分。
 

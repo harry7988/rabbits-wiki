@@ -9,7 +9,7 @@ lastReviewed: 2026-07-27
 <BreedCard
   name="荷兰垂耳兔 Holland Lop"
   weight="2–4 lbs（ARBA 上限 4 lbs / 1.8 kg）"
-  lifespan="7–10 年（部分可达 12–14 年）"
+  lifespan="7–10 年（照料良好最长约 12 年）"
   origin="荷兰（Adriann de Cock 育成，1979 年 ARBA 认可）"
   temperament="温顺、活泼、亲人、爱玩耍；公兔通常更外向；初次可能害羞"
   grooming="短 rollback 毛被；每周梳毛 1–2 次，换毛期每日梳理；指甲 1–2 月一修；每周清耳"

@@ -33,7 +33,7 @@ lastReviewed: 2026-07-28
   origin="德国，Blanc de Hotot × 荷兰侏儒"
   temperament="活泼、好奇、亲人，但可能较胆小"
   grooming="短白毛，每周梳理一次"
-  arba="Compact 型，标志『熊猫眼』花纹"
+  arba="Hotot 1979 年认可；Dwarf Hotot 1983 年认可；Compact 型，标志『熊猫眼』花纹"
 />
 
 <BreedPhoto src="/breeds/hotot.jpg" alt="白色霍托兔，每只眼睛周围有一圈黑色眼环，耳朵直立" width="800" height="532"
@@ -49,6 +49,8 @@ lastReviewed: 2026-07-28
 ## 三、常见健康问题
 
 <Warning>
+
+以下为侏儒品种共性健康倾向（依据文末来源与[荷兰侏儒兔页](./netherland-dwarf)同源兽医综述）<cite><a href="#ref2">[2]</a></cite>；dw 基因表述依据色素遗传资料<cite><a href="#ref3">[3]</a></cite>：
 
 - **牙齿问题**（侏儒品种共性——颅面紧凑）
 - GI Stasis
@@ -77,7 +79,7 @@ lastReviewed: 2026-07-28
   author="The Livestock Conservancy"
   url="https://livestockconservancy.org/blanc-de-hotot-rabbit/"
   accessed="2026-07-28"
-  level="vet"
+  level="org"
   note="标准霍托兔的起源与保种（被列为濒危）。"
 />
 
@@ -86,7 +88,7 @@ lastReviewed: 2026-07-28
   author="ADHRC（American Dwarf Hotot Rabbit Club）"
   url="https://www.adhrc.com/Forms/Color%20Genetics%20of%20the%20Dwarf%20Hotot.pdf"
   accessed="2026-07-28"
-  level="vet"
+  level="org"
 />
 
 </SourceList>

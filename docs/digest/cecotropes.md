@@ -120,7 +120,7 @@ lastReviewed: 2026-07-27
   url="https://oxbowanimalhealth.com/blog/the-inside-scoop-on-rabbit-poops/"
   accessed="2026-07-27"
   level="vet"
-  note="饲主层面识别盲肠便 vs 腹泻的实用指南，由异宠营养权威品牌发布。"
+  note="饲主层面识别盲肠便 vs 腹泻的实用指南，由 Oxbow Animal Health 发布的饲主教育内容。"
 />
 
 </SourceList>

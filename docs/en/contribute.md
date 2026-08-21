@@ -86,17 +86,4 @@ Rules:
 
 This site's primary language is Chinese; English is a growing curated edition. Translating a Chinese page into English (or improving an existing one) is itself a valuable contribution — Prompt 3 works for it too.
 
-Full contributing guide (credibility rules, CODEOWNERS review, CC BY-SA licensing) → [中文：参与共创](../contribute).
-
-<SourceList>
-
-<SourceCard
-  title="Site credibility rules (Chinese)"
-  author="rabbits.wiki"
-  url="https://www.rabbits.wiki/contribute"
-  accessed="2026-08-22"
-  level="org"
-  note="The authoritative version of the sourcing standards embedded in the prompts above."
-/>
-
-</SourceList>
+Full contributing guide (credibility rules, CODEOWNERS review, CC BY-SA licensing) → [中文：参与共创](../contribute)（the authoritative version of the sourcing standards embedded in the prompts above）.

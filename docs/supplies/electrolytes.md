@@ -71,7 +71,7 @@ lastReviewed: 2026-07-27
   author="BinkyBunny 论坛"
   url="https://binkybunny.com/forums/topic/unflavored-pedialyte-for-gi-stasis/"
   accessed="2026-07-27"
-  level="vet"
+  level="exp"
   note="Pedialyte 必须稀释与无味型选择的社群共识。"
 />
 

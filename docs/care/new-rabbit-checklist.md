@@ -34,7 +34,7 @@ lastReviewed: 2026-08-22
 
 <CheckList id="supplies-adv" :items="[
   { name: '婴儿西甲硅油（无色无味型）', note: '胀气应急，详细见常备药' },
-  { name: 'Oxbow Critical Care 草粉', note: '拒食时强制喂食，急症救星' },
+  { name: '恢复期草粉（如 Oxbow Critical Care）', note: '拒食时遵医嘱强制喂食的配方草粉' },
   { name: '无味电解质补液', note: '腹泻/中暑后补水' },
   { name: '止血粉 / 玉米淀粉', note: '剪指甲剪到血线应急' },
   { name: '宠物指甲剪', note: '每 4–6 周一次，先看兽医示范' },

@@ -24,6 +24,12 @@ lastReviewed: 2026-07-27
 | DVM 360（兽医期刊） | — | 65–130 mg/次，每 1 小时 × 2–3 次 | — |
 | 中文社群（40 mg/mL 规格） | 40 mg/mL | 按体重 **20 mg/kg** 计算 | — |
 
+<Danger title="红线：拒食 12 小时 = 急症">
+
+任何家庭用药都不能替代就医：**停止进食或排便达 12 小时即急症**，立即送异宠兽医。
+
+</Danger>
+
 <Warning title="效力存疑（兽医界正在演进的观点）">
 
 HRS 指出『you can't really overdose it』（基本不会过量），但用 3 次无效通常继续使用也无效。HRS Chicago 等机构认为越来越多兔科兽医发现西甲硅油对兔特定胀气『几乎无效』。
@@ -37,7 +43,7 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 - 用无针头注射器经口喂入
 - 国内可购婴儿西甲硅油滴剂；德国 Sab Simplex（40 mg/mL）
 
-## 二、Critical Care —— 强制喂食（关键急救品）
+## 二、恢复期强制喂食配方（如 Critical Care）
 
 ### 作用
 高纤维恢复营养配方，用于兔不吃/不能正常进食时维持营养和水分，**促使消化系统重新运转**。
@@ -92,7 +98,7 @@ HRS 指出『you can't really overdose it』（基本不会过量），但用 3 
 | 药物 | 参考剂量 | 适用 |
 |---|---|---|
 | **Fenbendazole（芬苯达唑）** | 20 mg/kg PO × ≥5 天 | 蛲虫、肠道线虫、*E. cuniculi*<cite><a href="#ref6">[6]</a></cite> |
-| **Metronidazole（甲硝唑）** | 10–20 mg/kg q12h × ≥5 天 | 原虫、厌氧菌感染 |
+| **Metronidazole（甲硝唑）** | 文献常见区间 10–20 mg/kg q12h（疗程视诊断）——**必须由兽医按诊断开具** | 原虫、厌氧菌感染 |
 
 <Warning title="不是所有兔都要定期驱虫">
 

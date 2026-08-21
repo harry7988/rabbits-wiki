@@ -31,7 +31,7 @@ Everything marked "home care" on this site is a **stabilizing measure before rea
 
 A rabbit's stomach **never fully empties**, and the gut needs a constant flow of fibrous material to keep moving. Refusal to eat triggers a lethal spiral:
 
-food refusal → stomach contents dehydrate and compact → pain → even less eating (vicious cycle) → gut motility stops → clostridial overgrowth → **GI stasis, fatal within 24–48 hours**<cite><a href="#ref2">[2]</a></cite>.
+food refusal → stomach contents dehydrate and compact → pain → even less eating (vicious cycle) → gut motility stops → clostridial overgrowth → **GI stasis, a life-threatening emergency**<cite><a href="#ref2">[2]</a></cite>.
 
 The full explanation is in the [Digestive System topic (Chinese)](../../digest/).
 
@@ -58,7 +58,7 @@ The full explanation is in the [Digestive System topic (Chinese)](../../digest/)
 - ❌ **Cat hairball gels (Petromalt/Laxatone)** — see [the hairball-laxative myth](../../supplies/hairball-remedy) (Chinese)
 - ❌ **Neosporin Plus** (contains corticosteroids) — severe immunosuppression in rabbits
 - ❌ Human sports drinks — too much sugar
-- ❌ Oral penicillins / amoxicillin — potentially fatal enterotoxemia<cite><a href="#ref1">[1]</a></cite>
+- ❌ Oral penicillins / amoxicillin and oral cephalosporins — potentially fatal enterotoxemia<cite><a href="#ref1">[1]</a></cite>
 
 ## Mistakes that kill rabbits
 
@@ -69,8 +69,12 @@ The full explanation is in the [Digestive System topic (Chinese)](../../digest/)
 3. **Force-feeding when obstruction is suspected** — worsens the blockage
 4. **Cat laxatives for "hairballs"** — oil-based gels make fur masses water-resistant and harder to pass<cite><a href="#ref4">[4]</a></cite>
 5. **"She's still eating a little, let's watch"** — rabbits eat through pain until they can't
+6. **Treating uneaten cecotropes as diarrhea** — shiny, smelly grape-like clusters are cecotropes (a normal part of rabbit digestion), not diarrhea; over-treating a healthy gut does harm
+7. **Leftover human / cat / dog medications** — many are unsafe or fatal for rabbits (e.g. amoxicillin); never give them without an exotic-pet vet's instruction
 
 </Danger>
+
+> 📖 **Condensed edition**: this English page is a safety-focused summary. The full Chinese version includes the 4-step universal first-aid flow, the complete Tier-B/Tier-C supply lists (with exact product classes and doses), and 10 dedicated emergency pages → [急症处置（中文）](../../emergencies/).
 
 ## Hands-on skills you need *before* an emergency
 
@@ -87,7 +91,7 @@ Emergency care requires physical skills — practice them while your rabbit is h
 
 ## Full emergency library (Chinese edition)
 
-The complete Chinese library covers 11 emergencies in depth: GI stasis, diarrhea, heatstroke, wounds, fractures, seizures, respiratory disease, coccidiosis, hairballs, poisoning, and more → [急症处置总览](../../emergencies/).
+The complete Chinese library covers 10 emergencies in depth: GI stasis, diarrhea, heatstroke, wounds, fractures, seizures, respiratory disease, coccidiosis, hairballs, poisoning, and more → [急症处置总览](../../emergencies/).
 
 <SourceList>
 

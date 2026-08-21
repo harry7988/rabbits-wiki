@@ -12,7 +12,7 @@ lastReviewed: 2026-07-27
 
 <Danger title="权威兽医教科书明确否定">
 
-Oglesbee（2020，同行评审，被引 124 次）明确指出<cite><a href="#ref1">[1]</a></cite>：
+Oglesbee（2020，同行评审）明确指出<cite><a href="#ref1">[1]</a></cite>：
 
 > 『毛球（trichobezoar）/『wool block』是**错误标签**——它错误地暗示毛发堆积是疾病的原因，而实际上毛发堆积是肠道运动障碍的**结果或症状**。』
 
@@ -24,7 +24,7 @@ Cornell 兽医学院（2024）也指出：**大多数情况下，毛发会无害
 
 ## 二、真正的机制
 
-1. 健康兔在理毛时 routinely 摄入毛发是**正常现象**——肠道能正常排出
+1. 健康兔在理毛时日常摄入毛发是**正常现象**——肠道能正常排出
 2. 当 **GI 蠕动减弱（停滞）** 时，毛发和食糜才在胃内堆积
 3. 所以"毛球症"的实际表现 = [GI Stasis 症状](./gi-stasis)
 
@@ -51,13 +51,15 @@ Cornell 兽医学院（2024）也指出：**大多数情况下，毛发会无害
 
 <FirstAidStep :num="3" title="换毛期加强梳理（最重要的物理除毛方法）">
 
+换毛期每日用排梳梳理，把浮毛在进肚子之前梳掉——这是减少吞毛量最直接的办法。
+
 </FirstAidStep>
 
 ## 五、关于化毛膏的真相
 
 <Danger title="不要用猫用化毛膏（Petromalt/Laxatone）">
 
-Oxbow Animal Health（顶级异宠营养品牌）明确声明<cite><a href="#ref3">[3]</a></cite>：
+Oxbow Animal Health 在其教育文章中明确声明<cite><a href="#ref3">[3]</a></cite>：
 
 > 『**Rabbits and other herbivores should never be given laxatives under any circumstance.**』（兔和其他草食动物**绝不应**在任何情况下使用泻药。）
 

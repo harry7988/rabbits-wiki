@@ -54,7 +54,7 @@ lastReviewed: 2026-07-27
 
 <FirstAidStep :num="6" title="持续抽搐可用湿毛巾降温">
 
-持续抽搐会导致高热。
+持续抽搐会导致高热。做法：用常温（不是冰水）湿毛巾**轻敷耳部**散热——不要把湿毛巾盖在兔子身上（与[中暑降温](./heatstroke)口径一致：遮挡会增加热负荷）。
 
 </FirstAidStep>
 
@@ -90,7 +90,7 @@ lastReviewed: 2026-07-27
 - **地西泮（Diazepam）0.5 mg/kg**（同行评审 *E. cuniculi* 综述推荐）<cite><a href="#ref2">[2]</a></cite>
 - **Midazolam 1–2 mg/kg IM**<cite><a href="#ref3">[3]</a></cite>
 - **Meclizine 2–12 mg/kg PO**（前庭症状）
-- **Fenbendazole**（Panacur）4 周疗程（*E. cuniculi* 病因治疗）
+- **Fenbendazole**（Panacur）4 周疗程（*E. cuniculi* 病因治疗）<cite><a href="#ref3">[3]</a></cite>
 
 <Info title="所有剂量必须由兔科兽医按体重开具">
 

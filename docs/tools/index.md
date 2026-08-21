@@ -120,7 +120,7 @@ lastReviewed: 2026-07-28
   author="Supreme Pet Foods"
   url="https://supremepetfoods.com/wp-content/uploads/2020/03/FLUID-THERAPY-IN-RABBIT-PATIENTS.pdf"
   accessed="2026-07-28"
-  level="vet"
+  level="org"
   note="脱水分级与输液治疗的兽医依据。"
 />
 

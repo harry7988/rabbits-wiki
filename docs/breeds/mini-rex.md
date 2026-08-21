@@ -13,7 +13,7 @@ lastReviewed: 2026-07-27
   origin="1984 年美国 Texas（Monna Berryhill 育成）"
   temperament="温顺、好奇、亲人；适合首次养兔者和儿童入门"
   grooming="雷克斯被毛：毛直立、极密、回弹感强；护理需求低，**避免过度刷毛**（会损坏毛质）"
-  arba="Compact 型，ARBA 展会头号或二号参展品种"
+  arba="1988 年认可；Compact 型，ARBA 展会头号或二号参展品种"
 />
 
 <BreedPhoto src="/breeds/mini-rex.jpg" alt="白底黑斑的迷你雷克斯兔，被毛致密呈天鹅绒质感，耳朵直立" width="800" height="449"
@@ -40,7 +40,7 @@ lastReviewed: 2026-07-27
 
 <Warning>
 
-- **脚底毛薄** → 压疮（sore hocks）风险——必须提供柔软垫料，避免铁丝网底笼
+- **脚底毛薄** → 压疮（sore hocks）风险——必须提供柔软垫料，避免铁丝网底笼<cite><a href="#ref3">[3]</a></cite>
 - 趾甲易过长
 - 牙齿问题
 - GI Stasis、*E. cuniculi*<cite><a href="#ref2">[2]</a></cite>
@@ -103,7 +103,7 @@ lastReviewed: 2026-07-27
   author="The Spruce Pets"
   url="https://www.thesprucepets.com/mini-rex-rabbits-5191211"
   accessed="2026-07-27"
-  level="vet"
+  level="exp"
   note="雷克斯被毛护理要点（避免过度刷毛）。"
 />
 
@@ -112,7 +112,17 @@ lastReviewed: 2026-07-27
   author="Plushifur（品种俱乐部）"
   url="https://plushifur.com/?page_id=369"
   accessed="2026-07-27"
+  level="org"
+/>
+
+<a id="ref3"></a>
+<SourceCard
+  title="Rex Rabbit"
+  author="PetMD（Catherine Gose, CVT；Laurie Hess, DVM 审核）"
+  url="https://www.petmd.com/rabbit/breeds/rex-rabbit"
+  accessed="2026-08-22"
   level="vet"
+  note="Rex 系品种（含 Mini Rex）健康倾向的兽医来源：压疮风险与预防。"
 />
 
 </SourceList>

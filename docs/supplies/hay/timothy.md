@@ -48,9 +48,11 @@ lastReviewed: 2026-07-27
 
 </Warning>
 
-## 四、品牌建议
+## 四、市场常见品牌（示例，非推荐）
 
-- 国际品牌：**Oxbow**（Western Timothy）、**Small Pet Select**、**Supreme Pet Foods (Science Selective)**、**Kaytee**
+> 以下为市场常见品牌举例（**非推荐**）——选购请按上文品质标准自行判断，品牌数据见[兔粮页对照表](../pellets)。
+
+- 常见国际品牌：Oxbow（Western Timothy）、Small Pet Select、Supreme Pet Foods（Science Selective）、Kaytee
 - 中文市场有国内东北/西北产提摩西草，注意品质鉴别（见[品质鉴别](./grading)）
 
 <SourceList>

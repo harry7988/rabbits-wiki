@@ -17,9 +17,9 @@ import { fileURLToPath } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DOCS = join(ROOT, 'docs')
-const TAGS = /(VetCheck|Warning|Danger|Info|FirstAidStep)/
-const OPEN = /^<(VetCheck|Warning|Danger|Info|FirstAidStep)[^>]*>$/
-const CLOSE = /^<\/(VetCheck|Warning|Danger|Info|FirstAidStep)>$/
+const TAGS = /(VetCheck|Warning|Danger|Info|FirstAidStep|FAQItem|PromptCard|SourceList|CheckList|BreedCard|EmergencyCard)/
+const OPEN = /^<(VetCheck|Warning|Danger|Info|FirstAidStep|FAQItem|PromptCard|SourceList|CheckList|BreedCard|EmergencyCard)[^>]*>$/
+const CLOSE = /^<\/(VetCheck|Warning|Danger|Info|FirstAidStep|FAQItem|PromptCard|SourceList|CheckList|BreedCard|EmergencyCard)>$/
 
 function walkMd(dir, acc = []) {
   for (const e of readdirSync(dir)) {

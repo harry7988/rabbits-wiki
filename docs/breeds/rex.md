@@ -42,9 +42,9 @@ lastReviewed: 2026-07-28
 
 ## 二、关键风险
 
-<Warning title="脚底毛薄 → 压疮高发">
+<Warning title="脚底毛薄 → 压疮高发（核心护理问题，详见第四节）">
 
-雷克斯被毛虽然密，但**脚底毛薄**，对地面摩擦的耐受性低于普通兔。**压疮（sore hocks / pododermatitis）风险高**<cite><a href="#ref1">[1]</a></cite>。
+雷克斯被毛虽然密，但**脚底毛薄**，对地面摩擦的耐受性低于普通兔。**压疮（sore hocks / pododermatitis）风险高**<cite><a href="#ref1">[1]</a></cite>；预防清单统一见[第四节](#四-压疮预防-雷克斯品种的核心护理)。
 
 预防：
 - ✅ **实心地板**（绝不能铁丝网底）

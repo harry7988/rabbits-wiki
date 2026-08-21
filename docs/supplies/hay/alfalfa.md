@@ -38,9 +38,11 @@ lastReviewed: 2026-07-27
 
 幼兔在 7 月龄左右性成熟，应**逐步**（约 2–4 周）将苜蓿过渡为提摩西草，同时将苜蓿基础颗粒粮过渡为提摩西基础颗粒粮。突然换粮会引发 GI 失衡。
 
-## 四、品牌建议
+## 四、市场常见品牌（示例，非推荐）
 
-- 国际：**Oxbow Alfalfa Hay**、**Small Pet Select Alfalfa**
+> 以下为市场常见品牌举例（**非推荐**）——选购请按上文品质标准自行判断，品牌数据见[兔粮页对照表](../pellets)。
+
+- 常见国际品牌：Oxbow Alfalfa Hay、Small Pet Select Alfalfa
 - 中文市场有国产苜蓿，注意品质鉴别
 
 <SourceList>

@@ -34,6 +34,8 @@ lastReviewed: 2026-07-27
 
 <FirstAidStep :num="1" title="立即移除剩余的有毒物质">
 
+收走剩余植物/食物并装袋（便医鉴定），检查口腔有无残留。
+
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="收集关键信息（极重要）">
@@ -55,7 +57,7 @@ lastReviewed: 2026-07-27
 
 <FirstAidStep :num="4" title="不要催吐、不要给活性炭、不要给水/牛奶">
 
-除非兽医明确指示。
+兔无法呕吐，催吐手段无效且有害；活性炭与水/牛奶都可能加速毒素吸收——除非兽医明确指示，否则不给。
 
 </FirstAidStep>
 
@@ -71,7 +73,7 @@ lastReviewed: 2026-07-27
 - **百合科（Lily）**、**滴水观音**、**黛粉叶**、**常春藤**、**绿萝**、**芦荟**
 
 ### 户外
-- **杜鹃（Azalea）**、**毛茛（Buttercups）**、**foxglove**、**hemlock**、**nightshade（龙葵）**、**ragwort**、**poppy（罂粟）**、**ivy**、**bluebells（风信子）**
+- **杜鹃（Azalea）**、**毛茛（Buttercups）**、**毛地黄（foxglove）**、**毒芹（hemlock）**、**龙葵（nightshade）**、**狗舌草（ragwort）**、**罂粟（poppy）**、**常春藤（ivy）**、**蓝铃花（bluebells）**
 
 ### 球根类
 - **大多数球根类植物有毒**（郁金香、水仙、洋葱等）
@@ -142,7 +144,7 @@ lastReviewed: 2026-07-27
   author="RabbitEmergency.com"
   url="https://rabbitemergency.com/rabbit-poisoning-emergency-hub/"
   accessed="2026-07-27"
-  level="vet"
+  level="exp"
   note="兔中毒急救专题资源。"
 />
 

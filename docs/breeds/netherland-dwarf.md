@@ -8,7 +8,7 @@ lastReviewed: 2026-07-27
 
 <BreedCard
   name="荷兰侏儒兔 Netherland Dwarf"
-  weight="1.1–2.5 lbs（ARBA 上限 2.5 lbs / 1.13 kg）—**ARBA 最小认可品种**"
+  weight="约 2–2.5 lbs（ARBA 上限 2.5 lbs / 1.13 kg）—**ARBA 最小认可品种**"
   lifespan="10–12 年"
   origin="荷兰"
   temperament="初时易害羞/紧张/胆小；建立信任后亲人；聪明可训练"

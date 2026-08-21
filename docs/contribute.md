@@ -1,6 +1,7 @@
 ---
 title: 参与共创
 description: rabbits.wiki 由社区共创。本文说明如何贡献内容、署名规范、引用与可信度守则、医疗内容审核流程。
+lastReviewed: 2026-08-22
 ---
 
 # 🤝 参与共创
@@ -113,7 +114,7 @@ GitHub、Markdown、命令行这些事不需要你会——**复制下面的指�
 
 ## 一、贡献流程（5 分钟上手）
 
-```mermaid
+```text
 Fork 仓库 → 在 docs/ 编辑 Markdown → 本地预览 (npm run dev) → 提交 PR → 审核合并
 ```
 
@@ -179,14 +180,7 @@ Fork 仓库 → 在 docs/ 编辑 Markdown → 本地预览 (npm run dev) → 提
 ---
 title: 胃肠停滞（GI Stasis）           # 必填：页面标题
 description: 兔兔胀气、拒食的家庭急救   # 必填：SEO description
-sources:                              # 必填：本页所有来源
-  - title: "Gastrointestinal Stasis: The Silent Killer"
-    author: "House Rabbit Society"
-    url: "https://rabbit.org/..."
-    accessed: "2026-07-27"
-    level: vet
-contributors:                         # 贡献者
-  - github: yourname
+# 来源不在 frontmatter 中列出——以文末 <SourceList> 内的 SourceCard 为准（全站现行做法）
 lastReviewed: 2026-07-27              # 医疗内容最后核查日期
 ---
 ```

@@ -10,7 +10,7 @@ lastReviewed: 2026-08-22
 
 Dental disease is the **number one hidden trigger of GI stasis**: tooth pain stops a rabbit from chewing hay → gut motility slows → stasis. Many owners think a rabbit "suddenly stopped eating" is a gut problem, when the root is in the teeth.
 
-The only effective prevention is **eating grass hay** — which is why this site repeats "unlimited long-strand hay" as the first rule of rabbit keeping: it solves digestion and teeth at once.
+The only effective prevention is **eating grass hay** — which is why this site repeats "unlimited long-stem hay" as the first rule of rabbit keeping: it solves digestion and teeth at once.
 
 </Info>
 
@@ -80,7 +80,7 @@ Molars — where most disease lives — **cannot be checked at home**. Annual ve
 
 | Do | Why |
 |---|---|
-| **Unlimited long-straw hay** (1st/2nd cut, stemmy) | The only irreplaceable grinding mechanism |
+| **Unlimited long-stem hay** (1st/2nd cut, stemmy) | The only irreplaceable grinding mechanism |
 | **Limit pellets** | A full rabbit skips hay |
 | Annual vet dental checks | Catches acquired disease early |
 | ❌ Chew sticks/stones as substitutes | Vertical biting, no lateral grinding — enrichment at best |

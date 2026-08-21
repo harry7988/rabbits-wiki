@@ -6,18 +6,18 @@ lastReviewed: 2026-07-27
 
 # 💊 家庭药箱清单
 
-根据 House Rabbit Society、Rabbit Advocates、Oxbow 等权威组织的急救包建议，将兔子常用物品按"是否需兽医指导"**分级**<cite><a href="#ref1">[1]</a></cite><cite><a href="#ref2">[2]</a></cite>。
+根据 House Rabbit Society、Rabbit Advocates 等公益组织以及 Oxbow 等厂商公开的急救包教育内容，将兔子常用物品按"是否需兽医指导"**分级**<cite><a href="#ref1">[1]</a></cite><cite><a href="#ref2">[2]</a></cite>。
 
 ## A 级：家庭非处方常备（安全，送医前可作应急）
 
 | 物品 | 用途 |
 |---|---|
 | **婴儿西甲硅油（Simethicone）** | [胀气](../emergencies/gi-stasis)；无色无味型 |
-| **Oxbow Critical Care / Sherwood Recovery Food** | 拒食时强制喂食 |
-| **无味 Pedialyte** | [脱水/腹泻](../emergencies/diarrhea)补电解质 |
+| 高纤维恢复期草粉（如 Oxbow Critical Care、Sherwood Recovery Food） | 拒食时强制喂食 |
+| 无味电解质溶液（如 Pedialyte） | [脱水/腹泻](../emergencies/diarrhea)补电解质 |
 | **生理盐水** | 冲洗眼/伤口 |
-| **Nolvasan（氯己定）** | 清洁伤口 |
-| **普通 Neosporin/Polysporin**（**不含止痛/皮质类固醇**） | 浅表伤口 |
+| 氯己定消毒液（如 Nolvasan） | 清洁伤口 |
+| 三联抗生素软膏（如 Neosporin/Polysporin，**不含止痛/皮质类固醇**款） | 浅表伤口 |
 | **止血粉 / 玉米淀粉** | 指甲出血 |
 | **数字温度计** + 水基润滑剂 | 正常体温 38.3–39.4°C / 101–104°F |
 | **无针头注射器**（1 mL、5 mL、35 mL 导管尖） | 给药/喂食 |

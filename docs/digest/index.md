@@ -43,7 +43,7 @@ lastReviewed: 2026-07-27
 
 本专题所有结论均来自**兽医教科书与同行评审文献**为主，包括：
 
-- Oglesbee BL & Lord B (2020), *Gastrointestinal Diseases of Rabbits*（被引 124 次的综述章节）
+- Oglesbee BL & Lord B (2020), *Gastrointestinal Diseases of Rabbits*（高被引综述章节）
 - Varga M (2013), *Textbook of Rabbit Medicine*
 - van der Sluis M et al. (2024), *Frontiers in Veterinary Science*
 - House Rabbit Society（Dana Krempels，迈阿密大学生物学家 + 多位 DVM 审核）
@@ -59,7 +59,7 @@ lastReviewed: 2026-07-27
   url="https://pmc.ncbi.nlm.nih.gov/articles/PMC7258705/"
   accessed="2026-07-27"
   level="vet"
-  note="被引 124 次的权威综述章节。明确陈述兔无法呕吐、毛球是胃肠蠕动减慢的结果而非原因、12 小时拒食为急症。本站主源。"
+  note="高被引权威综述章节。明确陈述兔无法呕吐、毛球是胃肠蠕动减慢的结果而非原因、12 小时拒食为急症。本站主源。"
 />
 
 <SourceCard

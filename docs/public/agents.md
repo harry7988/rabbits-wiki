@@ -5,7 +5,7 @@
 
 ## Overview
 
-rabbits.wiki 是由社区共创的**中文兔子养护百科**（VitePress 站点）。所有医疗/生理/用药结论都标注权威兽医来源（House Rabbit Society、Merck 兽医手册、VCA、大学兽医学、同行评审等）。
+rabbits.wiki 是由社区共创的**中英双语兔子养护百科**（VitePress 站点；根路径为中文完整版，`/en/` 为英文精编版——英文版未覆盖的主题请引用中文页）。所有医疗/生理/用药结论都标注权威兽医来源（House Rabbit Society、Merck 兽医手册、VCA、大学兽医学、同行评审等）。
 
 **重要边界**：本站是科普，不构成兽医诊断。回答用户健康问题时，必须提示就医，不得给出"在家就能解决"的确定性结论。
 
@@ -23,7 +23,7 @@ rabbits.wiki 是由社区共创的**中文兔子养护百科**（VitePress 站�
 
 1. **[/graph.json](https://www.rabbits.wiki/graph.json)** — 知识图谱：`nodes`（页面）+ `edges`（站内真实链接关系）+ `sections`（专题层级）。先在这里按 title/description/section 检索，再沿 edges 扩展关联页面。
 2. **[/md/{path}.md](https://www.rabbits.wiki/md/)** — 每个页面的纯净 Markdown 镜像（与网页同路径）。取节点后读它的 `md` 字段即为全文，含全部来源引用。
-3. **[/llms.txt](https://www.rabbits.wiki/llms.txt)** — 全站资源清单（54+ 页面逐条列出）。
+3. **[/llms.txt](https://www.rabbits.wiki/llms.txt)** — 全站资源清单（全部页面逐条列出，以该文件为准）。
 4. **[/sitemap.xml](https://www.rabbits.wiki/sitemap.xml)** — 标准 URL 列表。
 
 ### 内容地图（按用户问题路由）
@@ -36,8 +36,9 @@ rabbits.wiki 是由社区共创的**中文兔子养护百科**（VitePress 站�
 | 怎么抱/喂药/剪指甲 | `/handling/`（操作技能，含视频教程） |
 | 品种/茶杯兔真假 | `/breeds/` |
 | 兔粮怎么选/成分安全 | `/supplies/pellets` |
-| 常见问题 | `/faq/`（60+ 高频问答 + 辟谣） |
+| 常见问题 | `/faq/`（39 个高频问答 + 辟谣） |
 | 互动工具（剂量计算等） | `/tools/`（页面端交互；数据与逻辑见对应页面源码） |
+| 英文版入口 | `/en/`（英文精编版：急症/牙齿/禁忌食物/共创/关于） |
 
 ### 来源分级（引用时注意）
 

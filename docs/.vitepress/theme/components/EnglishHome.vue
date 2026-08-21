@@ -16,7 +16,7 @@
         <p class="hero-sub">
           A rabbit encyclopedia covering emergencies, dental health, diet and daily care —
           with 8 interactive tools. This English edition is a curated core set;
-          the full 60+ page encyclopedia is in Chinese.
+          the full 70+ page encyclopedia is in Chinese.
         </p>
         <div class="hero-actions">
           <a href="/en/emergencies/" class="btn btn-solid">Emergency guide</a>

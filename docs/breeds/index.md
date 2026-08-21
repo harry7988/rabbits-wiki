@@ -8,7 +8,7 @@ lastReviewed: 2026-07-27
 
 ## 一、关于品种标准
 
-本站的品种体重、外形、认可色等"硬数据"，以 **ARBA（美国兔业繁殖者协会，arba.net）** 的官方品种标准为首要依据<cite><a href="#ref1">[1]</a></cite>。ARBA 目前认可 **50 个兔品种**（不含豚鼠 cavy）。
+本站的品种体重、外形、认可色等"硬数据"，以 **ARBA（美国兔业繁殖者协会，arba.net）** 的官方品种标准为首要依据<cite><a href="#ref1">[1]</a></cite>。ARBA 目前认可 **53 个兔品种**（2026-08 官网核对，不含豚鼠 cavy；历史上长期为 50 个，近年陆续新增）。
 
 健康、寿命、疾病倾向则引用 **House Rabbit Society（rabbit.org）** 与 **PetMD（DVM 审核）**。
 
@@ -28,10 +28,10 @@ lastReviewed: 2026-07-27
 |---|---|---|---|
 | [荷兰垂耳兔 Holland Lop](./holland-lop) | ≤ 4 lbs（1.8 kg） | 温顺、亲人、活泼 | 家庭、9 岁以上儿童 |
 | [荷兰侏儒兔 Netherland Dwarf](./netherland-dwarf) | ≤ 2.5 lbs（1.13 kg）—**最小** | 初期害羞、聪明 | 成人；不建议低龄儿童 |
-| [狮子兔 Lionhead](./lionhead) | 0.74–1.7 kg | 聪明、社交 | 能每日梳毛的家庭 |
+| [狮子兔 Lionhead](./lionhead) | 2.5–3.75 lbs（1.13–1.7 kg） | 聪明、社交 | 能每日梳毛的家庭 |
 | [迷你雷克斯 Mini Rex](./mini-rex) | ≤ 4.5 lbs（2.0 kg） | 温顺、好奇 | 首次饲主 |
 | [安哥拉兔 Angora](./angora) | 6–10+ lbs | 温顺但需大量护理 | **有经验**的纤维爱好者 |
-| [道奇/熊猫兔 Dutch](./dutch) | ≤ 5.5 lbs（2.5 kg） | 聪明、友好、可训练 | **首次饲主首选** |
+| [道奇/熊猫兔 Dutch](./dutch) | ≤ 5.5 lbs（2.5 kg） | 聪明、友好、可训练 | 常被列为适合新手 |
 
 ## 四、必须辟谣的中文市场概念（重要）
 
@@ -108,7 +108,7 @@ SPCA、House Rabbit Society 等福利组织明确警告：**为追求极端小�
 
 <a id="ref1"></a>
 <SourceCard
-  title="Recognized Breeds（ARBA 50 个认可品种）"
+  title="Recognized Breeds（ARBA 认可品种官方名单，2026-08 核对为 53 个）"
   author="American Rabbit Breeders Association (ARBA)"
   url="https://arba.net/recognized-breeds/"
   accessed="2026-07-27"

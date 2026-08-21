@@ -8,7 +8,7 @@ lastReviewed: 2026-07-27
 
 <BreedCard
   name="狮子兔 Lionhead"
-  weight="1.65–3.75 lbs（0.74–1.7 kg）；英国 BRC 标准 3–3 lb 12 oz"
+  weight="2.5–3.75 lbs（1.13–1.7 kg）；英国 BRC 标准 3 lb–3 lb 12 oz（1.36–1.70 kg）"
   lifespan="7–9 年"
   origin="由 Swiss Fox × Netherland Dwarf 育成"
   temperament="聪明、温顺、活跃、社交性强；建议成对饲养"
@@ -85,7 +85,7 @@ lastReviewed: 2026-07-27
   author="Burgess Pet Care"
   url="https://www.burgesspetcare.com/blog/rabbits/grooming-your-lionhead-rabbit/"
   accessed="2026-07-27"
-  level="vet"
+  level="exp"
   note="双鬃每日梳理的实操指南。"
 />
 

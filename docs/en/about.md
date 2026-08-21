@@ -35,14 +35,14 @@ This site can help you understand your rabbit's body, recognize emergency signal
 
 ## Editions
 
-- **Chinese (中文)** — the complete encyclopedia: 60+ pages across emergencies, digestive science, dentistry, daily care, handling skills, breeds, supplies, an FAQ, and 8 interactive tools → [`/`](/)
+- **Chinese (中文)** — the complete encyclopedia: 70+ pages across emergencies, digestive science, dentistry, daily care, handling skills, breeds, supplies, an FAQ, and 8 interactive tools → [`/`](/)
 - **English** — a curated core set (this edition), growing. Most untranslated topics link back to the Chinese originals.
 
 ## Contact & contributing
 
 - Errors and suggestions: GitHub Issues (the link is in the top-right GitHub icon of every page)
 - Contributing needs no coding — [AI-guided contribution prompts](../contribute)
-- Code of conduct and licensing: CC BY-SA 4.0 (content)
+- Code of conduct and licensing: CC BY-SA 4.0 (content), MIT (code)
 
 ## Machine-readable policies
 

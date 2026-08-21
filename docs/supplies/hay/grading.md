@@ -31,8 +31,8 @@ lastReviewed: 2026-07-27
 - 第一茬：茎多穗多（纤维更高）
 
 ### 6. 产地
-- 北美（美国西部、加拿大）牧草为国际主流高端来源
-- 国内东北、西北也有产出，品质参差<cite><a href="#ref1">[1]</a></cite>
+- 北美（美国西部、加拿大）牧草是国际市场的主要商业产区之一
+- 国内东北、西北也有产出，品质与批次一致性需自行鉴别<cite><a href="#ref1">[1]</a></cite>
 
 ## 二、储存
 
@@ -60,11 +60,13 @@ lastReviewed: 2026-07-27
 
 ## 四、选购建议
 
-### 国际品牌
-- **Oxbow**（Western Timothy）
-- **Small Pet Select**
-- **Supreme Pet Foods (Science Selective)**
-- **Kaytee**
+### 市场常见品牌（示例，非推荐）
+> 以下为市场常见品牌举例（**非推荐**）——选购请按上文品质标准自行判断，品牌数据见[兔粮页对照表](../pellets)。
+
+- Oxbow（Western Timothy）
+- Small Pet Select
+- Supreme Pet Foods（Science Selective）
+- Kaytee
 
 ### 中文市场测试参考
 香港消委会测试发现 OXBOW Essentials、KAYTEE、SMALL PET SELECT 等 3 款兔粮**磷含量偏低（0.23–0.28%）**，长期可能影响骨骼<cite><a href="#ref2">[2]</a></cite>。

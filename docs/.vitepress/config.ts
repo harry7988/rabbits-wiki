@@ -14,7 +14,8 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: '兔子,宠物兔,兔兔百科,兔急症,胃肠停滞,兔品种,提摩西草,益生菌,电解质,化毛膏,养兔,绝育,幼兔,兔兔行为,养兔工具' }],
     // 开放协议 + 版权声明（CC BY-SA 4.0）
     ['meta', { name: 'license', content: 'CC-BY-SA-4.0' }],
-    ['link', { rel: 'canonical', href: 'https://www.rabbits.wiki/' }],
+    // 注：canonical 不在此处全局声明——全局声明会让所有页面都指向首页（重复内容风险），
+    // 每页的 canonical 由下方 transformPageData 按页面路径注入
     // Open Graph（社交分享卡片）
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'rabbits.wiki' }],
@@ -101,7 +102,7 @@ export default defineConfig({
           }
         },
         nav: [
-          { text: 'Emergencies', link: '/en/emergencies/' },
+          { text: 'Emergencies', link: '/en/emergencies' },
           { text: 'Dental & Hay', link: '/en/care/dental' },
           { text: 'Unsafe Foods', link: '/en/supplies/food-unsafe' },
           { text: '中文版', link: '/' },
@@ -117,7 +118,7 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Home', link: '/en/' },
-                { text: 'Emergencies Overview', link: '/en/emergencies/' },
+                { text: 'Emergencies Overview', link: '/en/emergencies' },
                 { text: 'Dental Health (Hay = Grinding)', link: '/en/care/dental' },
                 { text: 'Foods Rabbits Must Not Eat', link: '/en/supplies/food-unsafe' },
                 { text: 'Contribute', link: '/en/contribute' },
@@ -336,13 +337,19 @@ export default defineConfig({
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '')
 
+    // 每页独立 canonical + 语言声明（en/ 前缀输出 en-US）
+    const isEn = pageData.relativePath.startsWith('en/')
+    pageData.frontmatter.head = (pageData.frontmatter.head || []).concat([
+      ['link', { rel: 'canonical', href: url }]
+    ])
+
     const jsonLd = {
       '@context': 'https://schema.org',
       '@type': 'Article',
       headline: title,
       description,
       url,
-      inLanguage: 'zh-CN',
+      inLanguage: isEn ? 'en-US' : 'zh-CN',
       publisher: {
         '@type': 'Organization',
         name: 'rabbits.wiki',

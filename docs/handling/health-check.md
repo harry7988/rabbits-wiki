@@ -79,7 +79,7 @@ lastReviewed: 2026-07-30
 
 ### 10. 粪便（每日观察）
 
-- ✅ 圆形、均匀、干燥硬粒（每日约 180 颗）
+- ✅ 圆形、均匀、干燥硬粒（每日数百颗（常见口径 200–300 颗））
 - ❌ 变小、变少、停止（GI Stasis 早期信号）
 - ❌ 水样/血性（真性腹泻，急诊）
 - ❌ 成串的软团糊屁股（未食用的盲肠便，调整饮食）
@@ -133,7 +133,7 @@ lastReviewed: 2026-07-30
   author="Oxbow Animal Health"
   url="https://oxbowanimalhealth.com/blog/the-inside-scoop-on-rabbit-poops/"
   accessed="2026-07-30"
-  level="vet"
+  level="exp"
 />
 
 </SourceList>

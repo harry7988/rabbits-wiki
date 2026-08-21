@@ -31,17 +31,19 @@ lastReviewed: 2026-07-27
 
 <FirstAidStep :num="1" title="保持兔安静、减少应激">
 
-应激加重呼吸负担。
+应激会加重呼吸负担——降低光线、噪音，减少翻动，让它保持自己选择的姿势。
 
 </FirstAidStep>
 
 <FirstAidStep :num="2" title="避免过热">
 
+环境过热会加大呼吸负担，保持凉爽（约 18–24°C）但避免直吹冷风。
+
 </FirstAidStep>
 
-<FirstAidStep :num="3" title="蒸汽疗法（steam therapy，临时缓解）">
+<FirstAidStep :num="3" title="蒸汽疗法（须先问兽医）">
 
-将兔带进充满热水蒸汽的浴室（打开热水花洒），可**暂时**缓解鼻塞。
+有兽医建议把兔带进温热蒸汽的浴室**暂时**缓解鼻塞，但兔科对此证据有限，且高温高湿环境可能加重呼吸窘迫兔的应激——**使用前先电话确认你的异宠兽医是否同意、如何操作**。
 
 <Warning>
 
@@ -58,6 +60,8 @@ lastReviewed: 2026-07-27
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="立即送异宠兽医">
+
+呼吸系统的兔病几乎都需要兽医处置（吸氧、抗生素），家庭无法替代；运送时减少颠簸。
 
 </FirstAidStep>
 

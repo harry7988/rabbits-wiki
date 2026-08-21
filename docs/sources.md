@@ -23,7 +23,7 @@ lastReviewed: 2026-07-27
 ### 同行评审期刊 / PubMed Central
 
 <SourceCard
-  title="Gastrointestinal Diseases of Rabbits（被引 124 次的权威综述）"
+  title="Gastrointestinal Diseases of Rabbits（高被引权威综述）"
   author="Oglesbee BL & Lord B (2020), in Ferrets, Rabbits, and Rodents (Elsevier)"
   url="https://pmc.ncbi.nlm.nih.gov/articles/PMC7258705/"
   accessed="2026-07-27"
@@ -316,7 +316,7 @@ lastReviewed: 2026-07-27
   author="Lafeber Vet"
   url="https://lafeber.com/vet/how-to-feed-the-small-herbibore-gastrointestinal-tract/"
   accessed="2026-07-27"
-  level="vet"
+  level="org"
   note="75–85% 蛋白消化率数据来源。"
 />
 
@@ -325,7 +325,7 @@ lastReviewed: 2026-07-27
   author="DVM360"
   url="https://www.dvm360.com/view/rabbit-calcium-metabolism-bladder-sludge-and-urolithiasis-proceedings"
   accessed="2026-07-27"
-  level="vet"
+  level="org"
 />
 
 <SourceCard
@@ -333,7 +333,7 @@ lastReviewed: 2026-07-27
   author="DVM360"
   url="https://www.dvm360.com/view/diagnosing-and-treating-neurologic-diseases-rabbits-proceedings"
   accessed="2026-07-27"
-  level="vet"
+  level="org"
 />
 
 <SourceCard
@@ -341,17 +341,17 @@ lastReviewed: 2026-07-27
   author="DVM360"
   url="https://www.dvm360.com/view/diagnosing-and-treating-gastric-ileusstasis-rabbits-proceedings"
   accessed="2026-07-27"
-  level="vet"
+  level="org"
 />
 
 ### ARBA（品种标准官方）
 
 <SourceCard
-  title="Recognized Breeds（50 个 ARBA 认可品种）"
+  title="Recognized Breeds（ARBA 认可品种名单，2026-08 核对 53 个）"
   author="American Rabbit Breeders Association"
   url="https://arba.net/recognized-breeds/"
-  accessed="2026-07-27"
-  level="vet"
+  accessed="2026-08-22"
+  level="org"
   note="品种体重上限与体型分类的官方依据。已 WebFetch 核实。"
 />
 
@@ -394,7 +394,7 @@ lastReviewed: 2026-07-27
   author="香港消费者委员会"
   url="https://www.consumer.org.hk/tc/article/554-rabbit-feed/554-rabbit-feed-test-results"
   accessed="2026-07-27"
-  level="vet"
+  level="org"
   note="独立测试机构对各品牌兔粮的成分分析。"
 />
 

@@ -42,6 +42,8 @@ lastReviewed: 2026-07-28
 
 <Warning>
 
+以下为垂耳兔品种的共性高发问题（来源见文末 PetMD Mini Lop 与 [荷兰垂耳兔页](./holland-lop)同源综述）<cite><a href="#ref3">[3]</a></cite>：
+
 - **中耳炎**（垂耳共性）
 - **牙齿咬合不正**
 - GI Stasis、毛球梗阻
@@ -77,7 +79,7 @@ Mini Lop 成兔可达 6.5 lbs，比 Holland Lop 大一号，需要更大的笼�
 
 <FirstAidStep :num="4" title="绝育">
 
-母兔 4–6 月龄、公兔 3.5–5 月龄。未绝育母兔子官癌风险随年龄增至 80%。详见[绝育专题](../care/spay-neuter)。
+母兔 4–6 月龄、公兔 3.5–5 月龄。未绝育母兔子宫癌风险随年龄增至 80%。详见[绝育专题](../care/spay-neuter)。
 
 </FirstAidStep>
 
@@ -105,7 +107,17 @@ Mini Lop 成兔可达 6.5 lbs，比 Holland Lop 大一号，需要更大的笼�
   author="The Spruce Pets"
   url="https://www.thesprucepets.com/mini-lop-rabbits-1237252"
   accessed="2026-07-28"
+  level="exp"
+/>
+
+<a id="ref3"></a>
+<SourceCard
+  title="Mini Lop"
+  author="PetMD（Laurie Hess, DVM, DABVP 审核）"
+  url="https://www.petmd.com/rabbit/breeds/mini-lop"
+  accessed="2026-08-22"
   level="vet"
+  note="品种健康倾向与护理要点的兽医来源。"
 />
 
 </SourceList>

@@ -53,6 +53,8 @@ lastReviewed: 2026-07-28
 
 <FirstAidStep :num="2" title="把厕所放在那个角落">
 
+兔已经习惯在那个角落排泄——顺着它的选择放厕所，训练成功率最高。
+
 </FirstAidStep>
 
 <FirstAidStep :num="3" title="把沾了尿的垫料/粪便放进厕所">
