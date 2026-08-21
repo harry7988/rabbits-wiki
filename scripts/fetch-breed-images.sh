@@ -19,12 +19,12 @@ ENTRIES=(
   "mini-lop|Mini lop.jpg|Miniature Lop - Side View.jpg"
   "netherland-dwarf|Netherland Dwarf On Brick.jpg|Netherlands dwarf rabbit.jpg"
   "lionhead|Lionhead rabbit Dobby.jpg|Lionhead bunny.jpg"
-  "mini-rex|Daisy the Mini Rex Rabbit.jpg|Mini rex bunny.jpg"
+  "mini-rex|Mini rex bunny.jpg|Daisy the Mini Rex Rabbit.jpg"
   "rex|Lapin rex castor.jpg|45-rex-castor.jpg"
-  "angora|EnglishAngoraRabbit.jpg|White Satin Angora Rabbit.jpg"
+  "angora|Angora rabbit.jpg|EnglishAngoraRabbit.jpg"
   "dutch|American Grand Champion Dutch Rabbit.jpg|Dutch rabbit.jpg"
-  "hotot|Hotot Rabbit!.jpg|Blanc De Hotot.jpg"
-  "flemish-giant|Flemish Giant.jpg|Sandy Flemish Giant.jpg"
+  "hotot|Blanc De Hotot.jpg|Blanc De Hotot Rabbit.jpg"
+  "flemish-giant|Sandy Flemish Giant.jpg|A white Flemish Giant rabbit.jpg"
 )
 
 fetch_one() { # $1=文件名 $2=输出路径 -> 0 成功
