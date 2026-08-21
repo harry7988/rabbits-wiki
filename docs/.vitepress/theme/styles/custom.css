@@ -16,9 +16,9 @@
 
 /* ===== 浅色模式（默认）===== */
 :root {
-  --rw-cream: #faf6ef;
-  --rw-grass: #4a7c3f;
-  --rw-grass-soft: #e8f0e3;
+  --rw-cream: #fbfaf7;              /* 更轻的中性暖白，避开奶油底聚集区 */
+  --rw-grass: #57933F;              /* 嫩草绿：比原色亮一档，亲和 */
+  --rw-grass-soft: #eaf3e4;
   --rw-bark: #8b6f47;
   --rw-danger: #c0392b;
   --rw-danger-soft: #fdecea;
@@ -68,7 +68,9 @@
   --rw-ink: #1e2b1a;                /* 墨绿黑：主按钮/强调 */
   --rw-ink-hover: #16200f;
   --rw-line: #e4e0d6;               /* 分割线（比默认 divider 暖一点）*/
-  --rw-hover-bg: #f2efe8;           /* 行 hover 背景 */
+  --rw-hover-bg: #f2f1ec;           /* 行 hover 背景 */
+  --rw-hay: #c99a45;                /* 干草黄：兔主题点缀色，仅小面积 */
+  --rw-hay-soft: #f6efdd;
 
   /* 排版 token */
   --rw-font-heading-weight: 750;
@@ -119,6 +121,8 @@
   --rw-ink-hover: #96d97f;
   --rw-line: #2c2c2e;
   --rw-hover-bg: #1f1f21;
+  --rw-hay: #d9b268;
+  --rw-hay-soft: #2e2818;
 
   /* 首页设计 token（深色） */
   --rw-grass-shadow: rgba(126, 201, 106, 0.3);
@@ -374,3 +378,86 @@
 
 /* 中文数字混排的等宽感（表格里的数值） */
 .vp-doc table td { font-variant-numeric: tabular-nums; }
+
+/* ============================================
+   签名元素：兔粪球圆点（poop-dot）
+   粪球是养兔人每天观察的健康指标。
+   用小圆点做全站列表符号：可爱、有语义、不幼稚。
+   ============================================ */
+
+/* 文档正文列表 */
+.vp-doc ul {
+  list-style: none;
+  padding-left: 1.4rem;
+}
+.vp-doc ul li {
+  position: relative;
+}
+.vp-doc ul li::before {
+  content: '';
+  position: absolute;
+  left: -1.05rem;
+  top: 0.72em;
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--rw-grass);
+  opacity: 0.75;
+}
+/* 嵌套列表用干草黄，形成层次 */
+.vp-doc ul ul li::before {
+  background: var(--rw-hay);
+  width: 5px;
+  height: 5px;
+  opacity: 0.8;
+}
+/* VetCheck / 危险框里的列表用红点 */
+.vet-check ul li::before,
+.rw-alert.danger ul li::before {
+  background: var(--rw-danger);
+  opacity: 0.8;
+}
+
+/* 组件内列表同步（VetCheck 已有 disc，换成兔点） */
+.vet-check ul { list-style: none; padding-left: 1.4rem; }
+.vet-check ul li { position: relative; }
+
+/* ============================================
+   文档页阅读体验精修
+   ============================================ */
+
+/* 警告框柔化：圆角加大（亲和）+ 图标区留白 */
+.rw-alert,
+.vet-check {
+  border-radius: 14px;
+}
+.vet-check .vc-title {
+  font-size: 1rem;
+}
+
+/* 侧边栏激活项：左侧短竖条 + 加粗 */
+.VPSidebarItem.level-0 .item .text.active,
+.VPSidebarItem.level-1 .item .text.active {
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+}
+
+/* 行内链接：柔和下划线，hover 变实 */
+.vp-doc :not(h1,h2,h3,h4) a {
+  text-decoration: none;
+  background-image: linear-gradient(var(--vp-c-divider), var(--vp-c-divider));
+  background-size: 100% 1px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-image 0.15s ease;
+}
+.vp-doc :not(h1,h2,h3,h4) a:hover {
+  background-image: linear-gradient(var(--rw-grass), var(--rw-grass));
+}
+
+/* 有序列表：数字用草绿，呼应兔点 */
+.vp-doc ol { padding-left: 1.5rem; }
+.vp-doc ol li::marker {
+  color: var(--rw-grass);
+  font-weight: 700;
+}

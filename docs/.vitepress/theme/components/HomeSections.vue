@@ -172,6 +172,24 @@
   transform: translateX(0);
 }
 
+/* 列表前置兔点（干草黄，嵌套语义呼应全站符号系统） */
+.lead-list a::before,
+.topic-list a::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 999px;
+  background: var(--rw-hay);
+  opacity: 0.55;
+  margin-right: 0.65rem;
+  flex-shrink: 0;
+  transition: background-color 0.15s ease, opacity 0.15s ease;
+}
+.lead-list a:hover::before,
+.topic-list a:hover::before {
+  background: var(--rw-grass);
+  opacity: 1;
+}
+
 /* 其余主题：两列 */
 .topic-grid {
   display: grid;

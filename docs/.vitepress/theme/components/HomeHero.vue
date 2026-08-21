@@ -13,7 +13,7 @@
 <template>
   <section class="home-hero">
     <div class="home-hero-main">
-      <p class="hero-kicker">由社区共创 · 每条结论可溯源到权威兽医来源</p>
+      <p class="hero-kicker"><span class="kicker-dot" aria-hidden="true"></span>由社区共创 · 每条结论可溯源到权威兽医来源</p>
 
       <h1 class="hero-title">科学养兔，<br class="title-br" />有据可查</h1>
 
@@ -56,12 +56,21 @@
   .home-hero { grid-template-columns: 1fr; gap: 2.4rem; padding-top: 3rem; }
 }
 
-/* kicker：小字距排一行，不是 eyebrow 胶囊 */
+/* kicker：小字距排一行，前置干草黄兔点 */
 .hero-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
   font-size: 0.82rem;
   color: var(--vp-c-text-2);
   letter-spacing: 0.04em;
   margin: 0 0 1.6rem;
+}
+.kicker-dot {
+  width: 8px; height: 8px;
+  border-radius: 999px;
+  background: var(--rw-hay);
+  flex-shrink: 0;
 }
 
 /* 标题：靠字重和字号，两行 */
