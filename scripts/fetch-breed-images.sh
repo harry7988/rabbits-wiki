@@ -7,7 +7,8 @@ set -uo pipefail
 
 UA="rabbits-wiki-image-fetch/1.0 (https://www.rabbits.wiki; contact: https://github.com/harry7988)"
 OUT_DIR="docs/public/breeds"
-LOG="$OUT_DIR/fetch-log.txt"
+# 日志写到 /tmp：避免被当作站点静态资源部署（fetch-log.txt 曾进过 public，已移除）
+LOG="/tmp/fetch-log.txt"
 mkdir -p "$OUT_DIR"
 : > "$LOG"
 
@@ -21,8 +22,7 @@ ENTRIES=(
   "lionhead|Lionhead rabbit Dobby.jpg|Lionhead bunny.jpg"
   "mini-rex|Mini rex bunny.jpg|Daisy the Mini Rex Rabbit.jpg"
   "rex|Lapin rex castor.jpg|45-rex-castor.jpg"
-  "angora-satin|White Satin Angora Rabbit.jpg|"
-  "angora-english|EnglishAngoraRabbit.jpg|"
+  "angora|White Satin Angora Rabbit.jpg|EnglishAngoraRabbit.jpg"
   "dutch|American Grand Champion Dutch Rabbit.jpg|Dutch rabbit.jpg"
   "hotot|Blanc De Hotot.jpg|Blanc De Hotot Rabbit.jpg"
   "flemish-giant|Sandy Flemish Giant.jpg|A white Flemish Giant rabbit.jpg"

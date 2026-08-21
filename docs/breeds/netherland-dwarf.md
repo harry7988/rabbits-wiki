@@ -16,6 +16,10 @@ lastReviewed: 2026-07-27
   arba="Compact 型，颜色变种最多（25 种）"
 />
 
+<BreedPhoto src="/breeds/netherland-dwarf.jpg" alt="灰色荷兰侏儒兔蹲在砖块上，圆头、短耳直立、眼睛大而突出" width="800" height="531"
+  caption="荷兰侏儒兔：圆头、短直立耳与突出的大眼" artist="Erebus555" license="CC BY-SA 3.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/3.0" filePage="https://commons.wikimedia.org/wiki/File:Netherland_Dwarf_On_Brick.jpg" />
+
 ## 一、外观
 
 - **圆球型（cobby）**、苹果大头

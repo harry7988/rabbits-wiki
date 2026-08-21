@@ -36,6 +36,10 @@ lastReviewed: 2026-07-28
   arba="Compact 型，标志『熊猫眼』花纹"
 />
 
+<BreedPhoto src="/breeds/hotot.jpg" alt="白色霍托兔，每只眼睛周围有一圈黑色眼环，耳朵直立" width="800" height="532"
+  caption="霍托兔：白身 + 黑色眼环（熊猫眼）" artist="The only true editor" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Blanc_De_Hotot.jpg" />
+
 ## 二、标志性外观
 
 - **纯白身体**

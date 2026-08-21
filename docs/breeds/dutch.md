@@ -25,6 +25,10 @@ lastReviewed: 2026-07-27
   arba="Compact 型，认可色 7 种：Black/Blue/Chocolate/Gray/Steel/Tortoise/Chinchilla"
 />
 
+<BreedPhoto src="/breeds/dutch.jpg" alt="黑白道奇兔展示典型花色：脸部有白色白筋、前半身白色、后半身黑色" width="800" height="637"
+  caption="道奇兔：白筋 + 白色前半身 + 有色后半身的经典花色" artist="Bunnybri" license="CC BY-SA 3.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/3.0" filePage="https://commons.wikimedia.org/wiki/File:American_Grand_Champion_Dutch_Rabbit.jpg" />
+
 ## 一、外观（标志性"道奇花纹"）
 
 - 面部白 blaze

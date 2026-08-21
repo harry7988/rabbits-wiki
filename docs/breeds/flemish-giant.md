@@ -16,6 +16,10 @@ lastReviewed: 2026-07-28
   arba="Semi-arch 型，认可色 7 种：黑/蓝/浅黄/灰/沙/钢/白"
 />
 
+<BreedPhoto src="/breeds/flemish-giant.jpg" alt="sandy 色法兰德斯巨兔，体型硕大、耳朵长而直立" width="800" height="600"
+  caption="法兰德斯巨兔：sandy 色成年兔，家兔中体型之最" artist="Shcaroline" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Sandy_Flemish_Giant.jpg" />
+
 ## 一、外观
 
 - 体型巨大，最长可达 **0.9 米**（含伸展的身长）

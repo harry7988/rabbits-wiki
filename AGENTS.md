@@ -67,6 +67,7 @@ scripts/
 | `Warning` `Danger` `Info` | 提示框（可带 title） |
 | `FirstAidStep` | 步骤条（`:num` `title`） |
 | `BreedCard` | 品种信息卡 |
+| `BreedPhoto` | 品种照片（`/breeds/*.jpg` 自托管 Commons 图，必填 artist/license/filePage 署名；元数据见 `docs/public/breeds/credits.json`，换图流程见 `scripts/fetch-breed-images.sh`） |
 | `FAQItem` | 可折叠问答 |
 | `IngredientTable` | 兔粮成分四列对照（:rows 绑定） |
 | `SymptomTriage` `MedicineCalculator` `DehydrationCheck` `FeedingCalculator` `PelletAnalyzer` `HealthCalendar` `PlantSafetyChecker` `EmergencyCard` | 8 个交互工具（tools 页） |

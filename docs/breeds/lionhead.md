@@ -16,6 +16,10 @@ lastReviewed: 2026-07-27
   arba="Compact 型，2018 年首次获 Best in Show"
 />
 
+<BreedPhoto src="/breeds/lionhead.jpg" alt="白色狮子兔，头颈一圈浓密鬃毛，耳朵直立、耳尖深色" width="800" height="867"
+  caption="狮子兔：围绕头颈的鬃毛是品种标志" artist="Emmaima" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Lionhead_rabbit_Dobby.jpg" />
+
 ## 一、外观
 
 - 紧凑直立身、高位头颈

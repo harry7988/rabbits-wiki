@@ -142,6 +142,22 @@ function purifyForAI(content, frontmatter) {
     'CopyMarkdownButton': ''
   }
 
+  // <BreedPhoto src alt caption artist license filePage /> → 品种照片引用（含署名）
+  out = out.replace(/<BreedPhoto\b([^]*?)\/>/g, (m, attrs) => {
+    const get = (k) => { const mm = attrs.match(new RegExp(`${k}="([^"]*)"`)); return mm ? mm[1] : '' }
+    const src = get('src')
+    const alt = get('alt')
+    const cap = get('caption')
+    const artist = get('artist')
+    const lic = get('license')
+    const fp = get('filePage')
+    let line = `> _📷 照片：${cap || alt}`
+    if (src) line += ` [查看](https://www.rabbits.wiki${src})`
+    line += '_'
+    line += `\n> 图片：${alt}。版权：${artist}，${lic}，via [Wikimedia Commons](${fp})。`
+    return line
+  })
+
   // <Diagram src alt caption basis /> → 图片引用（自绘示意图）
   out = out.replace(/<Diagram\b([^]*?)\/>/g, (m, attrs) => {
     const get = (k) => { const mm = attrs.match(new RegExp(`${k}="([^"]*)"`)); return mm ? mm[1] : '' }

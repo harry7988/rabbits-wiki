@@ -6,6 +6,10 @@ lastReviewed: 2026-07-27
 
 # 🐇 安哥拉兔 Angora
 
+<BreedPhoto src="/breeds/angora.jpg" alt="白色缎毛安哥拉兔，全身覆盖长羊毛，仅面部特征可见" width="800" height="600"
+  caption="安哥拉兔（图为缎毛安哥拉 Satin Angora）：周身覆盖长羊毛" artist="Lanafactum" license="CC BY-SA 3.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/3.0" filePage="https://commons.wikimedia.org/wiki/File:White_Satin_Angora_Rabbit.jpg" />
+
 <Info title="安哥拉是品种类别，不是单一品种">
 
 ARBA 认可 **4 个独立品种**：English、French、Satin、Giant。它们都因**隐性基因致毛发月增约 1 英寸**而需要持续护理<cite><a href="#ref1">[1]</a></cite>。

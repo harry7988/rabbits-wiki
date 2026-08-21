@@ -26,6 +26,10 @@ lastReviewed: 2026-07-28
   arba="Compact 型，比 Holland Lop 大一号"
 />
 
+<BreedPhoto src="/breeds/mini-lop.jpg" alt="成年迷你垂耳兔，耳朵下垂，头部厚实圆润，agouti 色被毛" width="800" height="1149"
+  caption="迷你垂耳兔（美版）：体格比荷兰垂耳更厚实" artist="Franie Frou Frou" license="CC BY 2.0"
+  licenseUrl="https://creativecommons.org/licenses/by/2.0" filePage="https://commons.wikimedia.org/wiki/File:Mini_lop.jpg" />
+
 ## 一、与荷兰垂耳的区别
 
 | 维度 | Mini Lop（美） | Holland Lop |

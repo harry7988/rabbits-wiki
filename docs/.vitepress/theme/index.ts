@@ -12,6 +12,7 @@ import Danger from './components/Danger.vue'
 import Info from './components/Info.vue'
 import FirstAidStep from './components/FirstAidStep.vue'
 import BreedCard from './components/BreedCard.vue'
+import BreedPhoto from './components/BreedPhoto.vue'
 import MedicineCalculator from './components/MedicineCalculator.vue'
 import DehydrationCheck from './components/DehydrationCheck.vue'
 import SymptomTriage from './components/SymptomTriage.vue'
@@ -48,6 +49,7 @@ export default {
     app.component('Info', Info)
     app.component('FirstAidStep', FirstAidStep)
     app.component('BreedCard', BreedCard)
+    app.component('BreedPhoto', BreedPhoto)
     app.component('MedicineCalculator', MedicineCalculator)
     app.component('DehydrationCheck', DehydrationCheck)
     app.component('SymptomTriage', SymptomTriage)

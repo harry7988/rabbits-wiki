@@ -16,6 +16,10 @@ lastReviewed: 2026-07-27
   arba="Compact 型，ARBA 展会头号或二号参展品种"
 />
 
+<BreedPhoto src="/breeds/mini-rex.jpg" alt="白底黑斑的迷你雷克斯兔，被毛致密呈天鹅绒质感，耳朵直立" width="800" height="449"
+  caption="迷你雷克斯兔：直立的天鹅绒质被毛（图中为 broken 花色）" artist="Padaguan" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Mini_rex_bunny.jpg" />
+
 ## 一、关键：雷克斯被毛特性
 
 <Info title="雷克斯被毛（Rex fur）与传统软毛不同">

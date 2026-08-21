@@ -23,6 +23,10 @@ lastReviewed: 2026-07-28
   arba="Commercial 型，认可色 16 种"
 />
 
+<BreedPhoto src="/breeds/rex.jpg" alt="标准雷克斯兔，castor 海狸棕色被毛致密有光泽，耳大直立" width="800" height="600"
+  caption="雷克斯兔（标准型）：castor 海狸棕与天鹅绒质被毛" artist="Thomon" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Lapin_rex_castor.jpg" />
+
 ## 一、雷克斯被毛特性
 
 <Info>

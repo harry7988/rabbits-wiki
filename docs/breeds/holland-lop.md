@@ -16,6 +16,10 @@ lastReviewed: 2026-07-27
   arba="Compact 型，1979 年认可"
 />
 
+<BreedPhoto src="/breeds/holland-lop.jpg" alt="成年荷兰垂耳兔坐在草地上，双耳垂直下垂贴在脸颊两侧，体型紧凑浑圆" width="800" height="531"
+  caption="荷兰垂耳兔：标志性垂耳贴颊、紧凑身形" artist="Harold Cecchetti" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Holland_lop_rabbit.jpg" />
+
 ## 一、外观
 
 - 紧凑肌肉型，大头短圆鼻
