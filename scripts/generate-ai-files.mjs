@@ -334,7 +334,8 @@ const aiJson = {
     mdMirrorBase: `${SITE}/md/`,
     sitemap: `${SITE}/sitemap.xml`,
     robotsTxt: `${SITE}/robots.txt`,
-    knowledgeGraph: `${SITE}/graph.json`
+    knowledgeGraph: `${SITE}/graph.json`,
+    agentsMd: `${SITE}/agents.md`
   },
   resources: index.map(i => ({
     '@type': 'Article',

@@ -20,5 +20,8 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-# 站点地图与 AI 索引
+# AI Agent 协议文件（本站欢迎 Agent 访问）
+# robots.txt（爬虫）· agents.md（Agent 指南）· llms.txt（LLM 索引）· graph.json（知识图谱）
 Sitemap: https://rabbits.wiki/sitemap.xml
+Agents-md: https://rabbits.wiki/agents.md
+LLMs-txt: https://rabbits.wiki/llms.txt
