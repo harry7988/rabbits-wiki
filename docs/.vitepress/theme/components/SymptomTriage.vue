@@ -325,7 +325,7 @@ const levelMeta = {
 .triage-urgent .triage-level { color: var(--rw-warn); }
 .triage-watch { border-color: var(--rw-grass); background: var(--rw-grass-soft); }
 .triage-watch .triage-level { color: var(--rw-good-text); }
-.triage-level { font-size: 0.85rem; font-weight: 700; letter-spacing: 0.05em; }
+.triage-level { font-size: 0.85rem; font-weight: 700; }
 .triage-title { font-size: 1.25rem; font-weight: 800; margin: 0.3rem 0 0.6rem; }
 .triage-advice { line-height: 1.7; margin: 0.5rem 0 1rem; }
 .triage-link {

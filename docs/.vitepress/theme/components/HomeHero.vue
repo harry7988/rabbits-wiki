@@ -32,6 +32,14 @@
     </div>
 
     <aside class="hero-redline">
+      <img
+        class="redline-bunny"
+        src="/rabbit-logo.svg"
+        alt=""
+        width="96"
+        height="96"
+        aria-hidden="true"
+      />
       <p class="redline-label">养兔人记住这条红线</p>
       <p class="redline-text">
         停止进食或排便达 <em>12 小时</em>，就是急症——立即就医，不要观望。
@@ -63,7 +71,6 @@
   gap: 0.5rem;
   font-size: 0.82rem;
   color: var(--vp-c-text-2);
-  letter-spacing: 0.04em;
   margin: 0 0 1.6rem;
 }
 .kicker-dot {
@@ -77,8 +84,9 @@
 .hero-title {
   font-size: clamp(2.4rem, 5.5vw, 3.6rem);
   font-weight: 800;
-  letter-spacing: -0.03em;
-  line-height: 1.15;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  text-wrap: balance;
   margin: 0 0 1.3rem;
   color: var(--vp-c-text-1);
 }
@@ -106,7 +114,7 @@
 }
 .btn-solid {
   background: var(--rw-ink);
-  color: #fff;
+  color: var(--rw-ink-text);
 }
 .btn-solid:hover { background: var(--rw-ink-hover); }
 .btn-quiet {
@@ -122,21 +130,29 @@
 }
 .btn-quiet:hover .btn-arrow { transform: translateX(3px); }
 
-/* 红线卡：一条红竖线 + 排版 */
+/* 红线卡：一条红竖线 + 排版 + 兔子锚点 */
 .hero-redline {
-  border-left: 2px solid var(--rw-danger);
+  border-left: var(--rw-line-accent) solid var(--rw-danger);
   padding: 0.4rem 0 0.4rem 1.4rem;
 }
+.redline-bunny {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+/* 深色模式下 SVG 里的浅色底反而合适，不动 */
 .redline-label {
   font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.05em;
+
   color: var(--rw-danger);
   margin: 0 0 0.7rem;
 }
 .redline-text {
   font-size: 1.14rem;
-  font-weight: 650;
+  font-weight: 600;
   line-height: 1.7;
   color: var(--vp-c-text-1);
   margin: 0 0 0.6rem;
@@ -144,7 +160,7 @@
 .redline-text em {
   font-style: normal;
   color: var(--rw-danger);
-  font-weight: 750;
+  font-weight: 700;
 }
 .redline-note {
   font-size: 0.85rem;

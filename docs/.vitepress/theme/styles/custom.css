@@ -71,6 +71,15 @@
   --rw-hover-bg: #f2f1ec;           /* 行 hover 背景 */
   --rw-hay: #c99a45;                /* 干草黄：兔主题点缀色，仅小面积 */
   --rw-hay-soft: #f6efdd;
+  --rw-ink-text: #ffffff;           /* ink 底上的文字（浅色模式白字） */
+
+  /* 左边线规格（3 档，全站收敛）：
+     line-accent 2px 语义强调（红线）
+     line-note   3px 内容提示 + 软底色
+     line-alert  4px 医疗警报 + 软底色（警告框） */
+  --rw-line-accent: 2px;
+  --rw-line-note: 3px;
+  --rw-line-alert: 4px;
 
   /* 排版 token */
   --rw-font-heading-weight: 750;
@@ -123,6 +132,7 @@
   --rw-hover-bg: #1f1f21;
   --rw-hay: #d9b268;
   --rw-hay-soft: #2e2818;
+  --rw-ink-text: #10200c;           /* 深色：ink 变浅绿，文字用深墨绿 */
 
   /* 首页设计 token（深色） */
   --rw-grass-shadow: rgba(126, 201, 106, 0.3);
@@ -140,7 +150,7 @@
 /* 来源卡片：网格化展示 */
 .source-card {
   border: 1px solid var(--vp-c-divider);
-  border-left: 4px solid var(--rw-grass);
+  border-left: var(--rw-line-alert) solid var(--rw-grass);
   border-radius: 8px;
   padding: 0.9rem 1.1rem;
   margin: 0.6rem 0;
@@ -192,9 +202,9 @@
 .rw-alert .rw-alert-icon { font-size: 1.2rem; line-height: 1.4; flex-shrink: 0; }
 .rw-alert .rw-alert-title { font-weight: 700; margin-bottom: 0.2rem; }
 .rw-alert p { margin: 0.25rem 0; }
-.rw-alert.danger { background: var(--rw-danger-soft); border-left: 5px solid var(--rw-danger); color: var(--rw-text-on-danger); }
-.rw-alert.warn   { background: var(--rw-warn-soft);   border-left: 5px solid var(--rw-warn);   color: var(--rw-text-on-warn); }
-.rw-alert.info   { background: var(--rw-info-soft);   border-left: 5px solid var(--rw-info);   color: var(--rw-text-on-info); }
+.rw-alert.danger { background: var(--rw-danger-soft); border-left: var(--rw-line-alert) solid var(--rw-danger); color: var(--rw-text-on-danger); }
+.rw-alert.warn   { background: var(--rw-warn-soft);   border-left: var(--rw-line-alert) solid var(--rw-warn);   color: var(--rw-text-on-warn); }
+.rw-alert.info   { background: var(--rw-info-soft);   border-left: var(--rw-line-alert) solid var(--rw-info);   color: var(--rw-text-on-info); }
 
 /* VetCheck 红色警报：送医信号 */
 .vet-check {
@@ -235,7 +245,7 @@
   padding: 0.9rem 1rem;
   border-radius: 8px;
   background: var(--rw-grass-soft);
-  border-left: 4px solid var(--rw-grass);
+  border-left: var(--rw-line-alert) solid var(--rw-grass);
 }
 .first-aid-step .step-num {
   flex-shrink: 0;
@@ -303,14 +313,14 @@
 /* 标题层次：更强的字重对比，让文章结构一眼可读 */
 .vp-doc h1 {
   font-weight: 800;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
   line-height: 1.25;
   padding-bottom: 0.6rem;
   border-bottom: 2px solid var(--vp-c-divider);
 }
 .vp-doc h2 {
-  font-weight: 750;
-  letter-spacing: -0.015em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
   margin-top: 2.6rem;
   padding-bottom: 0.45rem;
   border-bottom: 1px solid var(--vp-c-divider);
@@ -321,7 +331,6 @@
 /* 正文：中文阅读优化（行高/段落间距） */
 .vp-doc p, .vp-doc li {
   line-height: 1.9;
-  letter-spacing: 0.01em;
 }
 .vp-doc p { margin: 1rem 0; }
 
@@ -353,7 +362,7 @@
 
 /* 引用块精修 */
 .vp-doc blockquote {
-  border-left: 3px solid var(--rw-grass);
+  border-left: var(--rw-line-note) solid var(--rw-grass);
   border-radius: 0 8px 8px 0;
   background: var(--rw-grass-soft);
   padding: 0.8rem 1.1rem;
@@ -461,3 +470,39 @@
   color: var(--rw-grass);
   font-weight: 700;
 }
+
+
+/* ============================================
+   键盘可达性：:focus-visible（kimi 评审补充）
+   hover 有的反馈，focus 也要有
+   ============================================ */
+.btn:focus-visible,
+.redline-link:focus-visible,
+.lead-list a:focus-visible,
+.topic-list a:focus-visible,
+.lead-title a:focus-visible,
+.topic-name a:focus-visible,
+.copy-md-fab:focus-visible,
+.triage-opt:focus-visible,
+.psc-filters button:focus-visible,
+.faq-q:focus-visible {
+  outline: 2px solid var(--rw-grass);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+/* 箭头位移同步到 focus 态 */
+.lead-list a:focus-visible::after,
+.topic-list a:focus-visible::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+.lead-list a:focus-visible::before,
+.topic-list a:focus-visible::before {
+  background: var(--rw-grass);
+  opacity: 1;
+}
+.btn-quiet:focus-visible .btn-arrow {
+  transform: translateX(3px);
+}
+/* 尊重仅键盘时才显示 outline（鼠标点击不出现） */
+:focus:not(:focus-visible) { outline: none; }

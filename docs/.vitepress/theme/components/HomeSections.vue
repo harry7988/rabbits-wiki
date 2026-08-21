@@ -111,7 +111,7 @@
 .lead-title {
   margin: 0 0 0.55rem;
   font-size: 1.6rem;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: -0.02em;
 }
 .lead-title a {
@@ -119,7 +119,6 @@
   text-decoration: none;
 }
 .lead-title a:hover { color: var(--rw-ink); }
-.dark .lead-title a:hover { color: var(--rw-ink); }
 
 .lead-desc {
   font-size: 0.92rem;

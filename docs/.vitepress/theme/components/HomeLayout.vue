@@ -17,7 +17,7 @@ import HomeSections from './HomeSections.vue'
         <h2>为什么有 rabbits.wiki</h2>
         <p>
           兔兔是会<b>隐藏疼痛</b>的动物，病情进展极快——一顿没吃好可能就是致命急症的开端。
-          市面上的养兔信息鱼龙混杂，很多"经验"以讹传讹（给兔用猫化毛膏、相信"茶杯兔"、兔子只吃胡萝卜）。
+          市面上的养兔信息鱼龙混杂，很多“经验”以讹传讹（给兔用猫化毛膏、相信“茶杯兔”、兔子只吃胡萝卜）。
         </p>
         <p class="why-core">
           我们想做的是：<b>把每一条建议都溯源到权威兽医来源</b>，让每一个兔主人都看得懂、信得过、用得上。
@@ -43,7 +43,7 @@ import HomeSections from './HomeSections.vue'
 }
 .why-inner h2 {
   font-size: 1.5rem;
-  font-weight: 750;
+  font-weight: 700;
   letter-spacing: -0.01em;
   margin: 0 0 1rem;
   color: var(--vp-c-text-1);
@@ -55,12 +55,12 @@ import HomeSections from './HomeSections.vue'
   margin: 0 0 0.9rem;
 }
 .why-inner p b { color: var(--vp-c-text-1); }
-.why-core {
+.why-core.why-core {
   padding: 1rem 1.2rem;
   border-left: 3px solid var(--rw-grass);
   border-radius: 0 8px 8px 0;
   background: var(--rw-grass-soft);
-  color: var(--vp-c-text-1) !important;
+  color: var(--vp-c-text-1);
 }
 .why-footer {
   font-size: 0.84rem;
