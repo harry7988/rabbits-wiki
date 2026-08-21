@@ -116,6 +116,15 @@ lastReviewed: 2026-07-28
 
 </Warning>
 
+## 七、视频教程
+
+<BiliVideo
+  bvid="BV1gE411a739"
+  title="【新手养兔保姆级教程】如何搭建兔子窝"
+  up="我家兔子已成精"
+  note="圈养/散养两种布置 + 避免随地大小便"
+/>
+
 <SourceList>
 
 <a id="ref1"></a>

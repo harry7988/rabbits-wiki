@@ -141,6 +141,24 @@ function purifyForAI(content, frontmatter) {
     'EmergencyCard': '紧急联系卡（交互式）—— 用户本地保存兽医信息，可打印。详见原文页面。',
     'CopyMarkdownButton': ''
   }
+
+  // <BiliVideo bvid title up note /> → 可读的视频引用（多行属性）
+  out = out.replace(/<BiliVideo\b([^]*?)\/>/g, (m, attrs) => {
+    const get = (k) => {
+      const mm = attrs.match(new RegExp(`${k}="([^"]*)"`))
+      return mm ? mm[1] : ''
+    }
+    const title = get('title') || '视频教程'
+    const up = get('up')
+    const bvid = get('bvid')
+    const note = get('note')
+    let line = `> _🎬 视频：${title}`
+    if (up) line += `_（B 站 UP 主：${up}`
+    if (bvid) line += `，[观看](https://www.bilibili.com/video/${bvid}/)`
+    line += `）_`
+    if (note) line += `\n> ${note}`
+    return line
+  })
   for (const [tag, desc] of Object.entries(interactiveTools)) {
     if (desc) {
       // 匹配 <Tag ... />（self-closing，含跨行属性）。注意 [^>]* 无法跨 > 字符，

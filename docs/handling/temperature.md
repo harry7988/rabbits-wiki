@@ -88,6 +88,15 @@ GI Stasis 处置、中暑判断、术后恢复——都需要测体温。
 - 包裹保暖
 - **立即就医**（低温常提示严重疾病/休克）
 
+## 六、视频教程
+
+<BiliVideo
+  bvid="BV1cW411E7EE"
+  title="[HRS搬运] 如何给兔兔量体温"
+  up="小球大可爱"
+  note="HRS（House Rabbit Society）官方教学搬运——与本站引用的权威同源"
+/>
+
 <SourceList>
 
 <a id="ref1"></a>

@@ -122,6 +122,15 @@ lastReviewed: 2026-07-28
 - 无针头注射器（喂水/喂药/喂 Critical Care）
 - 健康记录本
 
+## 七、视频教程
+
+<BiliVideo
+  bvid="BV1NV411C7k3"
+  title="帮兔子梳毛！原来长毛兔要这样梳｜币宝养兔教学 EP.27"
+  up="ChampKnows冠军知道"
+  note="梳毛手法演示：防吃毛、防兔毛满天飞（养兔教学系列）"
+/>
+
 <SourceList>
 
 <SourceCard

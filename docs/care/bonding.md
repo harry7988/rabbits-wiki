@@ -100,6 +100,15 @@ lastReviewed: 2026-07-28
 
 </Info>
 
+## 六、视频教程
+
+<BiliVideo
+  bvid="BV1sV411o763"
+  title="如何科学绑定/合笼兔兔，构建和谐家庭？"
+  up="我家兔子已成精"
+  note="合笼流程与打架风险管控（科学养兔 UP）"
+/>
+
 <SourceList>
 
 <a id="ref1"></a>
