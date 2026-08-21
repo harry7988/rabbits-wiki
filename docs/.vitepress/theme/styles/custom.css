@@ -52,6 +52,21 @@
   --rw-bad-text: #a02015;
   --rw-info2-bg: #e8f1f8;
   --rw-info2-text: #1d4a7a;
+
+  /* 首页设计 token */
+  --rw-grass-shadow: rgba(74, 124, 63, 0.45);
+  --rw-shadow-tint: rgba(74, 124, 63, 0.22);
+  --rw-grass-border: #b5cfa9;
+  --rw-danger-border: #f0c4bd;
+  --rw-danger-glow: rgba(192, 57, 43, 0.35);
+  --rw-danger-text-strong: #9a2418;
+  --rw-home-sections-bg: #f7f4ed;
+  --rw-tag-bg: #f0ede5;
+  --rw-danger-tag-bg: #fbe9e5;
+
+  /* 排版 token */
+  --rw-font-heading-weight: 750;
+  --rw-prose-max: 44em;
 }
 
 /* ===== 深色模式覆盖 ===== */
@@ -92,6 +107,17 @@
   --rw-bad-text: #ff8a7a;
   --rw-info2-bg: #15273a;
   --rw-info2-text: #6db4e0;
+
+  /* 首页设计 token（深色） */
+  --rw-grass-shadow: rgba(126, 201, 106, 0.3);
+  --rw-shadow-tint: rgba(0, 0, 0, 0.55);
+  --rw-grass-border: #3d5c35;
+  --rw-danger-border: #5c2822;
+  --rw-danger-glow: rgba(255, 107, 91, 0.3);
+  --rw-danger-text-strong: #ff8a7a;
+  --rw-home-sections-bg: #141416;
+  --rw-tag-bg: #2a2a2c;
+  --rw-danger-tag-bg: #3a1d18;
 }
 
 
@@ -253,3 +279,86 @@
   font-size: 0.88rem;
   color: var(--rw-text-on-warn);
 }
+
+/* ============================================
+   文档页 Typography 精修（重设计）
+   ============================================ */
+
+/* 标题层次：更强的字重对比，让文章结构一眼可读 */
+.vp-doc h1 {
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+  padding-bottom: 0.6rem;
+  border-bottom: 2px solid var(--vp-c-divider);
+}
+.vp-doc h2 {
+  font-weight: 750;
+  letter-spacing: -0.015em;
+  margin-top: 2.6rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.vp-doc h3 { font-weight: 700; letter-spacing: -0.01em; margin-top: 2.1rem; }
+.vp-doc h4 { font-weight: 700; }
+
+/* 正文：中文阅读优化（行高/段落间距） */
+.vp-doc p, .vp-doc li {
+  line-height: 1.9;
+  letter-spacing: 0.01em;
+}
+.vp-doc p { margin: 1rem 0; }
+
+/* 表格：更精致的样式 */
+.vp-doc table {
+  display: table;
+  width: 100%;
+  font-size: 0.9rem;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid var(--vp-c-divider);
+}
+.vp-doc table th {
+  background: var(--rw-tag-bg);
+  font-weight: 700;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.vp-doc table td, .vp-doc table th { padding: 0.6rem 0.9rem; }
+.vp-doc table tr td { border-bottom: 1px solid var(--vp-c-divider); }
+.vp-doc table tr:last-child td { border-bottom: none; }
+
+/* 统一触觉反馈：所有可交互元素 active 下沉 */
+.vp-doc a:active,
+.copy-md-fab:active,
+.triage-opt:active,
+.psc-filters button:active { transform: translateY(1px); }
+
+/* 引用块精修 */
+.vp-doc blockquote {
+  border-left: 3px solid var(--rw-grass);
+  border-radius: 0 8px 8px 0;
+  background: var(--rw-grass-soft);
+  padding: 0.8rem 1.1rem;
+  color: var(--vp-c-text-1);
+}
+
+/* 统一 radius 系统（Shape Consistency Lock）：
+   卡片/警告框 10-14px，按钮/输入 8px，标签 pill */
+.source-card, .rw-alert, .vet-check, .breed-card,
+.first-aid-step, .faq-item { border-radius: 12px; }
+.med-calc, .feed-calc, .pa-analyzer, .hc-calendar,
+.psc-checker, .dh-check, .ec-card, .triage,
+.ing-table-wrap { border-radius: 14px; }
+
+/* 阴影 tint（不用纯黑） */
+.tile:hover, .cta-primary {
+  box-shadow: 0 8px 24px -10px var(--rw-shadow-tint);
+}
+
+/* 侧边栏激活项强化 */
+.VPSidebarItem .text.active { font-weight: 700; }
+
+/* 中文数字混排的等宽感（表格里的数值） */
+.vp-doc table td { font-variant-numeric: tabular-nums; }
