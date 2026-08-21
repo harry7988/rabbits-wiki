@@ -33,7 +33,8 @@ fetch_one() { # $1=文件名 $2=输出路径 -> 0 成功
   local h
   h=$(printf '%s' "$enc" | md5sum | cut -d' ' -f1)
   # 文件名内 ! ( ) 等子分隔符在 wikimedia URL 中原样保留，仅空格换下划线
-  local url="https://upload.wikimedia.org/wikipedia/commons/thumb/${h:0:1}/${h:0:2}/${enc}/800px-${enc}"
+  # 缩略图宽度必须是 Wikimedia 档位（20/40/60/120/250/330/500/960/1280/…），否则 400
+  local url="https://upload.wikimedia.org/wikipedia/commons/thumb/${h:0:1}/${h:0:2}/${enc}/960px-${enc}"
   log "  GET $url"
   curl -sSL --max-time 60 -A "$UA" -w "  HTTP %{http_code} %{size_download}B\n" -o "$out" "$url" | tee -a "$LOG" || return 1
   local mime size
