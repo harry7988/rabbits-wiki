@@ -288,6 +288,10 @@ rabbits.wiki 是一个开放、CC BY-SA 4.0 协议的兔子养护百科，欢迎
 
 ${index.map(i => `- [${i.title}](${i.mdMirror}): ${i.description}`).join('\n')}
 
+## AI Agent 知识图谱
+
+- [graph.json](${SITE}/graph.json)：结构化知识图谱（nodes=页面 / edges=站内真实链接关系 / sections=专题层级）。Agent 可先检索节点、沿边扩展、再读 md 镜像全文。
+
 ## 可信度原则
 
 本站所有医疗/生理陈述必须溯源到：
@@ -329,7 +333,8 @@ const aiJson = {
     llmsTxt: `${SITE}/llms.txt`,
     mdMirrorBase: `${SITE}/md/`,
     sitemap: `${SITE}/sitemap.xml`,
-    robotsTxt: `${SITE}/robots.txt`
+    robotsTxt: `${SITE}/robots.txt`,
+    knowledgeGraph: `${SITE}/graph.json`
   },
   resources: index.map(i => ({
     '@type': 'Article',

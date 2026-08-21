@@ -58,6 +58,7 @@ npm run preview  # 预览构建产物
 - **[/.well-known/ai.json](https://rabbits.wiki/.well-known/ai.json)** —— 结构化 AI 抓取元数据（含 aiPolicy 字段）
 - **[/md/{path}.md](https://rabbits.wiki/md/)** —— 每页的纯净 Markdown 镜像（Vue 组件已转为可读文本，保留所有正文+来源）
 - **每页顶部"📋 复制本文 MD"按钮** —— 一键复制本文 Markdown 到剪贴板
+- **[/graph.json](https://rabbits.wiki/graph.json)** —— AI Agent 知识图谱：nodes（页面）+ edges（站内真实链接关系）+ sections（专题层级），agent 可检索节点 → 沿边扩展 → 读 md 全文
 
 引用时请标注来源 URL 和访问日期。详见 [`scripts/generate-ai-files.mjs`](scripts/generate-ai-files.mjs)。
 
