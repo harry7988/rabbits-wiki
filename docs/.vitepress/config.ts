@@ -48,6 +48,88 @@ export default defineConfig({
     lastmodDateOnly: false
   },
 
+  // ===== 双语：根 = 中文（默认），/en/ = 英文 =====
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh-CN',
+      themeConfig: {
+        siteTitle: 'rabbits.wiki 🐇',
+        outline: { level: [2, 3], label: '本页内容' },
+        docFooter: { prev: '上一页', next: '下一页' },
+        lastUpdatedText: '最后核查',
+        editLink: {
+          pattern: 'https://github.com/harry7988/rabbits-wiki/edit/main/docs/:path',
+          text: '在 GitHub 上编辑本页（共创）'
+        },
+        footer: {
+          message: '本站内容采用 CC BY-SA 4.0 协议发布 · 本站为科普，不构成兽医诊断，急症请立即就医',
+          copyright: '© 2026 rabbits.wiki 社区贡献者'
+        }
+      }
+    },
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      link: '/en/',
+      themeConfig: {
+        siteTitle: 'rabbits.wiki 🐇',
+        outline: { level: [2, 3], label: 'On this page' },
+        docFooter: { prev: 'Previous', next: 'Next' },
+        lastUpdatedText: 'Last reviewed',
+        editLink: {
+          pattern: 'https://github.com/harry7988/rabbits-wiki/edit/main/docs/:path',
+          text: 'Edit this page on GitHub'
+        },
+        footer: {
+          message: 'Content under CC BY-SA 4.0 · Educational information only — not veterinary advice. For emergencies, see a rabbit-savvy vet immediately.',
+          copyright: '© 2026 rabbits.wiki contributors'
+        },
+        search: {
+          provider: 'local',
+          options: {
+            translations: {
+              button: { buttonText: 'Search', buttonAriaLabel: 'Search' },
+              modal: {
+                displayDetails: 'Display details',
+                resetButtonTitle: 'Reset search',
+                backButtonTitle: 'Back',
+                noResultsText: 'No results',
+                footer: { selectText: 'Select', navigateText: 'Navigate', closeText: 'Close' }
+              }
+            }
+          }
+        },
+        nav: [
+          { text: 'Emergencies', link: '/en/emergencies/' },
+          { text: 'Dental & Hay', link: '/en/care/dental' },
+          { text: 'Unsafe Foods', link: '/en/supplies/food-unsafe' },
+          { text: '中文版', link: '/' },
+          { text: 'More', items: [
+            { text: 'Contribute', link: '/en/contribute' },
+            { text: 'About', link: '/en/about' }
+          ]}
+        ],
+        sidebar: {
+          '/en/': [
+            {
+              text: 'English',
+              collapsed: false,
+              items: [
+                { text: 'Home', link: '/en/' },
+                { text: 'Emergencies Overview', link: '/en/emergencies/' },
+                { text: 'Dental Health (Hay = Grinding)', link: '/en/care/dental' },
+                { text: 'Foods Rabbits Must Not Eat', link: '/en/supplies/food-unsafe' },
+                { text: 'Contribute', link: '/en/contribute' },
+                { text: 'About', link: '/en/about' }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+
   themeConfig: {
     siteTitle: 'rabbits.wiki 🐇',
     description: '社区共创的兔子百科',

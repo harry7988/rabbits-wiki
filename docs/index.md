@@ -6,7 +6,10 @@ layout: page
 
 <script setup>
 import HomeLayout from './.vitepress/theme/components/HomeLayout.vue'
+import LangAutoDetect from './.vitepress/theme/components/LangAutoDetect.vue'
 </script>
+
+<LangAutoDetect />
 
 <HomeLayout />
 
