@@ -32,14 +32,9 @@
     </div>
 
     <aside class="hero-redline">
-      <img
-        class="redline-bunny"
-        src="/rabbit-logo.svg"
-        alt=""
-        width="96"
-        height="96"
-        aria-hidden="true"
-      />
+      <span class="redline-badge" aria-hidden="true">
+        <span class="redline-mark"></span>
+      </span>
       <p class="redline-label">养兔人记住这条红线</p>
       <p class="redline-text">
         停止进食或排便达 <em>12 小时</em>，就是急症——立即就医，不要观望。
@@ -54,9 +49,9 @@
 .home-hero {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 320px;
-  gap: 4rem;
+  gap: 3rem;
   align-items: center;
-  max-width: 1080px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 4.5rem 1.5rem 4rem;
 }
@@ -117,6 +112,14 @@
   color: var(--rw-ink-text);
 }
 .btn-solid:hover { background: var(--rw-ink-hover); }
+/* 深色：反转型（浅底深字），保持"墨"的语义、去掉荧光大色块 */
+:global(.dark) .btn-solid {
+  background: #a3d493;
+  color: #16200f;
+}
+:global(.dark) .btn-solid:hover {
+  background: #b3dda4;
+}
 .btn-quiet {
   color: var(--vp-c-text-1);
   padding-left: 0;
@@ -130,19 +133,31 @@
 }
 .btn-quiet:hover .btn-arrow { transform: translateX(3px); }
 
-/* 红线卡：一条红竖线 + 排版 + 兔子锚点 */
+/* 红线卡：一条红竖线 + 排版 + 兔头徽章 */
 .hero-redline {
   border-left: var(--rw-line-accent) solid var(--rw-danger);
   padding: 0.4rem 0 0.4rem 1.4rem;
 }
-.redline-bunny {
-  display: block;
-  width: 72px;
-  height: 72px;
-  margin-bottom: 1rem;
-  opacity: 0.9;
+.redline-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  background: var(--rw-hay-soft);
+  margin-bottom: 1.1rem;
 }
-/* 深色模式下 SVG 里的浅色底反而合适，不动 */
+.redline-mark {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url('/rabbit-mark.svg') center / contain no-repeat;
+}
+/* 深色换浅绿剪影版 */
+:global(.dark) .redline-mark {
+  background-image: url('/rabbit-mark-dark.svg');
+}
 .redline-label {
   font-size: 0.78rem;
   font-weight: 700;

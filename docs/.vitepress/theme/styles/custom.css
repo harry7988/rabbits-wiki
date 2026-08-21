@@ -128,8 +128,8 @@
   /* 编辑部风格 token（深色） */
   --rw-ink: #7ec96a;
   --rw-ink-hover: #96d97f;
-  --rw-line: #2c2c2e;
-  --rw-hover-bg: #1f1f21;
+  --rw-line: #38383a;
+  --rw-hover-bg: #262628;
   --rw-hay: #d9b268;
   --rw-hay-soft: #2e2818;
   --rw-ink-text: #10200c;           /* 深色：ink 变浅绿，文字用深墨绿 */

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- rabbits.wiki 兔头 mark：透明底，单色剪影 -->
+  <g fill="#7ec96a">
+    <ellipse cx="23.5" cy="19" rx="5" ry="13.5"/>
+    <ellipse cx="40.5" cy="19" rx="5" ry="13.5"/>
+    <ellipse cx="23.5" cy="21" rx="2" ry="8" fill="#1a1a1c" opacity="0.5"/>
+    <ellipse cx="40.5" cy="21" rx="2" ry="8" fill="#1a1a1c" opacity="0.5"/>
+    <circle cx="32" cy="42" r="14.5"/>
+  </g>
+</svg>

@@ -23,7 +23,7 @@ import HomeSections from './HomeSections.vue'
           我们想做的是：<b>把每一条建议都溯源到权威兽医来源</b>，让每一个兔主人都看得懂、信得过、用得上。
         </p>
         <div class="why-footer">
-          本站内容采用 CC BY-SA 4.0 协议 · 欢迎在 GitHub 共创 ·
+          <a href="https://github.com/rabbits-wiki/rabbits.wiki">在 GitHub 共创</a> ·
           <a href="/about">关于我们</a> ·
           <a href="/sources/">全站来源索引</a>
         </div>

@@ -16,7 +16,7 @@
 
       <!-- 两大主题：急症 + 工具 -->
       <div class="lead-grid">
-        <div class="lead">
+        <div class="lead lead-emergency">
           <h2 class="lead-title"><a href="/emergencies/">急症处置</a></h2>
           <p class="lead-desc">兔子病了怎么判断、送医前能做什么。每一种急症都写清红色警报信号。</p>
           <ul class="lead-list">
@@ -92,7 +92,7 @@
   padding: 3.6rem 1.5rem 4.5rem;
 }
 .entries-inner {
-  max-width: 1080px;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
@@ -119,6 +119,22 @@
   text-decoration: none;
 }
 .lead-title a:hover { color: var(--rw-ink); }
+/* 急症处置：红色特权位 */
+.lead-emergency .lead-title a { color: var(--rw-danger-text-strong); }
+.lead-emergency .lead-title a:hover { color: var(--rw-danger); }
+.lead-emergency .lead-list a::before {
+  background: var(--rw-danger);
+}
+.lead-emergency .lead-list a:hover::before,
+.lead-emergency .lead-list a:focus-visible::before {
+  background: var(--rw-danger);
+  opacity: 1;
+}
+.lead-emergency .lead-list a:hover::after,
+.lead-emergency .lead-list a:focus-visible::after {
+  color: var(--rw-danger);
+}
+.dark .lead-emergency .lead-title a { color: var(--rw-danger); }
 
 .lead-desc {
   font-size: 0.92rem;
@@ -141,7 +157,6 @@
 .lead-list a,
 .topic-list a {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 0.62rem 0.5rem;
   margin: 0 -0.5rem;
@@ -160,6 +175,7 @@
 .lead-list a::after,
 .topic-list a::after {
   content: '→';
+  margin-left: auto;
   color: var(--vp-c-text-3, var(--vp-c-text-2));
   opacity: 0;
   transform: translateX(-4px);
