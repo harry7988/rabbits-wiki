@@ -40,13 +40,13 @@
     "breed": "lionhead"
   },
   {
-    "file": "Daisy the Mini Rex Rabbit.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Daisy_the_Mini_Rex_Rabbit.jpg",
-    "artist": "Samantha Luckett",
+    "file": "Mini rex bunny.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Mini_rex_bunny.jpg",
+    "artist": "Padaguan",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "credit": "Own work",
-    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Daisy_the_Mini_Rex_Rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Mini_rex_bunny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "breed": "mini-rex"
   },
   {
@@ -60,13 +60,13 @@
     "breed": "rex"
   },
   {
-    "file": "EnglishAngoraRabbit.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:EnglishAngoraRabbit.jpg",
-    "artist": "?",
-    "license": "CC BY-SA 3.0",
-    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "credit": "",
-    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/EnglishAngoraRabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "file": "Angora rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Angora_rabbit.jpg",
+    "artist": "Avro52",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Angora_rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "breed": "angora"
   },
   {
@@ -80,23 +80,23 @@
     "breed": "dutch"
   },
   {
-    "file": "Hotot Rabbit!.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Hotot_Rabbit!.jpg",
-    "artist": "Carly &amp; Art",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
-    "credit": "originally posted to Flickr as S.S. Petunia, listing hard to port!",
-    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/1/18/Hotot_Rabbit%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "breed": "hotot"
-  },
-  {
-    "file": "Flemish Giant.jpg",
-    "filePage": "https://commons.wikimedia.org/wiki/File:Flemish_Giant.jpg",
-    "artist": "DestinationFearFan",
+    "file": "Blanc De Hotot.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Blanc_De_Hotot.jpg",
+    "artist": "The only true editor",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "credit": "Own work",
-    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/Flemish_Giant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Blanc_De_Hotot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "hotot"
+  },
+  {
+    "file": "Sandy Flemish Giant.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Sandy_Flemish_Giant.jpg",
+    "artist": "Shcaroline",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sandy_Flemish_Giant.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "breed": "flemish-giant"
   }
 ]
