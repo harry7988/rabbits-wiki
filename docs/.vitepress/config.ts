@@ -54,7 +54,7 @@ export default defineConfig({
 
     // 全站免责声明入口
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/rabbits-wiki/rabbits.wiki' }
+      { icon: 'github', link: 'https://github.com/harry7988/rabbits-wiki' }
     ],
 
     search: {
@@ -232,7 +232,7 @@ export default defineConfig({
     lastUpdatedText: '最后核查',
 
     editLink: {
-      pattern: 'https://github.com/rabbits-wiki/rabbits.wiki/edit/main/docs/:path',
+      pattern: 'https://github.com/harry7988/rabbits-wiki/edit/main/docs/:path',
       text: '在 GitHub 上编辑本页（共创）'
     },
 

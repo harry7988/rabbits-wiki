@@ -84,7 +84,7 @@ lastReviewed: 2026-07-28
 
 - **数据来源**：每个工具底部都标注了权威来源（House Rabbit Society、Oxbow、VCA、兽医期刊等）
 - **设计原则**：宁可"过度就医"也不要给饲主错误的安全感
-- **欢迎反馈**：[提 Issue](https://github.com/rabbits-wiki/rabbits.wiki/issues) 报告错误或建议新工具
+- **欢迎反馈**：[提 Issue](https://github.com/harry7988/rabbits-wiki/issues) 报告错误或建议新工具
 
 <SourceList>
 

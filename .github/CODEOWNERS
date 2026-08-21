@@ -1,33 +1,30 @@
 # CODEOWNERS —— 医疗类内容需指定审核者批准
 # 详见 docs/contribute.md "医疗内容审核"
 #
-# ⚠️ 配置说明：以下 @rabbits-wiki/* 是占位团队名。
-# 仓库实际所有者请将它们替换为：
-#   1. 你的个人 GitHub 用户名（如 @harry），或
-#   2. 你创建的 GitHub Team（在仓库 Settings → Teams 创建）
-# 否则 PR 将无法找到审核者而卡住。
+# 审核者：仓库所有者 @harry7988（医疗内容同样由所有者审核，
+# 后续如组建审核团队，可把对应行改为 @团队名）
 
 # 急症处置专题（医疗内容，需兽医/资深审核者批准）
-docs/emergencies/                    @rabbits-wiki/vet-reviewers
+docs/emergencies/                    @harry7988
 
 # 常备药与用品专题（处方药、用药建议）
-docs/supplies/                       @rabbits-wiki/vet-reviewers
+docs/supplies/                       @harry7988
 
 # 消化系统科普（生理/疾病机制）
-docs/digest/                         @rabbits-wiki/vet-reviewers
+docs/digest/                         @harry7988
 
 # 日常养育（健康相关：绝育、幼兔、老年兔）
-docs/care/                           @rabbits-wiki/vet-reviewers
+docs/care/                           @harry7988
 
 # 交互工具（剂量计算等，安全敏感）
-docs/tools/                          @rabbits-wiki/vet-reviewers
+docs/tools/                          @harry7988
 
 # 品种百科（健康倾向相关）
-docs/breeds/                         @rabbits-wiki/editors
+docs/breeds/                         @harry7988
 
 # 全站来源索引与共创规范（核心规则文件）
-docs/sources.md                      @rabbits-wiki/editors
-docs/contribute.md                   @rabbits-wiki/editors
+docs/sources.md                      @harry7988
+docs/contribute.md                   @harry7988
 
 # 站点配置与组件
-docs/.vitepress/                     @rabbits-wiki/editors
+docs/.vitepress/                     @harry7988

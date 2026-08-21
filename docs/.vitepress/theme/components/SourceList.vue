@@ -26,7 +26,7 @@ withDefaults(defineProps<Props>(), { title: '引用与来源' })
       <span class="src-badge vet">🟢 兽医权威</span>
       <span class="src-badge org">🟡 专业组织</span>
       <span class="src-badge exp">🟠 饲主经验</span>。
-      如发现来源失效或结论存疑，欢迎<a href="https://github.com/rabbits-wiki/rabbits.wiki/issues" target="_blank" rel="noopener">提 Issue 纠错</a>。
+      如发现来源失效或结论存疑，欢迎<a href="https://github.com/harry7988/rabbits-wiki/issues" target="_blank" rel="noopener">提 Issue 纠错</a>。
     </p>
     <slot />
   </div>

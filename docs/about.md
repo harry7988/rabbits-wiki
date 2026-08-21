@@ -52,9 +52,9 @@ rabbits.wiki 由**社区共同维护**，欢迎你[参与共创](./contribute)�
 
 ## 联系我们
 
-- 内容纠错/建议：[GitHub Issues](https://github.com/rabbits-wiki/rabbits.wiki/issues)
-- 贡献内容：[Pull Request](https://github.com/rabbits-wiki/rabbits.wiki/pulls)（见[共创指南](./contribute)）
-- 行为规范：见[贡献者公约](https://github.com/rabbits-wiki/rabbits.wiki/blob/main/.github/CODE_OF_CONDUCT.md)
+- 内容纠错/建议：[GitHub Issues](https://github.com/harry7988/rabbits-wiki/issues)
+- 贡献内容：[Pull Request](https://github.com/harry7988/rabbits-wiki/pulls)（见[共创指南](./contribute)）
+- 行为规范：见[贡献者公约](https://github.com/harry7988/rabbits-wiki/blob/main/.github/CODE_OF_CONDUCT.md)
 
 ## 协议
 

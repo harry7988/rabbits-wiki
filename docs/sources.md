@@ -400,7 +400,7 @@ lastReviewed: 2026-07-27
 
 ## 四、来源失效举报
 
-如发现本站引用的某个 URL 失效、内容变更或结论存疑，欢迎[在 GitHub 提 Issue 纠错](https://github.com/rabbits-wiki/rabbits.wiki/issues)。我们会及时更新或寻找替代权威来源。
+如发现本站引用的某个 URL 失效、内容变更或结论存疑，欢迎[在 GitHub 提 Issue 纠错](https://github.com/harry7988/rabbits-wiki/issues)。我们会及时更新或寻找替代权威来源。
 
 ---
 

@@ -140,7 +140,7 @@ if (results.clientError.length || results.serverError.length || results.networkE
   console.log(`   1. 在浏览器中手动打开 URL，确认页面是否真实存在`)
   console.log(`   2. 4xx 若确认为真 404，提 PR 更新 URL`)
   console.log(`   3. 5xx/网络错误通常过段时间再测即可`)
-  console.log(`   Issue: https://github.com/rabbits-wiki/rabbits.wiki/issues`)
+  console.log(`   Issue: https://github.com/harry7988/rabbits-wiki/issues`)
   // 不 fail，因为反爬是常见情况
   process.exit(0)
 } else {

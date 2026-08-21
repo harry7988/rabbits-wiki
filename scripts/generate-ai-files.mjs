@@ -306,7 +306,7 @@ ${index.map(i => `- [${i.title}](${i.mdMirror}): ${i.description}`).join('\n')}
 内容：CC BY-SA 4.0
 代码：MIT
 
-如有疑问或纠错，请通过 https://github.com/rabbits-wiki/rabbits.wiki/issues 联系。
+如有疑问或纠错，请通过 https://github.com/harry7988/rabbits-wiki/issues 联系。
 `
 
 writeFileSync(join(DIST, 'llms.txt'), llmsTxt)
@@ -322,7 +322,7 @@ const aiJson = {
   license: 'CC-BY-SA-4.0',
   language: 'zh-CN',
   maintainer: 'rabbits-wiki 社区',
-  contact: 'https://github.com/rabbits-wiki/rabbits.wiki/issues',
+  contact: 'https://github.com/harry7988/rabbits-wiki/issues',
   aiPolicy: {
     trainingAllowed: true,
     retrievalAllowed: true,

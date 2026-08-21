@@ -538,7 +538,7 @@ Oxbow 明确反对：『Rabbits should never be given laxatives』。油基润�
 
 - 🔍 用页面顶部搜索框查找
 - 🚨 急症问题请优先看 [急症处置](../emergencies/)
-- 📋 [提 Issue](https://github.com/rabbits-wiki/rabbits.wiki/issues) 建议新问题
+- 📋 [提 Issue](https://github.com/harry7988/rabbits-wiki/issues) 建议新问题
 - 🚨 兔兔出现症状？用 [症状决策树工具](../tools/)
 
 <SourceList>
