@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="抱兔子手位示意图（俯视）">
+  <style>
+    .body  { fill:#232325; stroke:#7ec96a; stroke-width:3; }
+    .hand  { fill:#6a5426; opacity:0.75; stroke:#c99a45; stroke-width:2; }
+    .lbl   { font:600 15px -apple-system,'PingFang SC',sans-serif; fill:#e8ecdf; }
+    .lbl-s { font:600 12.5px -apple-system,'PingFang SC',sans-serif; fill:#a8b4a0; }
+    .warn  { font:600 13px -apple-system,'PingFang SC',sans-serif; fill:#ff6b5b; }
+    .lead  { stroke:#5a7052; stroke-width:1.2; fill:none; }
+  </style>
+
+  <!-- 兔俯视轮廓（头朝上） -->
+  <ellipse class="body" cx="360" cy="230" rx="118" ry="150"/>
+  <!-- 头 -->
+  <ellipse class="body" cx="360" cy="102" rx="66" ry="58"/>
+  <!-- 耳 -->
+  <ellipse class="body" cx="322" cy="34" rx="16" ry="46" transform="rotate(-14 322 34)"/>
+  <ellipse class="body" cx="398" cy="34" rx="16" ry="46" transform="rotate(14 398 34)"/>
+  <!-- 尾 -->
+  <ellipse class="body" cx="360" cy="382" rx="22" ry="16"/>
+
+  <!-- 手1：托胸（前腿后方） -->
+  <path class="hand" d="M300,150 C316,140 344,138 360,150
+    C376,162 378,180 366,188
+    C344,194 316,192 304,180
+    C296,170 294,158 300,150 Z"/>
+  <!-- 手2：托臀（后腿/臀部） -->
+  <path class="hand" d="M296,300 C318,288 356,286 378,298
+    C392,310 392,334 374,344
+    C348,352 314,350 300,338
+    C290,326 288,310 296,300 Z"/>
+
+  <!-- 标注 -->
+  <line class="lead" x1="300" y1="160" x2="200" y2="130"/>
+  <text class="lbl" x="76" y="118">手 1 · 托胸</text>
+  <text class="lbl-s" x="76" y="134">前腿后方环抱胸廓</text>
+  <text class="lbl-s" x="76" y="150">（不压喉咙）</text>
+
+  <line class="lead" x1="388" y1="318" x2="492" y2="292"/>
+  <text class="lbl" x="440" y="278">手 2 · 托臀</text>
+  <text class="lbl-s" x="440" y="294">兜住臀部后腿（关键！）</text>
+  <text class="lbl-s" x="440" y="310">后腿绝不悬空</text>
+
+  <text class="warn" x="76" y="250">❌ 禁止：只抓颈背部 / 抓耳朵 / 抓四肢</text>
+  <text class="lbl-s" x="76" y="270">兔踢蹬 + 后躯无支撑 = 脊柱骨折头号原因</text>
+
+  <text class="lbl-s" x="76" y="370">抱起后紧贴你的身体（用身体当脊柱夹板），尽量坐着抱</text>
+  <text class="lbl-s" x="76" y="388">rabbits.wiki 原创示意图 · 依据 HRS 抱兔指导绘制</text>
+</svg>

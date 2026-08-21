@@ -72,6 +72,8 @@ scripts/
 | `SymptomTriage` `MedicineCalculator` `DehydrationCheck` `FeedingCalculator` `PelletAnalyzer` `HealthCalendar` `PlantSafetyChecker` `EmergencyCard` | 8 个交互工具（tools 页） |
 | `CheckList` | 可勾选清单（localStorage） |
 | `BiliVideo` | B 站官方外链播放器（必须署名 UP 主） |
+| `DualVideo` | 双源视频：B 站/YouTube 一键切换（海外友好，YT 懒加载） |
+| `Diagram` | 原创示意图（`/diagrams/*.svg` + `-dark` 双版自动切换，caption 标绘制依据） |
 | `PromptCard` | 复制给 AI 的共创指令（slot+fenced code；`{{REPO_URL}}` 动态注入） |
 | `CopyMarkdownButton` | 每页右上角浮动"复制 MD"（layout-bottom 注入） |
 | `HomeHero/HomeSections/HomeLayout` `EnglishHome` `LangAutoDetect` | 首页/双语 |

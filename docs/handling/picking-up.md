@@ -26,6 +26,13 @@ HRS 明确警告：**只抓颈背部（scruff）而不支撑后腿，兔踢蹬�
 
 </Info>
 
+<Diagram
+  src="/diagrams/rabbit-hold-hands"
+  alt="抱兔子手位示意图（俯视）：手1托胸在前腿后方，手2托臀兜住后腿"
+  caption="抱兔手位示意（原创，俯视）"
+  basis="示意图为 rabbits.wiki 原创，依据 House Rabbit Society 抱兔指导绘制"
+/>
+
 ## 二、正确的抱法（黄金法则）
 
 <FirstAidStep :num="1" title="先让兔知道你要抱它">
@@ -125,11 +132,14 @@ HRS 明确警告：**只抓颈背部（scruff）而不支撑后腿，兔踢蹬�
 
 ## 八、视频教程
 
-<BiliVideo
+<DualVideo
   bvid="BV1Ub4y1X7gZ"
-  title="如何抱兔子教程｜轻松搞定不愿意被抱的兔兔"
-  up="老三是只兔子"
-  note="新手向：一手扣腋下一手托臀的完整动作分解"
+  btitle="如何抱兔子教程｜轻松搞定不愿意被抱的兔兔"
+  bup="老三是只兔子"
+  ytid="oD11WkV2Uno"
+  yt-title="How to Hold a Rabbit (That Doesn't Like to be Held)"
+  yt-channel="Sincerely, Cinnabun"
+  note="新手向：一手扣腋下一手托臀的完整动作分解（英文版为同主题热门教程）"
 />
 
 <BiliVideo

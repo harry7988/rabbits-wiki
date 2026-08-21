@@ -19,6 +19,8 @@ import FAQItem from './components/FAQItem.vue'
 import IngredientTable from './components/IngredientTable.vue'
 import CheckList from './components/CheckList.vue'
 import BiliVideo from './components/BiliVideo.vue'
+import DualVideo from './components/DualVideo.vue'
+import Diagram from './components/Diagram.vue'
 import PromptCard from './components/PromptCard.vue'
 import CopyMarkdownButton from './components/CopyMarkdownButton.vue'
 import FeedingCalculator from './components/FeedingCalculator.vue'
@@ -53,6 +55,8 @@ export default {
     app.component('IngredientTable', IngredientTable)
     app.component('CheckList', CheckList)
     app.component('BiliVideo', BiliVideo)
+    app.component('DualVideo', DualVideo)
+    app.component('Diagram', Diagram)
     app.component('PromptCard', PromptCard)
     app.component('FeedingCalculator', FeedingCalculator)
     app.component('PelletAnalyzer', PelletAnalyzer)

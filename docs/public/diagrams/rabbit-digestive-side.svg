@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 480" width="760" height="480" role="img" aria-label="兔子消化系统侧视示意图">
+  <!-- rabbits.wiki 原创示意图：消化道路径（侧视） -->
+  <style>
+    .outline { fill:#fbfaf7; stroke:#57933F; stroke-width:3; }
+    .organ   { fill:#cfe3c8; stroke:#57933F; stroke-width:2; }
+    .stomach { fill:#d9a45c; stroke:#b07a2e; stroke-width:2; }
+    .cecum   { fill:#c99a45; stroke:#96702f; stroke-width:2; }
+    .path    { fill:none; stroke:#57933F; stroke-width:2.5; stroke-dasharray:7 5; }
+    .lbl     { font:600 15px -apple-system,'PingFang SC',sans-serif; fill:#2a3a24; }
+    .lbl-s   { font:600 12.5px -apple-system,'PingFang SC',sans-serif; fill:#5a6a52; }
+    .lead    { stroke:#8aa383; stroke-width:1.2; fill:none; }
+    .warn    { font:600 13px -apple-system,'PingFang SC',sans-serif; fill:#c0392b; }
+  </style>
+
+  <!-- 兔侧身轮廓（头朝左） -->
+  <path class="outline" d="M60,205
+    C55,150 75,105 118,92
+    C128,60 150,42 168,50
+    C180,55 186,70 184,86
+    C214,74 252,70 292,78
+    C360,92 420,120 470,160
+    C520,198 560,235 588,262
+    C612,286 622,312 606,332
+    C588,352 550,356 512,350
+    L470,344
+    C420,352 340,356 280,348
+    C210,338 140,312 96,272
+    C68,246 58,226 60,205 Z"/>
+
+  <!-- 耳朵 -->
+  <path class="outline" d="M150,95 C142,60 146,28 162,14 C176,24 180,58 174,92 Z"/>
+  <path class="outline" d="M178,88 C180,52 192,22 210,14 C218,28 214,64 200,94 Z"/>
+
+  <!-- 眼睛/鼻 -->
+  <circle cx="118" cy="140" r="5" fill="#2a3a24"/>
+  <circle cx="78" cy="168" r="3" fill="#2a3a24"/>
+
+  <!-- ===== 消化道（沿体内路径） ===== -->
+  <!-- 口腔/牙齿 -->
+  <rect class="organ" x="72" y="160" width="26" height="16" rx="4"/>
+  <!-- 食道 -->
+  <path class="path" d="M98,168 C130,180 150,190 168,200"/>
+
+  <!-- 胃 -->
+  <ellipse class="stomach" cx="196" cy="216" rx="34" ry="24"/>
+
+  <!-- 小肠（盘曲） -->
+  <path class="path" d="M228,220 C258,200 288,236 300,252 C312,268 300,282 288,278"/>
+
+  <!-- 盲肠（大囊） -->
+  <ellipse class="cecum" cx="330" cy="286" rx="52" ry="34"/>
+
+  <!-- 结肠 -->
+  <path class="path" d="M380,278 C420,268 450,276 470,290"/>
+  <path class="path" d="M470,290 C500,300 520,312 528,330"/>
+
+  <!-- ===== 标注 ===== -->
+  <line class="lead" x1="85" y1="150" x2="60" y2="122"/>
+  <text class="lbl" x="20" y="112">牙齿 28 颗</text>
+  <text class="lbl-s" x="20" y="128">终生生长 · 吃草研磨</text>
+
+  <line class="lead" x1="120" y1="182" x2="118" y2="216"/>
+  <text class="lbl" x="82" y="234">食道</text>
+  <text class="lbl-s" x="82" y="250">单向 · 不能逆蠕动</text>
+
+  <line class="lead" x1="196" y1="192" x2="196" y2="160"/>
+  <text class="lbl" x="150" y="150">胃</text>
+  <text class="lbl-s" x="150" y="166">几乎永不排空</text>
+
+  <line class="lead" x1="258" y1="244" x2="240" y2="204"/>
+  <text class="lbl" x="212" y="192">小肠</text>
+  <text class="lbl-s" x="212" y="208">停留约 1.5 小时</text>
+
+  <line class="lead" x1="330" y1="320" x2="330" y2="368"/>
+  <text class="lbl" x="286" y="388">盲肠（发酵罐）</text>
+  <text class="lbl-s" x="286" y="404">74+ 种厌氧菌 · VFA 供能约 40%</text>
+
+  <line class="lead" x1="452" y1="272" x2="478" y2="232"/>
+  <text class="lbl" x="452" y="220">结肠</text>
+  <text class="lbl-s" x="452" y="236">颗粒分选 · fusus coli 起搏</text>
+
+  <line class="lead" x1="528" y1="336" x2="556" y2="376"/>
+  <text class="lbl" x="512" y="396">肛门</text>
+  <text class="lbl-s" x="512" y="412">硬粪 / 直接摄食盲肠便</text>
+
+  <!-- 虚线主流程箭头说明 -->
+  <text class="lbl-s" x="352" y="452">虚线 = 食糜流向：口腔 → 胃 → 小肠 → 盲肠发酵 → 结肠 → 硬粪 / 盲肠便</text>
+
+  <!-- 页脚 -->
+  <text class="lbl-s" x="352" y="470">rabbits.wiki 原创示意图（非解剖精确比例）· 依据 Varga (2013)、Oglesbee (2020) 绘制</text>
+</svg>

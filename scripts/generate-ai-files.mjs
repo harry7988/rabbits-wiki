@@ -142,6 +142,38 @@ function purifyForAI(content, frontmatter) {
     'CopyMarkdownButton': ''
   }
 
+  // <Diagram src alt caption basis /> → 图片引用（自绘示意图）
+  out = out.replace(/<Diagram\b([^]*?)\/>/g, (m, attrs) => {
+    const get = (k) => { const mm = attrs.match(new RegExp(`${k}="([^"]*)"`)); return mm ? mm[1] : '' }
+    const src = get('src')
+    const alt = get('alt') || '示意图'
+    const cap = get('caption')
+    const basis = get('basis')
+    const full = src ? `https://rabbits.wiki${src}.svg` : ''
+    let line = `> _📊 示意图：${alt}`
+    if (cap) line += `（${cap}）`
+    if (full) line += ` [查看](${full})`
+    line += '_'
+    if (basis) line += `\n> ${basis}`
+    return line
+  })
+
+  // <DualVideo ...>（无 slot，自闭合）→ 双源视频引用
+  out = out.replace(/<DualVideo\b([^]*?)\/>/g, (m, attrs) => {
+    const get = (k) => { const mm = attrs.match(new RegExp(`${k}="([^"]*)"`)); return mm ? mm[1] : '' }
+    const bt = get('btitle') || '视频教程'
+    const bup = get('bup')
+    const bv = get('bvid')
+    const yt = get('ytid')
+    const note = get('note')
+    let line = `> _🎬 视频：${bt}`
+    if (bup) line += `_（B 站：${bup}`
+    if (bv) line += `，[B 站观看](https://www.bilibili.com/video/${bv}/)`
+    line += yt ? `；[YouTube](https://www.youtube.com/watch?v=${yt})）_` : `）_`
+    if (note) line += `\n> ${note}`
+    return line
+  })
+
   // <PromptCard title scene>（fenced code）</PromptCard> → 指令块标记
   out = out.replace(/<PromptCard\b([^>]*)>/g, (m, attrs) => {
     const t = attrs.match(/title="([^"]*)"/)

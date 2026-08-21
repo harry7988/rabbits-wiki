@@ -180,11 +180,14 @@ GI Stasis 时兔不愿进食，必须强制喂食维持营养和肠蠕动<cite><
 
 ## 七、视频教程
 
-<BiliVideo
+<DualVideo
   bvid="BV1Du4y1X7cQ"
-  title="兔兔喂药必学手法之如何包毛巾卷 | 兽医演示 vs. 翻车实操"
-  up="kkathw"
-  note="毛巾卷（burrito）保定 + 喂药手法的兽医演示，含常见翻车对比"
+  btitle="兔兔喂药必学手法之如何包毛巾卷 | 兽医演示 vs. 翻车实操"
+  bup="kkathw"
+  ytid="5GKdaBY9Ugk"
+  yt-title="How to Syringe Feed a Rabbit"
+  yt-channel="atDove"
+  note="毛巾卷保定+喂药手法（含翻车对比）；英文版为 DoveLewis 异宠技师注射器喂食教学"
 />
 
 <SourceList>

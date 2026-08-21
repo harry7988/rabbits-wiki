@@ -102,11 +102,14 @@ lastReviewed: 2026-07-30
 
 ## 八、视频教程
 
-<BiliVideo
+<DualVideo
   bvid="BV1aD4y1972b"
-  title="【免抱版】如何给不老实的兔兔剪指甲 2.0版"
-  up="我家兔子已成精"
-  note="免抱版：适合挣扎严重的兔，不需要抱起就能剪"
+  btitle="【免抱版】如何给不老实的兔兔剪指甲 2.0版"
+  bup="我家兔子已成精"
+  ytid="7UG9mXtTzZ0"
+  yt-title="How To Clip Your Rabbit's Nails | Pet Health Advice"
+  yt-channel="PDSA"
+  note="免抱版适合挣扎兔；英文版为 PDSA（英国兽医慈善机构）官方四步示范"
 />
 
 <SourceList>

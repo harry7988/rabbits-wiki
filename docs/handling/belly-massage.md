@@ -33,6 +33,13 @@ lastReviewed: 2026-08-22
 
 </Danger>
 
+<Diagram
+  src="/diagrams/rabbit-belly-massage"
+  alt="兔子腹部按摩位置示意图：肋骨后与骨盆之间的下腹为按摩区，胸廓禁区标注"
+  caption="按摩位置示意（原创）"
+  basis="示意图为 rabbits.wiki 原创，按摩区与手法依据 Mary Cotter (rabbit.org) 描述绘制"
+/>
+
 ## 二、操作步骤
 
 <FirstAidStep :num="1" title="准备：暖手、 calm、垫毛巾">
@@ -126,11 +133,14 @@ Krempels 记录的肝破裂致死病例发生在**恢复期激进治疗**时：�
 
 ## 七、视频教程
 
-<BiliVideo
+<DualVideo
   bvid="BV1ax411j7Kk"
-  title="兔兔胀气的应对措施-腹部按摩"
-  up="小球大可爱"
-  note="手法演示 + 西甲硅油用量（与本文 Mary Cotter 指导一致：1ml/小时×3 次）；同 UP 主系列搬运 HRS 科学养兔内容"
+  btitle="兔兔胀气的应对措施-腹部按摩"
+  bup="小球大可爱"
+  ytid="eROOr-lz8q8"
+  yt-title="How to Give a Bunny a Belly Massage"
+  yt-channel="The Conscious Vet"
+  note="手法演示 + 西甲硅油用量（与 Mary Cotter 指导一致）；英文版为兽医频道的腹部按摩示范"
 />
 
 ## 八、常见错误

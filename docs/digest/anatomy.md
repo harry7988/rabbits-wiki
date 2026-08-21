@@ -28,6 +28,13 @@ lastReviewed: 2026-07-27
 
 </Info>
 
+<Diagram
+  src="/diagrams/rabbit-digestive-side"
+  alt="兔子消化系统侧视示意图：口腔、食道、胃、小肠、盲肠、结肠、肛门的完整路径"
+  caption="兔消化系统侧视示意（原创）"
+  basis="示意图为 rabbits.wiki 原创（非解剖精确比例），器官位置与停留时间依据 Varga《Textbook of Rabbit Medicine》(2013)、Oglesbee & Lord (2020) 绘制"
+/>
+
 ## 二、重点：盲肠（Cecum）—— 兔的"发酵罐"
 
 盲肠是一个**巨大的囊状厌氧发酵室**，是兔消化系统的核心<cite><a href="#ref2">[2]</a></cite>：
