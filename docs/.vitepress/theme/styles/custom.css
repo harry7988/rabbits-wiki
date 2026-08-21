@@ -64,6 +64,12 @@
   --rw-tag-bg: #f0ede5;
   --rw-danger-tag-bg: #fbe9e5;
 
+  /* 编辑部风格 token */
+  --rw-ink: #1e2b1a;                /* 墨绿黑：主按钮/强调 */
+  --rw-ink-hover: #16200f;
+  --rw-line: #e4e0d6;               /* 分割线（比默认 divider 暖一点）*/
+  --rw-hover-bg: #f2efe8;           /* 行 hover 背景 */
+
   /* 排版 token */
   --rw-font-heading-weight: 750;
   --rw-prose-max: 44em;
@@ -107,6 +113,12 @@
   --rw-bad-text: #ff8a7a;
   --rw-info2-bg: #15273a;
   --rw-info2-text: #6db4e0;
+
+  /* 编辑部风格 token（深色） */
+  --rw-ink: #7ec96a;
+  --rw-ink-hover: #96d97f;
+  --rw-line: #2c2c2e;
+  --rw-hover-bg: #1f1f21;
 
   /* 首页设计 token（深色） */
   --rw-grass-shadow: rgba(126, 201, 106, 0.3);

@@ -1,75 +1,43 @@
 <script setup lang="ts">
 /**
- * HomeHero —— 自定义首页 Hero（替代 VitePress 默认居中式）
+ * HomeHero —— 首页 Hero（编辑部风格）
  *
- * 设计意图：
- * - 左对齐大标题（打破默认居中的模板感）
- * - 一句话价值主张（不是主题词罗列）
- * - 双 CTA：工具箱（主）+ 急症速查（急，红）
- * - 紧急热线常驻条：12 小时红线是本站最重要的单一事实
+ * 设计原则：
+ * - 排版承担设计感，不靠盒子装饰
+ * - 按钮：墨绿深底 / 细描边，无阴影、无大圆角
+ * - 无脉冲动画、无标签堆
+ * - 右侧红线卡：一条红竖线 + 好的排版，不用渐变和发光
  */
 </script>
 
 <template>
   <section class="home-hero">
-    <div class="home-hero-inner">
-      <div class="hero-eyebrow">
-        <span class="eyebrow-mark"></span>
-        由社区共创 · 每条结论可溯源到权威兽医来源
-      </div>
+    <div class="home-hero-main">
+      <p class="hero-kicker">由社区共创 · 每条结论可溯源到权威兽医来源</p>
 
-      <h1 class="hero-title">
-        兔子生病<b>不会等你</b><br />查证好了再来
-      </h1>
+      <h1 class="hero-title">科学养兔，<br class="title-br" />有据可查</h1>
 
       <p class="hero-sub">
-        品种、消化原理、急症处置、日常养育、兔粮成分——全部标注权威来源的兔子百科，
-        加上 8 个实用工具。急症时帮你快速判断，日常时帮你科学养育。
+        品种、消化原理、急症处置、日常养育、兔粮成分——每一页都标注来源的兔子百科，
+        加上 8 个实用工具。
       </p>
 
-      <div class="hero-ctas">
-        <a href="/tools/" class="cta cta-primary">
-          打开养兔工具箱
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      <div class="hero-actions">
+        <a href="/tools/" class="btn btn-solid">打开工具箱</a>
+        <a href="/emergencies/" class="btn btn-quiet">
+          急症速查
+          <span class="btn-arrow" aria-hidden="true">→</span>
         </a>
-        <a href="/emergencies/" class="cta cta-danger">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-          急症处置速查
-        </a>
-      </div>
-
-      <div class="hero-stat-strip">
-        <div class="stat">
-          <span class="stat-num">65<span class="stat-unit">页</span></span>
-          <span class="stat-label">科普内容</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">150<span class="stat-unit">+</span></span>
-          <span class="stat-label">权威来源引用</span>
-        </div>
-        <div class="stat-divider"></div>
-        <div class="stat">
-          <span class="stat-num">8<span class="stat-unit">个</span></span>
-          <span class="stat-label">交互工具</span>
-        </div>
       </div>
     </div>
 
-    <!-- 右侧：紧急红线卡（不对称布局的视觉锚点） -->
-    <aside class="hero-emergency">
-      <div class="em-card">
-        <div class="em-head">
-          <span class="em-pulse"></span>
-          养兔人必须记住的红线
-        </div>
-        <div class="em-main">
-          停止进食或排便达 <b>12 小时</b><br />
-          就是急症，立即就医
-        </div>
-        <p class="em-note">兔子会本能隐藏病情。等你看到明显症状，往往已经很重。</p>
-        <a href="/emergencies/gi-stasis" class="em-link">看胃肠停滞处置 →</a>
-      </div>
+    <aside class="hero-redline">
+      <p class="redline-label">养兔人记住这条红线</p>
+      <p class="redline-text">
+        停止进食或排便达 <em>12 小时</em>，就是急症——立即就医，不要观望。
+      </p>
+      <p class="redline-note">兔子会本能隐藏病情，等你发现往往已经不轻。</p>
+      <a href="/emergencies/gi-stasis" class="redline-link">看胃肠停滞的处置</a>
     </aside>
   </section>
 </template>
@@ -77,159 +45,111 @@
 <style scoped>
 .home-hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 340px;
-  gap: 3rem;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 4rem;
   align-items: center;
-  max-width: 1152px;
+  max-width: 1080px;
   margin: 0 auto;
-  padding: 4.5rem 1.5rem 3.5rem;
+  padding: 4.5rem 1.5rem 4rem;
 }
 @media (max-width: 960px) {
-  .home-hero { grid-template-columns: 1fr; padding-top: 3rem; gap: 2rem; }
-  .hero-emergency { order: -1; }
+  .home-hero { grid-template-columns: 1fr; gap: 2.4rem; padding-top: 3rem; }
 }
 
-/* eyebrow —— 全站只此一处（克制） */
-.hero-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.8rem;
+/* kicker：小字距排一行，不是 eyebrow 胶囊 */
+.hero-kicker {
+  font-size: 0.82rem;
   color: var(--vp-c-text-2);
-  margin-bottom: 1.4rem;
-}
-.eyebrow-mark {
-  width: 7px; height: 7px;
-  border-radius: 999px;
-  background: var(--rw-grass);
+  letter-spacing: 0.04em;
+  margin: 0 0 1.6rem;
 }
 
-/* 标题：超粗 + 关键词标色，两行 */
+/* 标题：靠字重和字号，两行 */
 .hero-title {
-  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-size: clamp(2.4rem, 5.5vw, 3.6rem);
   font-weight: 800;
-  letter-spacing: -0.02em;
-  line-height: 1.18;
-  margin: 0 0 1.1rem;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 1.3rem;
   color: var(--vp-c-text-1);
 }
-.hero-title b {
-  color: var(--rw-grass);
-  font-weight: 800;
-}
+.title-br { display: none; }
+@media (min-width: 640px) { .title-br { display: block; } }
 
 /* 副标题 */
 .hero-sub {
   font-size: 1.02rem;
-  line-height: 1.85;
+  line-height: 1.9;
   color: var(--vp-c-text-2);
-  max-width: 34em;
-  margin: 0 0 1.8rem;
+  max-width: 33em;
+  margin: 0 0 2.2rem;
 }
 
-/* CTA */
-.hero-ctas { display: flex; gap: 0.7rem; flex-wrap: wrap; margin-bottom: 2.2rem; }
-.cta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.72rem 1.35rem;
-  border-radius: 10px;
+/* 按钮：编辑部式，无阴影 */
+.hero-actions { display: flex; align-items: center; gap: 1.4rem; flex-wrap: wrap; }
+.btn {
   font-size: 0.95rem;
   font-weight: 600;
   text-decoration: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  padding: 0.68rem 1.5rem;
+  border-radius: 6px;
+  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease;
 }
-.cta:active { transform: translateY(1px); }
-.cta-primary {
-  background: var(--rw-grass);
+.btn-solid {
+  background: var(--rw-ink);
   color: #fff;
-  box-shadow: 0 4px 14px -4px var(--rw-grass-shadow);
 }
-.cta-primary:hover { box-shadow: 0 6px 20px -4px var(--rw-grass-shadow); }
-.cta-danger {
-  background: var(--rw-danger-soft);
-  color: var(--rw-danger);
-  border: 1px solid var(--rw-danger-border);
-}
-.cta-danger:hover { background: var(--rw-danger); color: #fff; }
-
-/* 数据条 */
-.hero-stat-strip {
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-.stat { display: flex; flex-direction: column; gap: 0.1rem; }
-.stat-num {
-  font-size: 1.55rem;
-  font-weight: 800;
+.btn-solid:hover { background: var(--rw-ink-hover); }
+.btn-quiet {
   color: var(--vp-c-text-1);
-  line-height: 1.1;
+  padding-left: 0;
+  padding-right: 0.2rem;
 }
-.stat-unit { font-size: 0.85rem; font-weight: 600; margin-left: 1px; color: var(--vp-c-text-2); }
-.stat-label { font-size: 0.78rem; color: var(--vp-c-text-2); }
-.stat-divider { width: 1px; height: 34px; background: var(--vp-c-divider); }
+.btn-quiet:hover { color: var(--rw-danger); }
+.btn-arrow {
+  display: inline-block;
+  margin-left: 0.35rem;
+  transition: transform 0.18s ease;
+}
+.btn-quiet:hover .btn-arrow { transform: translateX(3px); }
 
-/* 紧急红线卡 */
-.hero-emergency { display: flex; }
-.em-card {
-  position: relative;
-  flex: 1;
-  background: var(--rw-bg-card);
-  border: 1px solid var(--rw-danger-border);
-  border-radius: 14px;
-  padding: 1.5rem 1.4rem 1.3rem;
-  overflow: hidden;
+/* 红线卡：一条红竖线 + 排版 */
+.hero-redline {
+  border-left: 2px solid var(--rw-danger);
+  padding: 0.4rem 0 0.4rem 1.4rem;
 }
-.em-card::before {
-  content: '';
-  position: absolute;
-  inset: 0 0 auto 0;
-  height: 3px;
-  background: var(--rw-danger);
-}
-.em-head {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
+.redline-label {
   font-size: 0.78rem;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: var(--rw-danger);
-  margin-bottom: 0.85rem;
+  margin: 0 0 0.7rem;
 }
-.em-pulse {
-  width: 8px; height: 8px;
-  border-radius: 999px;
-  background: var(--rw-danger);
-  animation: emPulse 2.2s ease-in-out infinite;
-}
-@keyframes emPulse {
-  0%, 100% { box-shadow: 0 0 0 0 var(--rw-danger-glow); }
-  50% { box-shadow: 0 0 0 6px transparent; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .em-pulse { animation: none; }
-}
-.em-main {
-  font-size: 1.18rem;
-  font-weight: 700;
-  line-height: 1.55;
+.redline-text {
+  font-size: 1.14rem;
+  font-weight: 650;
+  line-height: 1.7;
   color: var(--vp-c-text-1);
+  margin: 0 0 0.6rem;
 }
-.em-main b { color: var(--rw-danger); }
-.em-note {
-  font-size: 0.84rem;
-  line-height: 1.65;
-  color: var(--vp-c-text-2);
-  margin: 0.7rem 0 0.9rem;
-}
-.em-link {
-  font-size: 0.86rem;
-  font-weight: 600;
+.redline-text em {
+  font-style: normal;
   color: var(--rw-danger);
-  text-decoration: none;
+  font-weight: 750;
 }
-.em-link:hover { text-decoration: underline; }
+.redline-note {
+  font-size: 0.85rem;
+  line-height: 1.7;
+  color: var(--vp-c-text-2);
+  margin: 0 0 0.8rem;
+}
+.redline-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  border-bottom: 1px solid var(--vp-c-divider);
+  padding-bottom: 2px;
+}
+.redline-link:hover { color: var(--rw-danger); border-color: currentColor; }
 </style>

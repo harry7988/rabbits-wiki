@@ -1,84 +1,85 @@
 <script setup lang="ts">
 /**
- * HomeSections —— 首页内容入口（bento 式不对称布局）
+ * HomeSections —— 编辑式目录（替代卡片网格）
  *
- * 替代默认的 6 等大 feature 卡片：
- * - 大卡（2x2）：急症处置（最高价值，红色系统）
- * - 大卡（2x1）：养兔工具箱（8 个工具入口）
- * - 中卡：日常养育 / 品种百科
- * - 小卡行：消化科普 / 常备药 / FAQ / 操作技能
- * 布局意图：用户第一眼看到"急症"和"工具"（最高频需求），
- * 其他主题按阅读深度分级。
+ * 设计原则：
+ * - 分割线组织内容，不是盒子（无 border 卡片、无阴影、无悬浮）
+ * - 大区：主题名（大字）+ 一句话 + 内容列表（行式，hover 微背景 + 箭头）
+ * - 两栏：急症 / 工具；养育区四条列表
+ * - 排版层级：主题字重和字号对比，不是颜色堆砌
  */
 </script>
 
 <template>
-  <section class="home-sections">
-    <div class="sections-inner">
+  <section class="home-entries">
+    <div class="entries-inner">
 
-      <!-- 第一行：急症（大）+ 工具（大） -->
-      <div class="row row-1">
-        <a href="/emergencies/" class="tile tile-xl tile-emergency">
-          <div class="tile-icon">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
-          </div>
-          <h3>急症处置</h3>
-          <p>胃肠停滞、腹泻、中暑、外伤、骨折、抽搐、球虫、中毒——每一种突发情况的家庭急救步骤与就医信号。</p>
-          <div class="tile-tags">
-            <span>11 类急症</span><span>红色警报</span><span>急救包清单</span>
-          </div>
-        </a>
+      <!-- 两大主题：急症 + 工具 -->
+      <div class="lead-grid">
+        <div class="lead">
+          <h2 class="lead-title"><a href="/emergencies/">急症处置</a></h2>
+          <p class="lead-desc">兔子病了怎么判断、送医前能做什么。每一种急症都写清红色警报信号。</p>
+          <ul class="lead-list">
+            <li><a href="/emergencies/gi-stasis">胃肠停滞（不吃不拉）</a></li>
+            <li><a href="/emergencies/heatstroke">中暑</a></li>
+            <li><a href="/emergencies/diarrhea">腹泻</a></li>
+            <li><a href="/emergencies/poisoning">中毒与误食</a></li>
+          </ul>
+        </div>
 
-        <a href="/tools/" class="tile tile-xl tile-tools">
-          <div class="tile-icon">
-            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
-          </div>
-          <h3>养兔工具箱</h3>
-          <p>症状决策树、剂量计算器、脱水评估、喂食量计算、兔粮成分分析、健康日历、有毒植物查询、紧急联系卡。</p>
-          <div class="tile-tags">
-            <span>8 个交互工具</span><span>即开即用</span>
-          </div>
-        </a>
+        <div class="lead">
+          <h2 class="lead-title"><a href="/tools/">养兔工具箱</a></h2>
+          <p class="lead-desc">打开即用的交互工具，判断紧急度、算剂量、查植物安全性。</p>
+          <ul class="lead-list">
+            <li><a href="/tools/">症状决策树：我家兔怎么了</a></li>
+            <li><a href="/tools/">兔粮成分分析器</a></li>
+            <li><a href="/tools/">每日喂食量计算</a></li>
+            <li><a href="/tools/">有毒植物查询</a></li>
+          </ul>
+        </div>
       </div>
 
-      <!-- 第二行：养育 + 品种（中卡） -->
-      <div class="row row-2">
-        <a href="/care/" class="tile tile-m">
-          <h3>日常养育</h3>
-          <p>绝育（防母兔子官癌 &gt;60%）、幼兔、老年兔、牙齿健康、合笼、行为解读、定点如厕。</p>
-        </a>
-        <a href="/breeds/" class="tile tile-m">
-          <h3>兔品种百科</h3>
-          <p>11 个常见品种——垂耳、侏儒、狮子、雷克斯、道奇、霍托、Flemish Giant。含茶杯兔辟谣。</p>
-        </a>
-      </div>
+      <!-- 其余主题：编辑式两列列表 -->
+      <div class="topic-grid">
+        <nav class="topic">
+          <h3 class="topic-name"><a href="/care/">日常养育</a></h3>
+          <ul class="topic-list">
+            <li><a href="/care/spay-neuter">绝育（防子宫癌）</a></li>
+            <li><a href="/care/dental">牙齿健康：吃草 = 磨牙</a></li>
+            <li><a href="/care/baby-rabbit">幼兔养育</a></li>
+            <li><a href="/care/behavior">行为解读</a></li>
+          </ul>
+        </nav>
 
-      <!-- 第三行：操作技能 + 消化科普 -->
-      <div class="row row-2">
-        <a href="/handling/" class="tile tile-m">
-          <h3>操作技能</h3>
-          <p>怎么抱兔、怎么喂药、剪指甲、量体温、保定包裹、身体检查、运输、环境清洁——动手基本功。</p>
-        </a>
-        <a href="/digest/" class="tile tile-m">
-          <h3>消化系统科普</h3>
-          <p>盲肠便与重食、后肠发酵、为什么兔不能呕吐——理解原理，才能正确处置消化道急症。</p>
-        </a>
-      </div>
+        <nav class="topic">
+          <h3 class="topic-name"><a href="/handling/">操作技能</a></h3>
+          <ul class="topic-list">
+            <li><a href="/handling/picking-up">怎么抱兔子</a></li>
+            <li><a href="/handling/medicating">怎么喂药</a></li>
+            <li><a href="/handling/nail-trimming">剪指甲</a></li>
+            <li><a href="/handling/health-check">在家身体检查</a></li>
+          </ul>
+        </nav>
 
-      <!-- 第四行：小卡（常备药 / FAQ / 共创） -->
-      <div class="row row-3">
-        <a href="/supplies/" class="tile tile-s">
-          <h4>常备药与用品</h4>
-          <p>家庭药箱 · 兔粮成分 · 牧草</p>
-        </a>
-        <a href="/faq/" class="tile tile-s">
-          <h4>高频问答</h4>
-          <p>60+ 问题 · 18 条辟谣</p>
-        </a>
-        <a href="/contribute" class="tile tile-s">
-          <h4>参与共创</h4>
-          <p>Fork · PR · 来源规范</p>
-        </a>
+        <nav class="topic">
+          <h3 class="topic-name"><a href="/digest/">消化系统科普</a></h3>
+          <ul class="topic-list">
+            <li><a href="/digest/cecotropes">兔为什么吃自己的便便</a></li>
+            <li><a href="/digest/key-traits">兔不能呕吐等关键特性</a></li>
+            <li><a href="/digest/hindgut-fermentation">为什么必须吃草</a></li>
+            <li><a href="/breeds/">品种百科（11 种）</a></li>
+          </ul>
+        </nav>
+
+        <nav class="topic">
+          <h3 class="topic-name"><a href="/supplies/">常备药与兔粮</a></h3>
+          <ul class="topic-list">
+            <li><a href="/supplies/pellets">兔粮怎么选（成分与国标）</a></li>
+            <li><a href="/supplies/hairball-remedy">化毛膏的真相</a></li>
+            <li><a href="/supplies/">家庭药箱清单</a></li>
+            <li><a href="/faq/">高频问答 60+</a></li>
+          </ul>
+        </nav>
       </div>
 
     </div>
@@ -86,115 +87,110 @@
 </template>
 
 <style scoped>
-.home-sections {
-  background: var(--rw-home-sections-bg);
-  border-top: 1px solid var(--vp-c-divider);
-  padding: 3.2rem 1.5rem 4rem;
+.home-entries {
+  border-top: 1px solid var(--rw-line);
+  padding: 3.6rem 1.5rem 4.5rem;
 }
-.sections-inner {
-  max-width: 1152px;
+.entries-inner {
+  max-width: 1080px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 0.9rem;
-}
-.row { display: grid; gap: 0.9rem; }
-.row-1 { grid-template-columns: 1fr 1fr; }
-.row-2 { grid-template-columns: 1fr 1fr 1fr 1fr; }
-.row-2 .tile { grid-column: span 2; }
-.row-3 { grid-template-columns: 1fr 1fr 1fr; }
-
-@media (max-width: 960px) {
-  .row-1 { grid-template-columns: 1fr; }
-  .row-2 { grid-template-columns: 1fr; }
-  .row-2 .tile { grid-column: auto; }
-  .row-3 { grid-template-columns: 1fr; }
 }
 
-.tile {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: 1.5rem 1.5rem 1.3rem;
-  background: var(--rw-bg-card);
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 14px;
-  text-decoration: none;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+/* 两大主题 */
+.lead-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid var(--rw-line);
 }
-.tile:hover {
-  transform: translateY(-3px);
-  border-color: var(--rw-grass-border);
-  box-shadow: 0 10px 28px -12px var(--rw-shadow-tint);
-}
-.tile:active { transform: translateY(-1px); }
-@media (prefers-reduced-motion: reduce) {
-  .tile { transition: none; }
-  .tile:hover { transform: none; }
+@media (max-width: 800px) {
+  .lead-grid { grid-template-columns: 1fr; gap: 2.2rem; }
 }
 
-.tile h3 {
-  margin: 0;
-  font-size: 1.22rem;
+.lead-title {
+  margin: 0 0 0.55rem;
+  font-size: 1.6rem;
   font-weight: 750;
-  letter-spacing: -0.01em;
-  color: var(--vp-c-text-1);
+  letter-spacing: -0.02em;
 }
-.tile h4 {
-  margin: 0;
-  font-size: 1.02rem;
-  font-weight: 700;
+.lead-title a {
   color: var(--vp-c-text-1);
+  text-decoration: none;
 }
-.tile p {
-  margin: 0;
-  font-size: 0.9rem;
-  line-height: 1.7;
+.lead-title a:hover { color: var(--rw-ink); }
+.dark .lead-title a:hover { color: var(--rw-ink); }
+
+.lead-desc {
+  font-size: 0.92rem;
+  line-height: 1.75;
   color: var(--vp-c-text-2);
-}
-.tile-s p { font-size: 0.84rem; }
-
-.tile-icon {
-  width: 46px; height: 46px;
-  display: flex; align-items: center; justify-content: center;
-  border-radius: 12px;
-  margin-bottom: 0.3rem;
+  margin: 0 0 1.1rem;
 }
 
-/* 急症卡：红色系统 */
-.tile-emergency {
-  border-color: var(--rw-danger-border);
-  background: linear-gradient(160deg, var(--rw-danger-soft) 0%, var(--rw-bg-card) 55%);
+/* 行式列表：hover 微背景 + 箭头 */
+.lead-list,
+.topic-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.tile-emergency .tile-icon {
-  background: var(--rw-danger);
-  color: #fff;
+.lead-list li + li,
+.topic-list li + li {
+  border-top: 1px solid var(--rw-line);
 }
-.tile-emergency h3 { color: var(--rw-danger-text-strong); }
-
-/* 工具卡：绿色系统 */
-.tile-tools .tile-icon {
-  background: var(--rw-grass-soft);
-  color: var(--rw-grass);
-}
-
-.tile-tags {
+.lead-list a,
+.topic-list a {
   display: flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-  margin-top: 0.55rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.62rem 0.5rem;
+  margin: 0 -0.5rem;
+  font-size: 0.92rem;
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.15s ease;
 }
-.tile-tags span {
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.18rem 0.6rem;
-  border-radius: 999px;
-  background: var(--rw-tag-bg);
-  color: var(--vp-c-text-2);
+.topic-list a { font-size: 0.9rem; color: var(--vp-c-text-2); }
+.topic-list a:hover { color: var(--vp-c-text-1); }
+.lead-list a:hover,
+.topic-list a:hover {
+  background: var(--rw-hover-bg);
 }
-.tile-emergency .tile-tags span {
-  background: var(--rw-danger-tag-bg);
-  color: var(--rw-danger);
+.lead-list a::after,
+.topic-list a::after {
+  content: '→';
+  color: var(--vp-c-text-3, var(--vp-c-text-2));
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
 }
+.lead-list a:hover::after,
+.topic-list a:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* 其余主题：两列 */
+.topic-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.6rem 3.5rem;
+  padding-top: 2.8rem;
+}
+@media (max-width: 800px) {
+  .topic-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+.topic-name {
+  margin: 0 0 0.5rem;
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+.topic-name a {
+  color: var(--vp-c-text-1);
+  text-decoration: none;
+}
+.topic-name a:hover { color: var(--rw-ink); }
 </style>
