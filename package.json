@@ -10,7 +10,8 @@
     "ai-files": "node scripts/generate-ai-files.mjs",
     "check-sources": "node scripts/check-sources.mjs",
     "check-sources:all": "node scripts/check-sources.mjs --all",
-    "preview": "vitepress preview docs"
+    "preview": "vitepress preview docs",
+    "check-markdown": "node scripts/check-markdown.mjs"
   },
   "license": "CC-BY-SA-4.0",
   "devDependencies": {

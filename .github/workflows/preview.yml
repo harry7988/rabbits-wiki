@@ -25,6 +25,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: 组件 Markdown 间距检查
+        run: npm run check-markdown
+
       - name: Build VitePress（验证可构建）
         run: npm run build
 

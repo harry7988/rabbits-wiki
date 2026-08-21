@@ -97,11 +97,14 @@ lastReviewed: 2026-07-27
 | [中毒/误食](./poisoning) | 拒食、流口水、抽搐、口腔肿胀 | **禁止催吐**，立即就医 |
 
 <Info title="急症时你会的急救技能吗？">
+
 急症处置需要动手技能——平时就要练熟，急症时才不慌：
+
 - **[怎么抱兔](../handling/picking-up)**（错误抱法致脊柱骨折）
 - **[怎么喂药/喂 Critical Care](../handling/medicating)**（喂错姿势呛肺）
 - **[怎么量体温](../handling/temperature)**（判断中暑/低温）
 - **[怎么保定/包裹](../handling/restraining)**（操作的前提）
+
 </Info>
 
 ## 五、几条致命误区（必须记住）

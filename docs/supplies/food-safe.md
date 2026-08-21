@@ -7,6 +7,7 @@ lastReviewed: 2026-08-22
 # 🥬 兔子能吃什么
 
 <Info title="先记住结构，再记清单">
+
 成兔每天的食物就四样，比例不能乱：
 
 1. **牧草（提摩西等禾本科）**：无限量，占 80–85%
@@ -15,6 +16,7 @@ lastReviewed: 2026-08-22
 4. **水果**：只当零食，每 1 kg 体重约每天 1 茶匙<cite><a href="#ref1">[1]</a></cite>
 
 一句话：**草管饱、菜多样、粮限口、果点缀**。详细原理见[各阶段饮食配比](./hay/stage-ratio)。
+
 </Info>
 
 ## 一、每天可以吃的蔬菜（绿叶类）
@@ -74,13 +76,19 @@ lastReviewed: 2026-08-22
 ## 五、喂新食物的原则
 
 <FirstAidStep :num="1" title="一次只加一种">
+
 连喂 2–3 天观察粪便，软便/腹胀就停。
+
 </FirstAidStep>
 <FirstAidStep :num="2" title="洗净">
+
 蔬菜至少流水洗 2 分钟（防农药和 RHDV2 传播风险）<cite><a href="#ref1">[1]</a></cite>。
+
 </FirstAidStep>
 <FirstAidStep :num="3" title="不能吃的看隔壁页">
+
 [⚠️ 兔子不能吃什么（危险食物清单）](./food-unsafe)
+
 </FirstAidStep>
 
 <SourceList>
