@@ -14,20 +14,20 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: '兔子,宠物兔,兔兔百科,兔急症,胃肠停滞,兔品种,提摩西草,益生菌,电解质,化毛膏,养兔,绝育,幼兔,兔兔行为,养兔工具' }],
     // 开放协议 + 版权声明（CC BY-SA 4.0）
     ['meta', { name: 'license', content: 'CC-BY-SA-4.0' }],
-    ['link', { rel: 'canonical', href: 'https://rabbits.wiki/' }],
+    ['link', { rel: 'canonical', href: 'https://www.rabbits.wiki/' }],
     // Open Graph（社交分享卡片）
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'rabbits.wiki' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }],
     ['meta', { property: 'og:title', content: 'rabbits.wiki · 兔子百科' }],
     ['meta', { property: 'og:description', content: '社区共创的兔子百科：品种、急症处置、常备药、牧草、消化科普。所有内容均标注权威来源。' }],
-    ['meta', { property: 'og:image', content: 'https://rabbits.wiki/og.png' }],
+    ['meta', { property: 'og:image', content: 'https://www.rabbits.wiki/og.png' }],
     ['meta', { property: 'og:image:width', content: '1200' }],
     ['meta', { property: 'og:image:height', content: '630' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'rabbits.wiki · 兔子百科' }],
     ['meta', { name: 'twitter:description', content: '社区共创的兔子百科：所有内容均标注权威兽医来源。' }],
-    ['meta', { name: 'twitter:image', content: 'https://rabbits.wiki/og.png' }],
+    ['meta', { name: 'twitter:image', content: 'https://www.rabbits.wiki/og.png' }],
     // 免责声明（重要：本站内容非兽医诊断）
     ['meta', { name: 'robots', content: 'index, follow' }]
   ],
@@ -44,7 +44,7 @@ export default defineConfig({
 
   // sitemap.xml 自动生成（VitePress 内置）
   sitemap: {
-    hostname: 'https://rabbits.wiki',
+    hostname: 'https://www.rabbits.wiki',
     lastmodDateOnly: false
   },
 
@@ -331,7 +331,7 @@ export default defineConfig({
   transformPageData(pageData) {
     const title = pageData.title || 'rabbits.wiki'
     const description = pageData.description || '由社区共创的兔子百科'
-    const url = `https://rabbits.wiki/${pageData.relativePath}`
+    const url = `https://www.rabbits.wiki/${pageData.relativePath}`
       .replace(/index\.md$/, '')
       .replace(/\.md$/, '')
 
@@ -345,17 +345,17 @@ export default defineConfig({
       publisher: {
         '@type': 'Organization',
         name: 'rabbits.wiki',
-        url: 'https://rabbits.wiki',
+        url: 'https://www.rabbits.wiki',
         logo: {
           '@type': 'ImageObject',
-          url: 'https://rabbits.wiki/favicon.png'
+          url: 'https://www.rabbits.wiki/favicon.png'
         }
       },
       license: 'https://creativecommons.org/licenses/by-sa/4.0/',
       isPartOf: {
         '@type': 'WebSite',
         name: 'rabbits.wiki',
-        url: 'https://rabbits.wiki'
+        url: 'https://www.rabbits.wiki'
       }
     }
 

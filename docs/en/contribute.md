@@ -93,7 +93,7 @@ Full contributing guide (credibility rules, CODEOWNERS review, CC BY-SA licensin
 <SourceCard
   title="Site credibility rules (Chinese)"
   author="rabbits.wiki"
-  url="https://rabbits.wiki/contribute"
+  url="https://www.rabbits.wiki/contribute"
   accessed="2026-08-22"
   level="org"
   note="The authoritative version of the sourcing standards embedded in the prompts above."

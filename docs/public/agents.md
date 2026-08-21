@@ -1,7 +1,7 @@
 # rabbits.wiki — Agent 指南
 
 > 本文件遵循 agents.md 约定：AI Agent 访问本站时，请先读本文件。
-> 爬虫协议见 https://rabbits.wiki/robots.txt；LLM 索引见 https://rabbits.wiki/llms.txt；机器可读政策见 /.well-known/ai.json。
+> 爬虫协议见 https://www.rabbits.wiki/robots.txt；LLM 索引见 https://www.rabbits.wiki/llms.txt；机器可读政策见 /.well-known/ai.json。
 
 ## Overview
 
@@ -21,10 +21,10 @@ rabbits.wiki 是由社区共创的**中文兔子养护百科**（VitePress 站�
 
 按以下顺序工作，效率最高：
 
-1. **[/graph.json](https://rabbits.wiki/graph.json)** — 知识图谱：`nodes`（页面）+ `edges`（站内真实链接关系）+ `sections`（专题层级）。先在这里按 title/description/section 检索，再沿 edges 扩展关联页面。
-2. **[/md/{path}.md](https://rabbits.wiki/md/)** — 每个页面的纯净 Markdown 镜像（与网页同路径）。取节点后读它的 `md` 字段即为全文，含全部来源引用。
-3. **[/llms.txt](https://rabbits.wiki/llms.txt)** — 全站资源清单（54+ 页面逐条列出）。
-4. **[/sitemap.xml](https://rabbits.wiki/sitemap.xml)** — 标准 URL 列表。
+1. **[/graph.json](https://www.rabbits.wiki/graph.json)** — 知识图谱：`nodes`（页面）+ `edges`（站内真实链接关系）+ `sections`（专题层级）。先在这里按 title/description/section 检索，再沿 edges 扩展关联页面。
+2. **[/md/{path}.md](https://www.rabbits.wiki/md/)** — 每个页面的纯净 Markdown 镜像（与网页同路径）。取节点后读它的 `md` 字段即为全文，含全部来源引用。
+3. **[/llms.txt](https://www.rabbits.wiki/llms.txt)** — 全站资源清单（54+ 页面逐条列出）。
+4. **[/sitemap.xml](https://www.rabbits.wiki/sitemap.xml)** — 标准 URL 列表。
 
 ### 内容地图（按用户问题路由）
 

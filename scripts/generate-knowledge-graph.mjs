@@ -24,7 +24,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = join(__dirname, '..')
 const DOCS = join(ROOT, 'docs')
 const DIST = join(DOCS, '.vitepress', 'dist')
-const SITE = 'https://rabbits.wiki'
+const SITE = 'https://www.rabbits.wiki'
 
 const SECTION_META = {
   digest: '消化系统科普',
