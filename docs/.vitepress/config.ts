@@ -248,6 +248,7 @@ export default defineConfig({
             { text: '✂️ 剪指甲', link: '/handling/nail-trimming' },
             { text: '🌡️ 量体温', link: '/handling/temperature' },
             { text: '🌯 保定/毛巾包裹', link: '/handling/restraining' },
+            { text: '🫳 胀气腹部按摩（安全线）', link: '/handling/belly-massage' },
             { text: '🔍 在家身体检查', link: '/handling/health-check' },
             { text: '🚗 运输兔子', link: '/handling/transport' },
             { text: '🧹 环境清洁', link: '/handling/cleaning' }

@@ -57,6 +57,8 @@ lastReviewed: 2026-07-27
 
 兔兔仰卧膝上，后腿捋直，从胸部向尾部**轻柔**按摩。可用迷你手持按摩器辅助。
 
+📖 完整手法、力度黄金律与安全分界（肚子硬=禁按），见专页：[🫳 胀气时的腹部按摩](../handling/belly-massage)。
+
 </FirstAidStep>
 
 <FirstAidStep :num="5" title="西甲硅油（Simethicone）">
