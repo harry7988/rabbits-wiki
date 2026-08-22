@@ -1,10 +1,12 @@
 ---
 title: 栗鼠兔（龙猫兔）Chinchilla
-description: 栗鼠兔——被毛像南美栗鼠（龙猫）一样带波纹光泽的品种群：ARBA 认可 Standard（7.5 lbs 上限）、American、Giant（16 lbs 上限）三个独立品种。
+description: 栗鼠兔（龙猫兔、金吉拉兔）Chinchilla
 lastReviewed: 2026-08-23
 ---
 
 # 🐇 栗鼠兔（龙猫兔）Chinchilla
+
+> 市场别名：**龙猫兔、金吉拉兔**（Chinchilla 的两种音译）。中文市场名对照见[品种总览](./)。
 
 <BreedCard
   name="栗鼠兔（龙猫兔）Chinchilla"

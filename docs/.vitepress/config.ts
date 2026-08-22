@@ -261,7 +261,8 @@ export default defineConfig({
           text: '兔品种百科',
           collapsed: false,
           items: [
-            { text: '品种总览（含茶杯兔/熊猫兔辟谣）', link: '/breeds/' },
+            { text: '品种总览 + 市场名对照（猫猫兔/西施兔/海棠兔）', link: '/breeds/' },
+            { text: '西施兔 / 凤眼西施兔（市场名消歧）', link: '/breeds/xishi' },
             {
               text: '垂耳系',
               collapsed: false,

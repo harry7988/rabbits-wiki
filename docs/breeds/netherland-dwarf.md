@@ -1,10 +1,12 @@
 ---
 title: 荷兰侏儒兔 Netherland Dwarf
-description: 荷兰侏儒兔——ARBA 最小认可品种（上限 2.5 lbs/1.13 kg）。含侏儒基因遗传学、颅面/牙齿高发问题、25% peanut 现象。
+description: 荷兰侏儒兔 Netherland Dwarf（多瓦夫、侏儒兔）
 lastReviewed: 2026-07-27
 ---
 
 # 🐇 荷兰侏儒兔 Netherland Dwarf
+
+> 市场别名：**多瓦夫**（来自日语）、侏儒兔。中文市场名对照见[品种总览](./)。
 
 <BreedCard
   name="荷兰侏儒兔 Netherland Dwarf"

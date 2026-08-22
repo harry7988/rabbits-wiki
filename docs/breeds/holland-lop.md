@@ -1,10 +1,12 @@
 ---
 title: 荷兰垂耳兔 Holland Lop
-description: 荷兰垂耳兔——ARBA 体重上限 4 lbs，温顺亲人，最常见的宠物兔品种之一。含遗传倾向、护理需求、起源。
+description: 荷兰垂耳兔 Holland Lop（侏儒垂耳兔）
 lastReviewed: 2026-07-27
 ---
 
 # 🐇 荷兰垂耳兔 Holland Lop
+
+> 市场别名：**侏儒垂耳兔**。中文市场名对照见[品种总览](./)。
 
 <BreedCard
   name="荷兰垂耳兔 Holland Lop"

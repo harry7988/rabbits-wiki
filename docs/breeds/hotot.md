@@ -1,10 +1,12 @@
 ---
 title: 霍托兔 Hotot / Dwarf Hotot（熊猫眼兔）
-description: 霍托兔——纯白身体 + 眼周黑环『熊猫眼』。中文市场的『熊猫兔』有时指这个品种（与道奇兔区分）。
+description: 霍托兔 Hotot / Dwarf Hotot（熊猫眼兔、海棠兔）
 lastReviewed: 2026-07-28
 ---
 
 # 🐇 霍托兔 Hotot / Dwarf Hotot（熊猫眼兔）
+
+> 市场别名：**海棠兔**（粤语音译习惯）、熊猫眼兔。中文市场名与品种的完整对照见[品种总览](./)。
 
 <Warning title="中文『熊猫兔』消歧义">
 

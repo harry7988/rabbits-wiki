@@ -68,7 +68,7 @@
             <li><a href="/digest/cecotropes">兔为什么吃自己的便便</a></li>
             <li><a href="/digest/key-traits">兔不能呕吐等关键特性</a></li>
             <li><a href="/digest/hindgut-fermentation">为什么必须吃草</a></li>
-            <li><a href="/breeds/">品种百科（23 个品种页）</a></li>
+            <li><a href="/breeds/">品种百科（23 个品种 + 市场名对照）</a></li>
           </ul>
         </nav>
 
