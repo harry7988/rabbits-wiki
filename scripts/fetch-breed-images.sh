@@ -50,7 +50,9 @@ fetch_one() { # $1=文件名 $2=输出路径 -> 0 成功
   # 缩略图宽度必须是 Wikimedia 档位（20/40/60/120/250/330/500/960/1280/…），否则 400
   local url="https://upload.wikimedia.org/wikipedia/commons/thumb/${h:0:1}/${h:0:2}/${enc}/960px-${enc}"
   log "  GET $url"
-  curl -sSL --max-time 60 -A "$UA" -w "  HTTP %{http_code} %{size_download}B\n" -o "$out" "$url" | tee -a "$LOG" || return 1
+  # 429 限流防护：curl 内建重试 + 指数退避
+  curl -sSL --max-time 60 --retry 3 --retry-delay 8 --retry-all-errors \
+    -A "$UA" -w "  HTTP %{http_code} %{size_download}B\n" -o "$out" "$url" | tee -a "$LOG" || { rm -f "$out"; return 1; }
   local mime size
   mime=$(file -b --mime-type "$out" 2>/dev/null || echo "?")
   size=$(stat -c%s "$out" 2>/dev/null || echo 0)
@@ -58,9 +60,9 @@ fetch_one() { # $1=文件名 $2=输出路径 -> 0 成功
   [ "$mime" = "image/jpeg" ] && [ "$size" -gt 10000 ]
 }
 
-fetch_meta() { # $1=文件名 -> 输出 JSON 对象
+fetch_meta() { # $1=文件名 -> 输出 JSON 对象（限流时自动重试一次）
   local fn="$1"
-  curl -sS --max-time 60 -A "$UA" -G "https://commons.wikimedia.org/w/api.php" \
+  curl -sS --max-time 60 --retry 2 --retry-delay 10 --retry-all-errors -A "$UA" -G "https://commons.wikimedia.org/w/api.php" \
     --data-urlencode "action=query" \
     --data-urlencode "format=json" \
     --data-urlencode "prop=imageinfo" \
@@ -81,6 +83,8 @@ fetch_meta() { # $1=文件名 -> 输出 JSON 对象
 : > /tmp/credits.ndjson
 FAIL=""
 for entry in "${ENTRIES[@]}"; do
+  # Wikimedia bot 政策：请求间留间隔，避免 429
+  sleep 3
   IFS='|' read -r breed primary fallback <<< "$entry"
   used=""
   for fn in "$primary" "$fallback"; do
@@ -94,6 +98,7 @@ for entry in "${ENTRIES[@]}"; do
   done
   if [ -z "$used" ]; then
     log "!! [$breed] 两个候选均失败"
+    rm -f "$OUT_DIR/${breed}.jpg"
     FAIL="$FAIL $breed"
     continue
   fi
