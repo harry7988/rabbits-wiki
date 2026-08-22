@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # 从 Wikimedia Commons 下载品种照片到 docs/public/breeds/，并抓取作者/许可元数据。
-# 用途：GitHub Actions runner 网络可直连 wikimedia；本地受限网络跑不了就交给 runner。
+# 用途：GitHub Actions runner（retry: 补齐 5 个品种的元数据） 网络可直连 wikimedia；本地受限网络跑不了就交给 runner。
 # 规范：遵守 Wikimedia UA 政策（附带站点与联系方式的自述 UA）；图片直链由文件名 md5 哈希推导。
 # 本脚本刻意不因单文件失败而中断：结果写入 fetch-log.txt 供人工核查。
 set -uo pipefail
