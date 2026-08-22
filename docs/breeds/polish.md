@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="最古老的品种之一；非侏儒系小型兔"
 />
 
+<BreedPhoto src="/breeds/polish.jpg" alt="白身红目波兰兔，小体型、短直立耳" width="800" height="600"
+  caption="波兰兔：小型但非侏儒（头不扁、耳更长）" artist="TinyForest" license="CC BY-SA 2.5"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/2.5" filePage="https://commons.wikimedia.org/wiki/File:Rabbit_-_Polish_breed_-_White_with_Red_Eyes_-_from_Japan.jpg" />
+
 ## 一、外观
 
 - **不是侏儒品种**——头型不扁、耳朵比荷兰侏儒长、体型更纤巧

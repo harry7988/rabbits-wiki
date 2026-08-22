@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="三个独立认可品种（Standard / American / Giant）"
 />
 
+<BreedPhoto src="/breeds/chinchilla.jpg" alt="栗鼠兔，银灰 agouti 波纹被毛带光泽，耳大直立" width="800" height="600"
+  caption="栗鼠兔（龙猫兔）：带光泽的栗鼠色被毛" artist="Xoxi" license="CC BY-SA 3.0"
+  licenseUrl="http://creativecommons.org/licenses/by-sa/3.0/" filePage="https://commons.wikimedia.org/wiki/File:Domestic_Chinchilla_rabbit.jpg" />
+
 ## 一、外观
 
 - **标志栗鼠色被毛**：毛干分段带黑/白/蓝波纹（agouti 变体），手感带光泽，像南美栗鼠（龙猫）的皮毛——中文“龙猫兔”由此得名

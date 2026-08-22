@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="最古老的美洲品种之一；流线（racy）型"
 />
 
+<BreedPhoto src="/breeds/belgian-hare.jpg" alt="比利时野兔，棕红色被毛，细长拱背的野兔体态半站立" width="800" height="796"
+  caption="比利时野兔：野兔外观的流线体型" artist="Hagen Graebner" license="CC BY-SA 3.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/3.0" filePage="https://commons.wikimedia.org/wiki/File:Hasenkaninchen.jpg" />
+
 ## 一、外观
 
 - **流线野兔体态**：细长、拱背、后腿长——常以半站立姿态活动

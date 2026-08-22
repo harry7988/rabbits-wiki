@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="1919 年认可；半拱体型；无体重上限"
 />
 
+<BreedPhoto src="/breeds/checkered-giant.jpg" alt="花巨兔，白底配蝴蝶鼻斑、眼圈与背部色带，大体型长耳" width="800" height="471"
+  caption="花巨兔：蝴蝶斑 + 背脊线的奔跑系大体型" artist="DestinationFearFan" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Checkered_Giant_rabbit.jpg" />
+
 ## 一、外观
 
 - **白底 + 蝴蝶形鼻斑 + 眼圈 + 颊斑 + 背部连续色带**——花色即品种名（Checkered）

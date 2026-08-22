@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="1989 年认可；Compact 型"
 />
 
+<BreedPhoto src="/breeds/american-fuzzy-lop.jpg" alt="白色美种费斯垂耳兔，垂耳配羊毛质长毛，体型紧凑" width="800" height="544"
+  caption="美种费斯垂耳兔（猫猫兔）：垂耳 + 长毛组合" artist="Lithonius" license="Public domain"
+  licenseUrl="" filePage="https://commons.wikimedia.org/wiki/File:Rabbit_american_fuzzy_lop_buck_white.jpg" />
+
 ## 一、外观
 
 - **垂耳 + 大头 + 长毛**的组合——像毛绒玩具（中文市场叫“猫猫兔”的主要原因）

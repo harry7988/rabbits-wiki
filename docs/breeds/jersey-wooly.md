@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="1988 年认可；Compact 型"
 />
 
+<BreedPhoto src="/breeds/jersey-wooly.jpg" alt="黑色泽西长毛兔，标志性大方头配直立短耳与长毛" width="800" height="600"
+  caption="泽西长毛兔（猫猫兔）：bold 大头 + 易打理长毛" artist="ApteryxRainWing" license="CC0"
+  licenseUrl="http://creativecommons.org/publicdomain/zero/1.0/deed.en" filePage="https://commons.wikimedia.org/wiki/File:JerseyWoolyFront_01.jpg" />
+
 ## 一、外观
 
 - 标志性**大头**（mug head）配小体型

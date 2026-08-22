@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="中型；Japanese / Magpie 两种色型"
 />
 
+<BreedPhoto src="/breeds/harlequin.jpg" alt="小丑兔（日本型），橙黑双色左右交替分段，脸部一分为二" width="600" height="800"
+  caption="小丑兔：左右交替的拼布花色" artist="Meltingangels" license="CC BY-SA 4.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/4.0" filePage="https://commons.wikimedia.org/wiki/File:Harlequin_rabbit.jpg" />
+
 ## 一、外观
 
 - **分段拼布花色**：色块沿身体左右交替（像小丑花衣——中文“小丑兔”由来）

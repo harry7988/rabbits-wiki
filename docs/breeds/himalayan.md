@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="古老品种；圆柱形（cylindrical）体型独一份"
 />
 
+<BreedPhoto src="/breeds/himalayan.jpg" alt="喜马拉雅兔，白身配黑耳黑鼻黑足的重点色，体型细长呈圆柱状" width="800" height="600"
+  caption="喜马拉雅兔：重点色 + 独有的圆柱形体型" artist="Amber" license="CC BY 3.0"
+  licenseUrl="https://creativecommons.org/licenses/by/3.0" filePage="https://commons.wikimedia.org/wiki/File:Winninghimalayan.JPG" />
+
 ## 一、外观
 
 - **纯白身体 + 深“点色”**：耳、鼻、四肢末端、尾部为黑/蓝/巧克力/丁香色

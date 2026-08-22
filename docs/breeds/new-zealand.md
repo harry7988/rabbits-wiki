@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="1916 年认可；商业型（commercial）"
 />
 
+<BreedPhoto src="/breeds/new-zealand.jpg" alt="白色新西兰兔，中大型商业体型肌肉结实，耳直立" width="800" height="516"
+  caption="新西兰兔：国内大白兔的常见血统" artist="Greg Bulla, www.gregbulla.com" license="CC BY-SA 3.0"
+  licenseUrl="https://creativecommons.org/licenses/by-sa/3.0" filePage="https://commons.wikimedia.org/wiki/File:NewZealandWhiteRabbit.jpg" />
+
 ## 一、外观
 
 - 中-大型商业体型（肉用型），肌肉饱满

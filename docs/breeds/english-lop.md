@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="最古老的垂耳品种；无体重上限"
 />
 
+<BreedPhoto src="/breeds/english-lop.jpg" alt="成年英国垂耳兔，超长耳朵垂至颌下近地面，体型修长拱背" width="800" height="600"
+  caption="英国垂耳兔：全兔种最长的耳朵（耳展可达 60 cm+）" artist="Heny at Hungarian Wikipedia" license="Public domain"
+  licenseUrl="" filePage="https://commons.wikimedia.org/wiki/File:Angol_kosorrú_nyúl.jpg" />
+
 ## 一、外观
 
 - **全兔种最长的耳朵**——耳展可达 60 cm+，垂直下垂贴于两侧

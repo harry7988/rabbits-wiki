@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="Satin 1934 突变起源；Mini Satin 2005 年认可（第 47 品种）"
 />
 
+<BreedPhoto src="/breeds/satin.jpg" alt="深灰色丝光兔，短被毛带独特丝绸光泽，耳直立" width="800" height="600"
+  caption="丝光兔：毛干中空带来的缎面光泽" artist="Blauglanz at German Wikipedia (Original text: blauglanz)" license="Public domain"
+  licenseUrl="" filePage="https://commons.wikimedia.org/wiki/File:Satinkaninchen_009.jpg" />
+
 ## 一、外观
 
 - **丝绸光泽被毛**：毛干中空结构让光线折射独特——缎面感

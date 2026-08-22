@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="商业型（commercial）；美国最受欢迎品种之一"
 />
 
+<BreedPhoto src="/breeds/californian.jpg" alt="加州兔，白身配黑耳黑鼻黑足的重点色，中大型商业体型" width="800" height="534"
+  caption="加州兔：黑鼻白兔的常见血统" artist="Kathy Shea" license="Public domain"
+  licenseUrl="" filePage="https://commons.wikimedia.org/wiki/File:Californian_Rabbit.JPG" />
+
 ## 一、外观
 
 - **白身 + 深色点色**（耳/鼻/四肢/尾）——与[喜马拉雅兔](./himalayan)同源的重点色

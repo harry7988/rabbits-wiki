@@ -16,6 +16,10 @@ lastReviewed: 2026-08-23
   arba="大型垂耳；无体重上限"
 />
 
+<BreedPhoto src="/breeds/french-lop.jpg" alt="成年法国垂耳兔，体型宽厚沉重、头部宽壮，垂耳" width="800" height="722"
+  caption="法国垂耳兔：无体重上限的大型垂耳" artist="Nino89 at en.wikipedia" license="Public domain"
+  licenseUrl="" filePage="https://commons.wikimedia.org/wiki/File:Loprabbit.JPG" />
+
 ## 一、外观
 
 - **宽厚沉重的大型体型**，骨骼粗壮，头部宽而结实
