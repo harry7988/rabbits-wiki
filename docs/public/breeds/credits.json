@@ -100,6 +100,116 @@
     "breed": "flemish-giant"
   },
   {
+    "file": "Merlin the English Lop rabbit lies down in the grass.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Merlin_the_English_Lop_rabbit_lies_down_in_the_grass.jpg",
+    "artist": "No machine-readable author provided. Josse95 assumed (based on copyright claims).",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Merlin_the_English_Lop_rabbit_lies_down_in_the_grass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "english-lop"
+  },
+  {
+    "file": "Loprabbit.JPG",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Loprabbit.JPG",
+    "artist": "Author and Original uploader: Nino89 at en.wikipedia",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Transferred from en.wikipedia to Commons.",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Loprabbit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "french-lop"
+  },
+  {
+    "file": "Rabbit american fuzzy lop buck white.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rabbit_american_fuzzy_lop_buck_white.jpg",
+    "artist": "Lithonius",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Own work (Original text: I created this work entirely by myself.)",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Rabbit_american_fuzzy_lop_buck_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "american-fuzzy-lop"
+  },
+  {
+    "file": "JerseyWoolyFront 01.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:JerseyWoolyFront_01.jpg",
+    "artist": "ApteryxRainWing",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/JerseyWoolyFront_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "jersey-wooly"
+  },
+  {
+    "file": "Rabbit - Polish breed - White with Red Eyes - from Japan.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Rabbit_-_Polish_breed_-_White_with_Red_Eyes_-_from_Japan.jpg",
+    "artist": "TinyForest",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "credit": "http://photozou.jp/photo/show/245831/161158285",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rabbit_-_Polish_breed_-_White_with_Red_Eyes_-_from_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "polish"
+  },
+  {
+    "file": "Winninghimalayan.JPG",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Winninghimalayan.JPG",
+    "artist": "Amber",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Winninghimalayan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "himalayan"
+  },
+  {
+    "file": "Domestic Chinchilla rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Domestic_Chinchilla_rabbit.jpg",
+    "artist": "Xoxi (talk)Xoxi",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "credit": "I created this image entirely by myself.",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Domestic_Chinchilla_rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "chinchilla"
+  },
+  {
+    "file": "Checkered Giant rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Checkered_Giant_rabbit.jpg",
+    "artist": "DestinationFearFan",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Checkered_Giant_rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "checkered-giant"
+  },
+  {
+    "file": "Harlequin rabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Harlequin_rabbit.jpg",
+    "artist": "Meltingangels",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Harlequin_rabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "harlequin"
+  },
+  {
+    "file": "NewZealandWhiteRabbit.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:NewZealandWhiteRabbit.jpg",
+    "artist": "Greg Bulla, www.gregbulla.com",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work (Original text: I created this work entirely by myself.)",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/2/24/NewZealandWhiteRabbit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "new-zealand"
+  },
+  {
+    "file": "Californian Rabbit.JPG",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Californian_Rabbit.JPG",
+    "artist": "Kathy Shea",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Own work",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Californian_Rabbit.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "californian"
+  },
+  {
     "file": "Hasenkaninchen.jpg",
     "filePage": "https://commons.wikimedia.org/wiki/File:Hasenkaninchen.jpg",
     "artist": "Hagen Graebner",
@@ -108,5 +218,15 @@
     "credit": "Own work",
     "origUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Hasenkaninchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "breed": "belgian-hare"
+  },
+  {
+    "file": "Satinkaninchen 009.jpg",
+    "filePage": "https://commons.wikimedia.org/wiki/File:Satinkaninchen_009.jpg",
+    "artist": "Blauglanz at German Wikipedia (Original text: blauglanz)",
+    "license": "Public domain",
+    "licenseUrl": "",
+    "credit": "Self-photographed",
+    "origUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Satinkaninchen_009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "breed": "satin"
   }
 ]
