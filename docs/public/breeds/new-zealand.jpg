@@ -36,6 +36,6 @@ details[open] { background: #970302; color: #dfdedd; }
 <p>Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)</p>
 </div>
 </div>
-<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request served via cp4046 cp4046, Varnish XID 998439748<br>Upstream caches: cp4046 int<br>Error: 429, Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81) at Sat, 22 Aug 2026 18:43:05 GMT<br><details><summary>Sensitive client information</summary>IP address: 52.157.32.55</details></code></p>
+<div class="footer"><p>If you report this error to the Wikimedia System Administrators, please include the details below.</p><p class="text-muted"><code>Request served via cp1111 cp1111, Varnish XID 200530887<br>Upstream caches: cp1111 int<br>Error: 429, Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81) at Sat, 22 Aug 2026 18:46:30 GMT<br><details><summary>Sensitive client information</summary>IP address: 172.208.23.64</details></code></p>
 </div>
 </html>
