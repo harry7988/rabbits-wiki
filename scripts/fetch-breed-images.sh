@@ -26,7 +26,7 @@ ENTRIES=(
   "dutch|American Grand Champion Dutch Rabbit.jpg|Dutch rabbit.jpg"
   "hotot|Blanc De Hotot.jpg|Blanc De Hotot Rabbit.jpg"
   "flemish-giant|Sandy Flemish Giant.jpg|A white Flemish Giant rabbit.jpg"
-  "english-lop|Merlin the English Lop rabbit lies down in the grass.jpg|English Lop.jpg"
+  "english-lop|Angol kosorrú nyúl.jpg|English Lop.jpg"
   "french-lop|Loprabbit.JPG|Rabbit - French Lop breed.jpg"
   "american-fuzzy-lop|Rabbit american fuzzy lop buck white.jpg|"
   "jersey-wooly|JerseyWoolyFront 01.jpg|Lightsmokepearljerseywoolyrabbit.jpg"
