@@ -26,6 +26,19 @@ ENTRIES=(
   "dutch|American Grand Champion Dutch Rabbit.jpg|Dutch rabbit.jpg"
   "hotot|Blanc De Hotot.jpg|Blanc De Hotot Rabbit.jpg"
   "flemish-giant|Sandy Flemish Giant.jpg|A white Flemish Giant rabbit.jpg"
+  "english-lop|Merlin the English Lop rabbit lies down in the grass.jpg|English Lop.jpg"
+  "french-lop|Loprabbit.JPG|Rabbit - French Lop breed.jpg"
+  "american-fuzzy-lop|Rabbit american fuzzy lop buck white.jpg|"
+  "jersey-wooly|JerseyWoolyFront 01.jpg|Lightsmokepearljerseywoolyrabbit.jpg"
+  "polish|Rabbit - Polish breed - White with Red Eyes - from Japan.jpg|Ro pool gilberte.jpg"
+  "himalayan|Winninghimalayan.JPG|Baby Himalayan rabbit Compared to adult.JPG"
+  "chinchilla|Domestic Chinchilla rabbit.jpg|Giant Chinchilla Rabbit.jpg"
+  "checkered-giant|Checkered Giant rabbit.jpg|Nemecky oborovity strakos.jpg"
+  "harlequin|Harlequin rabbit.jpg|Lapin Japonais.jpg"
+  "new-zealand|NewZealandWhiteRabbit.jpg|Coelho Branco.jpg"
+  "californian|Californian Rabbit.JPG|Króliki kalifornijskie californian rabbits.jpg"
+  "belgian-hare|Hasenkaninchen.jpg|Belgian Hare.jpg"
+  "satin|Satinkaninchen 009.jpg|Satin castor.jpg"
 )
 
 fetch_one() { # $1=文件名 $2=输出路径 -> 0 成功

@@ -26,12 +26,53 @@ lastReviewed: 2026-07-27
 
 | 品种 | 体重（ARBA） | 性格 | 适合人群 |
 |---|---|---|---|
+**垂耳系**
+
+| 品种 | 体重（ARBA） | 性格 | 适合人群 |
+|---|---|---|---|
 | [荷兰垂耳兔 Holland Lop](./holland-lop) | ≤ 4 lbs（1.8 kg） | 温顺、亲人、活泼 | 家庭、9 岁以上儿童 |
-| [荷兰侏儒兔 Netherland Dwarf](./netherland-dwarf) | ≤ 2.5 lbs（1.13 kg）—**最小** | 初期害羞、聪明 | 成人；不建议低龄儿童 |
+| [迷你垂耳兔 Mini Lop（美版）](./mini-lop) | ≤ 6.5 lbs（2.9 kg） | 温顺、厚实 | 家庭 |
+| [英国垂耳兔 English Lop](./english-lop) | 无上限（9–10.5+ lbs） | 非常温顺（最长耳） | 有大空间的家庭 |
+| [法国垂耳兔 French Lop](./french-lop) | 无上限（10–14+ lbs） | 平和放松 | 有大空间的家庭 |
+| [美种费斯垂耳（猫猫兔）](./american-fuzzy-lop) | ≤ 4 lbs（1.8 kg） | 甜美、活泼 | 能坚持梳毛的家庭 |
+
+**小型系**
+
+| 品种 | 体重（ARBA） | 性格 | 适合人群 |
+|---|---|---|---|
+| [荷兰侏儒兔 Netherland Dwarf](./netherland-dwarf) | ≤ 2.5 lbs（1.13 kg）—**最小认可品种** | 初期害羞、聪明 | 成人；不建议低龄儿童 |
 | [狮子兔 Lionhead](./lionhead) | 2.5–3.75 lbs（1.13–1.7 kg） | 聪明、社交 | 能每日梳毛的家庭 |
+| [泽西长毛兔（猫猫兔）](./jersey-wooly) | ≤ 3.5 lbs（1.6 kg） | 温和亲人 | 想养长毛但怕安哥拉强度 |
+| [波兰兔 Polish](./polish) | ≤ 3.5 lbs（1.6 kg） | 小型中偏稳重 | 想要小体型但避免侏儒结构 |
+| [喜马拉雅兔 Himalayan](./himalayan) | ≤ 4.5 lbs（2.0 kg） | 安静温和 | 新手友好 |
+
+**特殊被毛**
+
+| 品种 | 体重（ARBA） | 性格 | 适合人群 |
+|---|---|---|---|
 | [迷你雷克斯 Mini Rex](./mini-rex) | ≤ 4.5 lbs（2.0 kg） | 温顺、好奇 | 首次饲主 |
+| [雷克斯 Rex（标准型）](./rex) | ≤ 10.5 lbs（4.8 kg） | 温顺 | 注意脚底垫料 |
+| [丝光兔 Satin](./satin) | ≤ 11 lbs；Mini Satin ≤4.5 lbs | 温和 | 喜欢缎面光泽被毛 |
 | [安哥拉兔 Angora](./angora) | 6–10+ lbs | 温顺但需大量护理 | **有经验**的纤维爱好者 |
+
+**花色系**
+
+| 品种 | 体重（ARBA） | 性格 | 适合人群 |
+|---|---|---|---|
 | [道奇/熊猫兔 Dutch](./dutch) | ≤ 5.5 lbs（2.5 kg） | 聪明、友好、可训练 | 常被列为适合新手 |
+| [霍托兔 Hotot（熊猫眼兔）](./hotot) | Dwarf ≤3 lbs / 标准 8–11 lbs | 安静 | 喜欢眼环特征 |
+| [小丑兔 Harlequin](./harlequin) | ≤ 9.5 lbs（4.3 kg） | 活泼好奇 | 喜欢拼布花色 |
+| [花巨兔 Checkered Giant](./checkered-giant) | 无上限（11+ lbs） | 精力旺盛（奔跑系） | 有大空间的家庭 |
+| [栗鼠兔（龙猫兔）Chinchilla](./chinchilla) | Standard ≤7.5 / Giant ≤16 lbs | 温和 | 喜欢光泽被毛 |
+
+**大型/商业型**
+
+| 品种 | 体重（ARBA） | 性格 | 适合人群 |
+|---|---|---|---|
+| [法兰德斯巨兔 Flemish Giant](./flemish-giant) | ≥ 13–14 lbs，无上限 | 温柔巨人 | 有大空间的家庭 |
+| [新西兰兔 New Zealand](./new-zealand) | ≤ 12 lbs（5.4 kg） | 温顺沉稳 | 领养大白兔的家庭 |
+| [加州兔 Californian](./californian) | ≤ 10.5 lbs（4.8 kg） | 温和沉稳 | 领养黑鼻白兔的家庭 |
+| [比利时野兔 Belgian Hare](./belgian-hare) | ≤ 9.5 lbs（4.3 kg） | 活跃警觉 | 有大空间的运动型爱好者 |
 
 ## 四、必须辟谣的中文市场概念（重要）
 

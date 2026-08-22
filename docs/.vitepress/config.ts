@@ -262,16 +262,59 @@ export default defineConfig({
           collapsed: false,
           items: [
             { text: '品种总览（含茶杯兔/熊猫兔辟谣）', link: '/breeds/' },
-            { text: '荷兰垂耳兔 Holland Lop', link: '/breeds/holland-lop' },
-            { text: '迷你垂耳兔 Mini Lop（美版）', link: '/breeds/mini-lop' },
-            { text: '荷兰侏儒兔 Netherland Dwarf', link: '/breeds/netherland-dwarf' },
-            { text: '狮子兔 Lionhead', link: '/breeds/lionhead' },
-            { text: '迷你雷克斯 Mini Rex', link: '/breeds/mini-rex' },
-            { text: '雷克斯 Rex（标准型）', link: '/breeds/rex' },
-            { text: '安哥拉兔 Angora', link: '/breeds/angora' },
-            { text: '道奇/熊猫兔 Dutch', link: '/breeds/dutch' },
-            { text: '霍托兔 Hotot（熊猫眼兔）', link: '/breeds/hotot' },
-            { text: '法兰德斯巨兔 Flemish Giant', link: '/breeds/flemish-giant' }
+            {
+              text: '垂耳系',
+              collapsed: false,
+              items: [
+                { text: '荷兰垂耳兔 Holland Lop', link: '/breeds/holland-lop' },
+                { text: '迷你垂耳兔 Mini Lop（美版）', link: '/breeds/mini-lop' },
+                { text: '英国垂耳兔 English Lop', link: '/breeds/english-lop' },
+                { text: '法国垂耳兔 French Lop', link: '/breeds/french-lop' },
+                { text: '美种费斯垂耳兔（猫猫兔）', link: '/breeds/american-fuzzy-lop' }
+              ]
+            },
+            {
+              text: '小型系',
+              collapsed: false,
+              items: [
+                { text: '荷兰侏儒兔 Netherland Dwarf', link: '/breeds/netherland-dwarf' },
+                { text: '狮子兔 Lionhead', link: '/breeds/lionhead' },
+                { text: '泽西长毛兔（猫猫兔）', link: '/breeds/jersey-wooly' },
+                { text: '波兰兔 Polish', link: '/breeds/polish' },
+                { text: '喜马拉雅兔 Himalayan', link: '/breeds/himalayan' }
+              ]
+            },
+            {
+              text: '特殊被毛',
+              collapsed: false,
+              items: [
+                { text: '迷你雷克斯 Mini Rex', link: '/breeds/mini-rex' },
+                { text: '雷克斯 Rex（标准型）', link: '/breeds/rex' },
+                { text: '丝光兔 Satin', link: '/breeds/satin' },
+                { text: '安哥拉兔 Angora', link: '/breeds/angora' }
+              ]
+            },
+            {
+              text: '花色系',
+              collapsed: false,
+              items: [
+                { text: '道奇/熊猫兔 Dutch', link: '/breeds/dutch' },
+                { text: '霍托兔 Hotot（熊猫眼兔）', link: '/breeds/hotot' },
+                { text: '小丑兔 Harlequin', link: '/breeds/harlequin' },
+                { text: '花巨兔 Checkered Giant', link: '/breeds/checkered-giant' },
+                { text: '栗鼠兔（龙猫兔）Chinchilla', link: '/breeds/chinchilla' }
+              ]
+            },
+            {
+              text: '大型/商业型',
+              collapsed: false,
+              items: [
+                { text: '法兰德斯巨兔 Flemish Giant', link: '/breeds/flemish-giant' },
+                { text: '新西兰兔 New Zealand', link: '/breeds/new-zealand' },
+                { text: '加州兔 Californian', link: '/breeds/californian' },
+                { text: '比利时野兔 Belgian Hare', link: '/breeds/belgian-hare' }
+              ]
+            }
           ]
         }
       ],
